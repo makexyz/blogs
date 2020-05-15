@@ -10,7 +10,7 @@ baseurl: '/'
 
 # Website info
 title: MakeXYZ
-description: The professional publishing platform
+description: Make anything fun
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
@@ -73,7 +73,7 @@ branch: master
 relative_source: ../makexyz/
 destination: ../makexyz-pages/
 production_url:  https://github.com/makexyz/makexyz.github.io/
-source_url:  https://github.com/jekyller/jasper2/
+source_url:  https://github.com/makexyz/makexyz.github.io/
 
 exclude:
   - assets/css
