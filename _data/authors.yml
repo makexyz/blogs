@@ -1,3 +1,14 @@
+tony:
+  username: deadblox
+  name: Tony Pham
+  url_full: https://thanh01pmt.github.io/
+  url: thanh01pmt.github.io
+  bio: "Tony Pham is a hobbyist and STEAM teacher in Vietnam. He's now studying about ESP32-CAM and Vue framework"
+  picture: assets/images/bear.png
+  facebook: idea4xyz
+  twitter: makexyz1
+  cover: False
+  youtube: https://www.youtube.com/channel/UC4v28AauStqzl2rwNGl9QcA
 ghost:
   username: ghost
   name: Ghost
