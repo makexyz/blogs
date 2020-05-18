@@ -87,27 +87,19 @@ into the {body} of the default.hbs template -->
                 <!-- /author  -->
             </footer>
 
-            <!-- If you use Disqus comments, just uncomment this block.
-            The only thing you need to change is "test-apkdzgmqhj" - which
-            should be replaced with your own Disqus site-id. -->
-            {% if site.disqus or page.disqus or post.disqus %}
-                <section class="post-full-comments">
-                    <div id="disqus_thread"></div>
-                    <script>
-                        var disqus_config = function () {
-                            this.page.url = '{{ site.url }}{{ page.url }}';
-                            this.page.identifier = '{{ page.id }}';
-                            this.page.title = '{{ page.title }}';
-                        };
-                        (function() {
-                            var d = document, s = d.createElement('script');
-                            s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
-                        })();
-                    </script>
-                </section>
+            <!-- Begin Comments
+            ================================================== -->
+            {% if post.comments != false %}
+            <div class="container">
+                <div id="comments" class="row justify-content-center mb-5">
+                    <div class="col-md-8">
+                        {% include comment.html %}
+                    </div>
+                </div>
+            </div>
             {% endif %}
+            <!--End Comments
+            ================================================== -->
 
         </article>
 
