@@ -69,9 +69,9 @@ safe: False
 lsi: False
 username: makexyz
 repo: makexyz.github.io
-branch: master
+branch: source
 relative_source: ../makexyz/
-destination: ../makexyz.github.io/
+destination: ../makexyz.github.io
 production_url:  https://github.com/makexyz/makexyz.github.io/
 source_url:  https://github.com/makexyz/makexyz.github.io/
 
