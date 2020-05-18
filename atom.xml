@@ -8,6 +8,142 @@
     
       
       <item>
+        <title>Lỗi đơn vị kích thước tuyệt đối trong App Inventor</title>
+        
+          <description>&lt;p&gt;Bài viết này chỉ ra 1 lỗi sai nghiêm trọng về đơn vị đo sẽ khiến các bạn không kiểu gì hình dung được tại sao mình thiết kế một đằng nhưng App Inventor lại hiển thị một nẻo trong Responsive Mode.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 02 Mar 2020 10:18:00 +0000</pubDate>
+        <link>
+        /absolute-dimension-in-appinventor</link>
+        <guid isPermaLink="true">/absolute-dimension-in-appinventor</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Giới thiệu theme Jekyll Mediumish siêu đẹp</title>
+        
+          <description>&lt;h2 id=&quot;tính-năng&quot;&gt;Tính năng&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 28 Feb 2020 15:00:00 +0000</pubDate>
+        <link>
+        /gioi-thieu-theme-mediumish-jekyll</link>
+        <guid isPermaLink="true">/gioi-thieu-theme-mediumish-jekyll</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Thêm và chỉnh sửa nội dung Jekyll Post trực tuyến</title>
+        
+          <description>&lt;p&gt;Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 23 Feb 2020 15:20:00 +0000</pubDate>
+        <link>
+        /them-va-chinh-sua-noi-dung-jekyll-post-online</link>
+        <guid isPermaLink="true">/them-va-chinh-sua-noi-dung-jekyll-post-online</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>What is an API?</title>
+        
+          <description>&lt;h2 id=&quot;what-is-an-api-application-programming-interface&quot;&gt;What is an API? (Application Programming Interface)&lt;/h2&gt;
+&lt;p&gt;API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 21 Feb 2020 15:20:00 +0000</pubDate>
+        <link>
+        /what-is-an-api</link>
+        <guid isPermaLink="true">/what-is-an-api</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Best Free Image Host Compare In 2020</title>
+        
+          <description>&lt;p&gt;When you want to share a photo or a gallery with friends, family, a message board, or even the entire Internet, an image hosting site is the best way to upload, store, and share your files. However, there are many image hosting sites, all with different features. The best site for you will depend on how many photos you need to upload, how much time you want to spend uploading, and the reason you’re uploading the photos.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 19 Feb 2020 15:20:00 +0000</pubDate>
+        <link>
+        /free-image-host-compare</link>
+        <guid isPermaLink="true">/free-image-host-compare</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Powerful things you can do with the Markdown editor</title>
+        
+          <description>&lt;p&gt;There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 12 Jun 2018 15:20:00 +0000</pubDate>
+        <link>
+        /powerful-things-markdown-editor</link>
+        <guid isPermaLink="true">/powerful-things-markdown-editor</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>About Bundler</title>
+        
+          <description>&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt; installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 12 May 2018 10:18:00 +0000</pubDate>
+        <link>
+        /about-bundler</link>
+        <guid isPermaLink="true">/about-bundler</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Arduino là cái gì?</title>
+        
+          <description>&lt;p&gt;Chắc chắn hồi còn bé xíu, bạn, mình và rất rất nhiều người khác nữa đều thích chơi lắp ráp. Từ những miếng gỗ, hoặc từ những mảnh Lego nhỏ, mình có thể xếp thành bất kì mô hình nào mà mình thấy thích thú. Mình nhớ hồi còn học tiểu học, Lego có về trường mình và tổ chức một cuộc thi lắp ráp nho nhỏ. Tất cả học sinh ngồi chung với nhau, các mảnh Lego được đổ tràn ra và mọi người có quyền chọn lựa bất kì mảnh ghép nào để ráp thành ý tưởng của mình. Và, rất rất nhiều ý tưởng thú vị, cách sắp xếp thú vị được tạo ra từ những mảnh vuông cơ bản ấy: lâu đài, máy bay, tàu, xe tăng, …và rất rất nhiều mô hình tuyệt đẹp khác nữa.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 18 Feb 2018 15:20:00 +0000</pubDate>
+        <link>
+        /arduino-la-gi</link>
+        <guid isPermaLink="true">/arduino-la-gi</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Options for creating a new site with Jekyll</title>
+        
+          <description>&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 12 Jan 2018 10:00:00 +0000</pubDate>
+        <link>
+        /options-for-creating-new-site-with-jekyll</link>
+        <guid isPermaLink="true">/options-for-creating-new-site-with-jekyll</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Advanced Markdown tips</title>
         
           <description>&lt;p&gt;There are lots of powerful things you can do with the Ghost editor&lt;/p&gt;

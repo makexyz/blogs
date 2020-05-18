@@ -1,4 +1,448 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-05-18T09:03:49+00:00</updated><id>/</id><title type="html">MakeXYZ</title><subtitle>Make anything fun</subtitle><entry><title type="html">Advanced Markdown tips</title><link href="/advanced-markdown" rel="alternate" type="text/html" title="Advanced Markdown tips" /><published>2017-07-27T05:00:00+00:00</published><updated>2017-07-27T05:00:00+00:00</updated><id>/advanced-markdown</id><content type="html" xml:base="/advanced-markdown">&lt;p&gt;There are lots of powerful things you can do with the Ghost editor&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-05-18T11:11:43+00:00</updated><id>/</id><title type="html">MakeXYZ</title><subtitle>Make anything fun</subtitle><entry><title type="html">Lỗi đơn vị kích thước tuyệt đối trong App Inventor</title><link href="/absolute-dimension-in-appinventor" rel="alternate" type="text/html" title="Lỗi đơn vị kích thước tuyệt đối trong App Inventor" /><published>2020-03-02T10:18:00+00:00</published><updated>2020-03-02T10:18:00+00:00</updated><id>/absolute-dimension-in-appinventor</id><content type="html" xml:base="/absolute-dimension-in-appinventor">&lt;p&gt;Bài viết này chỉ ra 1 lỗi sai nghiêm trọng về đơn vị đo sẽ khiến các bạn không kiểu gì hình dung được tại sao mình thiết kế một đằng nhưng App Inventor lại hiển thị một nẻo trong Responsive Mode.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/vLZbkg3/Screen-Sizing.png&quot; alt=&quot;Screen Sizing in App Inventor&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;vấn-đề&quot;&gt;VẤN ĐỀ&lt;/h2&gt;
+
+&lt;p&gt;Trong phần điều chỉnh kích thước của các Component, App Inventor cho tùy chọn kích thước tuyệt đối (pixel) và kích thước tương đối so với màn hình (percent). Làm một ví dụ đơn giản, mình muốn thiết kế cái nút nhấn dài đúng 50% chiều rộng màn hình của mình nhưng khai báo ở chế độ tuyệt đối (px). Màn hình điện thoại của mình có độ phân giải HD+ (1080x2232 px).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nếu bạn nghĩ, ở chế độ Responsive của App Inventor và điền vào ô kích thước Width = 540px (thuộc tính của nút nhấn - giá trị tuyệt đối) sẽ khiến cái nút nhấn dài 1 nửa so với chiều dài của màn hình thì bạn lầm to rồi. Thực tế, cái nút nhấn sẽ dài còn hơn cả chiều rộng màn hình luôn!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/ftryj12/Pixels-vs-percent.png&quot; alt=&quot;Pixels vs Percent in Measurement&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;nguyên-nhân&quot;&gt;NGUYÊN NHÂN&lt;/h2&gt;
+
+&lt;p&gt;Lý do là vì &lt;strong&gt;đơn vị viết tắt mà App Inventor đang sử dụng là không đúng.&lt;/strong&gt; Nó không phải là Pixcel (viết tắt px) mà phải là Device-independent Pixel (viết tắt dp). Dp là một đơn vị đo chiều dài vật lý cũng giống như inch, cm, mm… mà Google thường áp dụng để đo kích thước màn hình của thiết bị. (Bên iOS dùng pt hay point có khái niệm tương tự với dp).&lt;/p&gt;
+
+&lt;p&gt;Tưởng tượng thế này, bạn có 2 cái laptop 14 inch, chiều dài và chiều rộng của 2 màn hình bằng nhau (dài x rộng: XX x YY cm) nhưng cái thứ nhất có độ phân giải (1366x768 px), cái thứ hai có độ phân giải (1920x1080 px) thì rõ ràng, nếu hiển thị nội dung có độ phân giải &amp;gt;= 1920x1080 px thì 100% cái thứ 2 sẽ sắc nét hơn. Nhưng, cả 2 cái đều sẽ có kích thước ứng với đơn vị dp như nhau vì cùng kích thước vật lý thực tế cm.&lt;/p&gt;
+
+&lt;p&gt;Trên các thiết bị có độ phân giải khác nhau nhưng kích thước thực tế bằng nhau thì dp bằng nhau. 1 dp có thể là 1 hay nhiều px. Điều này giúp tạo nên tính đồng bộ trong nội dung hiển thị trên các thiết bị có độ phân giải khác nhau.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/tZ6fG3x/pixel-density.png&quot; alt=&quot;Device-indendent Pixel and Screen Density&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Và, App Inventor sử dụng đơn vị dp chứ không phải px như hiển thị ra màn hình nhé! Điện thoại của mình có độ phân giải thực tế là: 1080x2232 (px) nhưng với kích thước màn hình thực tế, quy đổi ra dp thì chỉ là: 360x696(dp). Tham số đo dp này hoàn toàn có thể lấy ra bằng các khối lệnh trong phần lập trình (Block) của component Screen1 (Screen1.Width, Screen1.Height)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/0yNTrMy/fixed-Mode-vs-responsive-Mode.png&quot; alt=&quot;Fixed Mode vs Responsive Mode in App Inventor&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tại-sao-cần-quan-tâm&quot;&gt;TẠI SAO CẦN QUAN TÂM&lt;/h2&gt;
+
+&lt;p&gt;Đúng là nếu để đơn vị Percent (%), bạn sẽ có thể kiểm soát được kích thước Component hiển thị đúng tỷ lệ mình muốn trên các màn hình có độ phân giải khác nhau. Nhưng, bạn có thể kiểm soát được kích thước Font chữ không?&lt;/p&gt;
+
+&lt;p&gt;Cái nút trên ứng dụng của bạn được khai báo Width = 50% sẽ luôn hiển thị chính xác là 50% chiều rộng màn hình dù trên điện thoại hay tablet. Tuy nhiên, cái nút với Font Size = 16 hiển thị rất đẹp trên điện thoại thì lại vô cùng lởm trên tablet khi chữ quá nhỏ so với viền nút! Font Size được tính toán dựa trên Dp nên sẽ hiển thị tương đối như nhau trên các thiết bị có độ phân giải khác nhau.&lt;/p&gt;
+
+&lt;p&gt;Hiểu được sự khác biệt giữa px và dp sẽ là cơ sở giúp bạn phân loại được đâu là điện thoại, đâu là tablet để thiết kế giao diện cho phù hợp. Điện thoại của mình có độ phân giải (px) rất cao, cao hơn nhiều so với các tablet tầm thấp và cận trung nhưng nó vẫn là điện thoại vì dp của nó chưa đủ để là tablet!&lt;/p&gt;
+
+&lt;h2 id=&quot;tài-liệu-tham-khảo&quot;&gt;TÀI LIỆU THAM KHẢO&lt;/h2&gt;
+
+&lt;p&gt;Link hay mà các bạn có thể tham khảo trong thiết kế Responsive với App Inventor&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://material.io/resources/devices/&quot;&gt;Kích thước thiết bị&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mydevice.io/#compare-devices&quot;&gt;Đo độ phân giải màn hình của bạn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DYuzZWudt0w&quot;&gt;AppyBuilder TIPS: Responsive App Design (Best Practices, Concepts) - YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ai2.appinventor.mit.edu/…/other/responsiveDesign.html&quot;&gt;Responsive Design in App Inventor&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>deadblox</name></author><category term="app" /><category term="inventor" /><summary type="html">Bài viết này chỉ ra 1 lỗi sai nghiêm trọng về đơn vị đo sẽ khiến các bạn không kiểu gì hình dung được tại sao mình thiết kế một đằng nhưng App Inventor lại hiển thị một nẻo trong Responsive Mode.</summary></entry><entry><title type="html">Giới thiệu theme Jekyll Mediumish siêu đẹp</title><link href="/gioi-thieu-theme-mediumish-jekyll" rel="alternate" type="text/html" title="Giới thiệu theme Jekyll Mediumish siêu đẹp" /><published>2020-02-28T15:00:00+00:00</published><updated>2020-02-28T15:00:00+00:00</updated><id>/gioi-thieu-theme-mediumish-jekyll</id><content type="html" xml:base="/gioi-thieu-theme-mediumish-jekyll">&lt;h2 id=&quot;tính-năng&quot;&gt;Tính năng&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Được xây dựng cho Jekyll&lt;/li&gt;
+  &lt;li&gt;Tương thích với Github pages&lt;/li&gt;
+  &lt;li&gt;Bài viết nổi bật (Featured Posts)&lt;/li&gt;
+  &lt;li&gt;Đánh số phân trang (Index Pagination)&lt;/li&gt;
+  &lt;li&gt;Tối ưu hóa cho công cụ tìm kiếm (SEO)&lt;/li&gt;
+  &lt;li&gt;Feed&lt;/li&gt;
+  &lt;li&gt;Sơ đồ trang (Sitemap)&lt;/li&gt;
+  &lt;li&gt;Chia sẻ bài viết (Post Share)&lt;/li&gt;
+  &lt;li&gt;Phân loại bài viết (Post Categories)&lt;/li&gt;
+  &lt;li&gt;Bài viết kế tiếp / trước đó (Prev/Next Link)&lt;/li&gt;
+  &lt;li&gt;Category Archives (Compatible with Github pages)&lt;/li&gt;
+  &lt;li&gt;Jumbotron Categories&lt;/li&gt;
+  &lt;li&gt;Đánh giá trên bài viết (Post Reviews with Stars)&lt;/li&gt;
+  &lt;li&gt;Bôi mờ đoạn văn bản (Blurred Spoilers)&lt;/li&gt;
+  &lt;li&gt;Danh sách nội dung tự động (Table of Content)&lt;/li&gt;
+  &lt;li&gt;Lazy Load Images&lt;/li&gt;
+  &lt;li&gt;Tích hợp:
+    &lt;ul&gt;
+      &lt;li&gt;Disqus Comments =&amp;gt; Dành cho đánh giá&lt;/li&gt;
+      &lt;li&gt;Google Analaytics =&amp;gt; Dành cho thống kê tự động số truy cập vào trang&lt;/li&gt;
+      &lt;li&gt;Mailchimp Integration =&amp;gt; Dành cho đăng ký nhận tin&lt;/li&gt;
+      &lt;li&gt;Adsense =&amp;gt; Dành để chèn quảng cáo từ Google&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Các tính năng thiết kế nổi bật:
+    &lt;ul&gt;
+      &lt;li&gt;Bootstrap v4.x&lt;/li&gt;
+      &lt;li&gt;Font Awesome&lt;/li&gt;
+      &lt;li&gt;Masonry&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Các dạng Layout:
+    &lt;ul&gt;
+      &lt;li&gt;Default&lt;/li&gt;
+      &lt;li&gt;Post&lt;/li&gt;
+      &lt;li&gt;Page&lt;/li&gt;
+      &lt;li&gt;Archive&lt;/li&gt;
+      &lt;li&gt;Categories (100% tương thích với Github pages)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://bootstrapstarter.com/assets/img/themes/mediumish-jekyll.jpg&quot; alt=&quot;Mediumish Theme Demo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-là-gì&quot;&gt;Jekyll là gì&lt;/h2&gt;
+
+&lt;p&gt;Nếu bạn chưa từng nghe về Jekyll thì nó là một dạng phần mềm cung cấp giải pháp tạo ra trang web tĩnh từ những thông tin có sẵn và layout có sẵn. Nói cách khác, nó giúp biến file text chứa nội dung post mà bạn viết thành một post hoặc một web tĩnh. Bạn sẽ không cần database, không còn chuyện load trang chậm hay rủi ro bị hack… Do đó, bạn sẽ có nhiều thời gian dành cho nội dung viết hơn. Và thú vị nhất vẫn là, với Jekyll bạn có thể tạo một trang web miễn phí với tài khoản Github. Bạn nên dành thời gian đọc sơ tài liệu về Jekyll để nắm thêm thông tin nếu mới tìm hiểu. Nếu bạn đã có kiến thức cơ bản về Jekyll rồi thì mình chuyển sang phần cài đặt theme Mediumish cho Jekyll như bên dưới.&lt;/p&gt;
+
+&lt;h2 id=&quot;cách-sử-dụng-theme-mediumish&quot;&gt;Cách sử dụng theme “Mediumish”&lt;/h2&gt;
+
+&lt;h3 id=&quot;tải-theme-mediumish&quot;&gt;Tải theme Mediumish&lt;/h3&gt;
+&lt;p&gt;Tải về theme Mediumish bằng cách vào command prompt, lần lượt gõ lệnh bên dưới
+Lưu ý: Bạn cần cài Ruby trước để  sử dụng lệnh &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/wowthemesnet/mediumish-theme-jekyll.git
+cd mediumish-theme-jekyll
+bundle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;chỉnh-file-_configyml&quot;&gt;Chỉnh file _config.yml&lt;/h3&gt;
+
+&lt;p&gt;Nếu trang web của bạn được lưu trong thư mục gốc luôn thì chỉnh &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl: ''&lt;/code&gt;. Bạn cũng cần chỉnh mã Google Analytics, disqus username, authors, Mailchimp list nếu có sử dụng&lt;/p&gt;
+
+&lt;p&gt;Sau khi chỉnh xong, bạn có thể khởi tạo Server trên máy tính để xem trang với lệnh sau:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle exec jekyll serve --watch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bạn có thể tạo bài viết mới bằng cách tạo file &lt;strong&gt;.md&lt;/strong&gt; trong thư mục &lt;strong&gt;_posts&lt;/strong&gt;. Mediumish cũng đã có sẵn nhiều ví dụ cho bạn tham khảo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;YAML front matter&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bật tính năng bài viết nổi bật - &lt;code class=&quot;highlighter-rouge&quot;&gt;featured:true&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Loại các bài viết nổi bật khỏi “All stories” để tránh lặp lại - &lt;code class=&quot;highlighter-rouge&quot;&gt;hidden:true&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Ảnh bài viết - &lt;code class=&quot;highlighter-rouge&quot;&gt;image: assets/images/mypic.jpg&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Ảnh bài viết với link bên ngoài - &lt;code class=&quot;highlighter-rouge&quot;&gt;image: &quot;https://externalwebsite.com/image4.jpg&quot;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Bật tính năng comment - &lt;code class=&quot;highlighter-rouge&quot;&gt;comments:true&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Mô tả nội dung trường meta (không bắt buộc) - &lt;code class=&quot;highlighter-rouge&quot;&gt;description: &quot;this is my meta description&quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ví-dụ-yaml-post&quot;&gt;Ví dụ YAML Post&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title:  &quot;We all wait for summer&quot;
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/5.jpg
+description: &quot;Something about this post here&quot;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;ví-dụ-yaml-page&quot;&gt;Ví dụ YAML Page&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: page
+title: Mediumish Template for Jekyll
+comments: true
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;ví-dụ-đánh-giá&quot;&gt;Ví dụ Đánh giá&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title:  &quot;We all wait for summer&quot;
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/5.jpg
+description: &quot;Something about this post here&quot;
+rating: 4.5
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;quảng-cáo-adsense&quot;&gt;Quảng cáo Adsense&lt;/h3&gt;
+
+&lt;p&gt;Bật tính năng quảng cáo bằng cách điều chỉnh file _config.yml.&lt;/p&gt;
+
+&lt;p&gt;Adsense (thay giá trị thành “enabled” để kích hoạt). Bạn cũng cần cập nhật giá trị &lt;code class=&quot;highlighter-rouge&quot;&gt;adsense-data-ad-client&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;adsense-data-ad-slot&lt;/code&gt; cho tương thích với khai báo quảng cáo của bạn trên tài khoản Google Adsense.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adsense: &quot;disabled&quot;
+adsense-data-ad-client: &quot;ca-pub-3412143450191416&quot;
+adsense-data-ad-slot: &quot;1363087678&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;lazy-load-images&quot;&gt;Lazy Load Images&lt;/h3&gt;
+
+&lt;p&gt;Bật tính năng này bằng cách điều chỉnh file _config.yml.&lt;/p&gt;
+
+&lt;p&gt;Lazy Images (“enabled” hoặc “disabled”)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lazyimages: &quot;enabled&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
+
+&lt;p&gt;Add toc:true on your post YAML.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title:  &quot;Education must also train one for quick, resolute and effective thinking.&quot;
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/3.jpg
+beforetoc: &quot;Markdown editor is a very powerful thing. In this article I'm going to show you what you can actually do with it, some tricks and tips while editing your post.&quot;
+toc: true
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;beforetoc thêm một đoạn văn bản trước khi hiển thị TOC.&lt;/p&gt;</content><author><name>deadblox</name></author><category term="jekyll" /><summary type="html">Tính năng</summary></entry><entry><title type="html">Thêm và chỉnh sửa nội dung Jekyll Post trực tuyến</title><link href="/them-va-chinh-sua-noi-dung-jekyll-post-online" rel="alternate" type="text/html" title="Thêm và chỉnh sửa nội dung Jekyll Post trực tuyến" /><published>2020-02-23T15:20:00+00:00</published><updated>2020-02-23T15:20:00+00:00</updated><id>/them-va-chinh-sua-noi-dung-jekyll-post-online</id><content type="html" xml:base="/them-va-chinh-sua-noi-dung-jekyll-post-online">&lt;p&gt;Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.&lt;/p&gt;
+
+&lt;p&gt;Prose.io là một công cụ đáng tin cậy để chỉnh sửa các bài post. Giao diện, chức năng và thậm chí là hiệu ứng đều tốt. Bạn muốn up ảnh trực tiếp lên Github ử? Prose.io sẽ giúp bạn.
+Khi bạn đăng nhập vào Prose, bạn sẽ thấy yêu cầu cho phép Prose chỉnh sửa repository (gọi tắt là repo) của bạn trên Github.&lt;/p&gt;
+
+&lt;p&gt;Bài viết được dịch từ link gốc: &lt;a href=&quot;https://blog.webjeda.com/edit-posts-jekyll/&quot;&gt;Origin Post&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.webjeda.com/images/how-to-use-prose-io-with-jekyll.png&quot; alt=&quot;prose-yeu-cau-uy-quyen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sau khi bạn ủy quyền Prose, nó sẽ hiển thị tất cả các repo mà bạn sở hữu hay đóng góp trên Github.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.webjeda.com/images/how-to-use-prose-io-with-jekyll-2.png&quot; alt=&quot;prose-hien-thi-danh-sach-repository&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chọn repo mà bạn dùng cho blog/website của bạn. Sau đó, di chuyển đến thư mục &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;, bạn sẽ thấy danh sách các post mà bạn đã đăng trên blog/website của mình.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.webjeda.com/images/how-to-use-prose-io-with-jekyll-3.png&quot; alt=&quot;danh-sach-post-da-dang&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bạn có thể click &lt;strong&gt;Edit&lt;/strong&gt; để chỉnh sửa nội dung post hoặc click &lt;strong&gt;NEW FILE&lt;/strong&gt; để tạo bài post mới. Bạn sẽ thấy hình bên dưới khi bạn tạo post mới.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.webjeda.com/images/how-to-use-prose-io-with-jekyll-4.png&quot; alt=&quot;tao-file-moi&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bạn có thể đặt tên mới và viết nội dung post bằng Markdown.&lt;/p&gt;
+
+&lt;p&gt;Bạn cũng sẽ thấy một số nút nhấn ở bên phải màn hình (như hình duoi71) gồm: &lt;strong&gt;Edit&lt;/strong&gt;, &lt;strong&gt;Preview&lt;/strong&gt;, &lt;strong&gt;Meta Data&lt;/strong&gt; và &lt;strong&gt;Save&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.webjeda.com/images/how-to-use-prose-io-with-jekyll-5.png&quot; alt=&quot;prose-menu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Meta Data&lt;/strong&gt; dùng để định nghĩa &lt;em&gt;Jekyll front matter&lt;/em&gt;, nơi bạn có thể thay đổi tiêu đề, ngày, tác giả, permalink,… Thuộc tính quan trọng nhất trong Meta Data là &lt;strong&gt;published&lt;/strong&gt;. Mặc định giá trị là false, bạn cần sửa lại là true.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.webjeda.com/images/how-to-use-prose-io-with-jekyll-6.png&quot; alt=&quot;gia-tri-thuoc-tinh-published&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Khi bạn tìm ra cách đồng bộ hóa các tệp và thư mục với Github từ các thư mục trên máy tính của mình, bạn sẽ nhận ra rằng Prose.io khồng còn cần thiết nữa. Nhưng đồng bộ hóa các tệp với Github có thể gây khó khăn cho nhiều người khi mới bắt đầu. Trừ khi bạn có một chút hiểu biết về &lt;strong&gt;cách hoạt động của Git&lt;/strong&gt;, bạn không thể đồng bộ hóa thành công các tệp hoặc ít nhất là thể khắc phục sự cố đơn giản.&lt;/p&gt;
+
+&lt;p&gt;Đây là lý do tại sao mình giới thiệu Prose.io cho người mới bắt đầu. Nó là đơn giản, trực quan và dễ dùng.&lt;/p&gt;
+
+&lt;p&gt;Và nếu bạn đang sử dụng Chromebook, sẽ không có cách nào đơn giản để đồng bộ hóa các tệp Github trên máy tính. Có thể trong tương lai Github sẽ phát hành ứng dụng cho Chrome Os và Android nhưng hiện tại thì chưa có nhé!&lt;/p&gt;
+
+&lt;p&gt;Trong khi đi du lịch, bạn có thể chỉ đem theo điện thoại thông minh hoặc máy tính bảng bên mình. Trong những trường hợp như vậy, bạn sẽ đánh giá cao Prose.io!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Cảm ơn vì đã đọc hết hướng dẩn của mình!&lt;/em&gt;&lt;/p&gt;</content><author><name>deadblox</name></author><category term="jekyll" /><summary type="html">Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.</summary></entry><entry><title type="html">What is an API?</title><link href="/what-is-an-api" rel="alternate" type="text/html" title="What is an API?" /><published>2020-02-21T15:20:00+00:00</published><updated>2020-02-21T15:20:00+00:00</updated><id>/what-is-an-api</id><content type="html" xml:base="/what-is-an-api">&lt;h2 id=&quot;what-is-an-api-application-programming-interface&quot;&gt;What is an API? (Application Programming Interface)&lt;/h2&gt;
+&lt;p&gt;API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-an-example-of-an-api&quot;&gt;What Is an Example of an API?&lt;/h2&gt;
+&lt;p&gt;When you use an application on your mobile phone, the application connects to the Internet and sends data to a server. The server then retrieves that data, interprets it, performs the necessary actions and sends it back to your phone. The application then interprets that data and presents you with the information you wanted in a readable way. This is what an API is - all of this happens via API.&lt;/p&gt;
+
+&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s7wmiS2mSXY&quot; width=&quot;560&quot; id=&quot;player0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;To explain this better, let us take a familiar example.
+Imagine you’re sitting at a table in a restaurant with a menu of choices to order from. The kitchen is the part of the “system” that will prepare your order. What is missing is the critical link to communicate your order to the kitchen and deliver your food back to your table. That’s where the waiter or API comes in. The waiter is the messenger – or API – that takes your request or order and tells the kitchen – the system – what to do. Then the waiter delivers the response back to you; in this case, it is the food.&lt;/p&gt;
+
+&lt;p&gt;Here is a real-life API example. You may be familiar with the process of searching flights online. Just like the restaurant, you have a variety of options to choose from, including different cities, departure and return dates, and more. Let us imagine that you’re booking you are flight on an airline website. You choose a departure city and date, a return city and date, cabin class, as well as other variables. In order to book your flight, you interact with the airline’s website to access their database and see if any seats are available on those dates and what the costs might be.&lt;/p&gt;
+
+&lt;p&gt;However, what if you are not using the airline’s website––a channel that has direct access to the information? What if you are using an online travel service, such as Kayak or Expedia, which aggregates information from a number of airline databases?&lt;/p&gt;
+
+&lt;p&gt;The travel service, in this case, interacts with the airline’s API. The API is the interface that, like your helpful waiter, can be asked by that online travel service to get information from the airline’s database to book seats, baggage options, etc. The API then takes the airline’s response to your request and delivers it right back to the online travel service, which then shows you the most updated, relevant information.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-an-api-also-provides-is-a-layer-of-security&quot;&gt;What an API Also Provides Is a Layer of Security&lt;/h2&gt;
+&lt;p&gt;Your phone’s data is never fully exposed to the server, and likewise the server is never fully exposed to your phone. Instead, each communicates with small packets of data, sharing only that which is necessary—like ordering takeout. You tell the restaurant what you would like to eat, they tell you what they need in return and then, in the end, you get your meal.&lt;/p&gt;
+
+&lt;p&gt;APIs have become so valuable that they comprise a large part of many business’ revenue. Major companies like Google, eBay, Salesforce.com, Amazon, and Expedia are just a few of the companies that make money from their APIs. What the “API economy” refers to is this marketplace of APIs.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-modern-api&quot;&gt;The Modern API&lt;/h2&gt;
+&lt;p&gt;Over the years, what an “API” is has often described any sort of generic connectivity interface to an application. More recently, however, the modern API has taken on some characteristics that make them extraordinarily valuable and useful:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Modern APIs adhere to standards (typically HTTP and REST), that are developer-friendly, easily accessible and understood broadly&lt;/li&gt;
+  &lt;li&gt;They are treated more like products than code. They are designed for consumption for specific audiences (e.g., mobile developers), they are documented, and they are versioned in a way that users can have certain expectations of its maintenance and lifecycle.&lt;/li&gt;
+  &lt;li&gt;Because they are much more standardized, they have a much stronger discipline for security and governance, as well as monitored and managed for performance and scale&lt;/li&gt;
+  &lt;li&gt;As any other piece of productized software, the modern API has its own software development lifecycle (SDLC) of designing, testing, building, managing, and versioning.  Also, modern APIs are well documented for consumption and versioning.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>deadblox</name></author><category term="web" /><summary type="html">What is an API? (Application Programming Interface) API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.</summary></entry><entry><title type="html">Best Free Image Host Compare In 2020</title><link href="/free-image-host-compare" rel="alternate" type="text/html" title="Best Free Image Host Compare In 2020" /><published>2020-02-19T15:20:00+00:00</published><updated>2020-02-19T15:20:00+00:00</updated><id>/free-image-host-compare</id><content type="html" xml:base="/free-image-host-compare">&lt;p&gt;When you want to share a photo or a gallery with friends, family, a message board, or even the entire Internet, an image hosting site is the best way to upload, store, and share your files. However, there are many image hosting sites, all with different features. The best site for you will depend on how many photos you need to upload, how much time you want to spend uploading, and the reason you’re uploading the photos.&lt;/p&gt;
+
+&lt;p&gt;Of course if you are a professional photographer then you may want to consider using a portfolio web builder or building your own website with WordPress and paying for web hosting. You can also use a number of free online portfolio creators to do the job as well.&lt;/p&gt;
+
+&lt;p&gt;Here are 7 of the best image hosting sites in my opinion that can help you upload and share photos:&lt;/p&gt;
+
+&lt;h2 id=&quot;photobucketcom&quot;&gt;photobucket.com&lt;/h2&gt;
+&lt;p&gt;2.5Gb OR 250photos&lt;/p&gt;
+
+&lt;p&gt;[If you exceed any of the above limits, you will need to upgrade your plan]&lt;/p&gt;
+
+&lt;h2 id=&quot;cloudinarycom&quot;&gt;cloudinary.com&lt;/h2&gt;
+&lt;p&gt;25 Monthly Credits&lt;/p&gt;
+
+&lt;p&gt;1 Credit = 1,000 Transformations OR 1 GB Storage OR 1 GB Bandwidth&lt;/p&gt;
+
+&lt;p&gt;[If you exceed any of the above limits, you will need to upgrade your plan]&lt;/p&gt;
+
+&lt;h2 id=&quot;flickrcom&quot;&gt;flickr.com&lt;/h2&gt;
+&lt;p&gt;1,000 full-resolution photos and HD videos, shown with ads.&lt;/p&gt;
+
+&lt;h2 id=&quot;freeimagehostingnet&quot;&gt;freeimagehosting.net&lt;/h2&gt;
+&lt;p&gt;File size limit: 3,000KB&lt;/p&gt;
+
+&lt;p&gt;100% free&lt;/p&gt;
+
+&lt;h2 id=&quot;imgbbcom&quot;&gt;imgbb.com&lt;/h2&gt;
+&lt;p&gt;100% free&lt;/p&gt;
+
+&lt;h2 id=&quot;imagevenuecom&quot;&gt;imagevenue.com&lt;/h2&gt;
+&lt;p&gt;100% free&lt;/p&gt;
+
+&lt;p&gt;Image types allowed: jpeg, jpg&lt;/p&gt;
+
+&lt;p&gt;Max file size: 10MB&lt;/p&gt;
+
+&lt;p&gt;Unlimited storage hosting period&lt;/p&gt;
+
+&lt;p&gt;Unlimited bandwidth&lt;/p&gt;
+
+&lt;p&gt;No registration required&lt;/p&gt;
+
+&lt;h2 id=&quot;onedrivelivecom&quot;&gt;onedrive.live.com&lt;/h2&gt;
+&lt;p&gt;5Gb Storage&lt;/p&gt;
+
+&lt;h2 id=&quot;dropboxcom&quot;&gt;dropbox.com&lt;/h2&gt;
+&lt;p&gt;2Gb Storage&lt;/p&gt;</content><author><name>deadblox</name></author><category term="web" /><summary type="html">When you want to share a photo or a gallery with friends, family, a message board, or even the entire Internet, an image hosting site is the best way to upload, store, and share your files. However, there are many image hosting sites, all with different features. The best site for you will depend on how many photos you need to upload, how much time you want to spend uploading, and the reason you’re uploading the photos.</summary></entry><entry><title type="html">Powerful things you can do with the Markdown editor</title><link href="/powerful-things-markdown-editor" rel="alternate" type="text/html" title="Powerful things you can do with the Markdown editor" /><published>2018-06-12T15:20:00+00:00</published><updated>2018-06-12T15:20:00+00:00</updated><id>/powerful-things-markdown-editor</id><content type="html" xml:base="/powerful-things-markdown-editor">&lt;p&gt;There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
+
+&lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
+
+&lt;h2 id=&quot;special-formatting&quot;&gt;Special formatting&lt;/h2&gt;
+
+&lt;p&gt;As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;del&gt;strike through&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;==highlight==&lt;/li&gt;
+  &lt;li&gt;*escaped characters*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;writing-code-blocks&quot;&gt;Writing code blocks&lt;/h2&gt;
+
+&lt;p&gt;There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, &lt;code class=&quot;highlighter-rouge&quot;&gt;like this&lt;/code&gt;. Larger snippets of code can be displayed across multiple lines using triple back ticks:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.my-link {
+    text-decoration: underline;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;html&quot;&gt;HTML&lt;/h4&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ml-1 mr-1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fab fa-twitter&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;css&quot;&gt;CSS&lt;/h4&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.c&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#999988&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;italic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.err&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#a61717&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#e3d2d2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;js&quot;&gt;JS&lt;/h4&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// alertbar later&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scrollTop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;280&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.alertbar'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.alertbar'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeOut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;python&quot;&gt;Python&lt;/h4&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;ruby&quot;&gt;Ruby&lt;/h4&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'redcarpet'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;markdown&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Redcarpet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;markdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_html&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;c&quot;&gt;C&lt;/h4&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
+
+&lt;p&gt;The quick brown jumped over the lazy.&lt;/p&gt;
+
+&lt;p&gt;Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.&lt;/p&gt;
+
+&lt;h2 id=&quot;full-html&quot;&gt;Full HTML&lt;/h2&gt;
+
+&lt;p&gt;Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</content><author><name>deadblox</name></author><category term="jekyll" /><summary type="html">There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!</summary></entry><entry><title type="html">About Bundler</title><link href="/about-bundler" rel="alternate" type="text/html" title="About Bundler" /><published>2018-05-12T10:18:00+00:00</published><updated>2018-05-12T10:18:00+00:00</updated><id>/about-bundler</id><content type="html" xml:base="/about-bundler">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt; installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundler&lt;/code&gt; is a gem that manages other Ruby gems. It makes sure your gems and gem versions are compatible, and that you have all necessary dependencies each gem requires.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt; files inform &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; about the gem requirements in your site. If your site doesn’t have these Gemfiles, you can omit &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec&lt;/code&gt; and just &lt;code class=&quot;highlighter-rouge&quot;&gt;run jekyll serve&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; uses the gems and versions as specified in &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt; to ensure your Jekyll site builds with no compatibility or dependency conflicts.&lt;/p&gt;
+
+&lt;p&gt;For more information about how to use &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly.&lt;/p&gt;</content><author><name>deadblox</name></author><category term="jekyll" /><summary type="html">gem install bundler installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:</summary></entry><entry><title type="html">Arduino là cái gì?</title><link href="/arduino-la-gi" rel="alternate" type="text/html" title="Arduino là cái gì?" /><published>2018-02-18T15:20:00+00:00</published><updated>2018-02-18T15:20:00+00:00</updated><id>/arduino-la-gi</id><content type="html" xml:base="/arduino-la-gi">&lt;p&gt;Chắc chắn hồi còn bé xíu, bạn, mình và rất rất nhiều người khác nữa đều thích chơi lắp ráp. Từ những miếng gỗ, hoặc từ những mảnh Lego nhỏ, mình có thể xếp thành bất kì mô hình nào mà mình thấy thích thú. Mình nhớ hồi còn học tiểu học, Lego có về trường mình và tổ chức một cuộc thi lắp ráp nho nhỏ. Tất cả học sinh ngồi chung với nhau, các mảnh Lego được đổ tràn ra và mọi người có quyền chọn lựa bất kì mảnh ghép nào để ráp thành ý tưởng của mình. Và, rất rất nhiều ý tưởng thú vị, cách sắp xếp thú vị được tạo ra từ những mảnh vuông cơ bản ấy: lâu đài, máy bay, tàu, xe tăng, …và rất rất nhiều mô hình tuyệt đẹp khác nữa.&lt;/p&gt;
+
+&lt;h2 id=&quot;stop-stop-sao-dài-dòng-vậy-rốt-cục-arduino-là-cái-quái-gì&quot;&gt;STOP! STOP! Sao dài dòng vậy, rốt cục Arduino là cái quái gì?&lt;/h2&gt;
+
+&lt;p&gt;Ah, Arduino chẳng phải là sản phẩm gì của Lego đâu! Mình lấy Lego làm ví dụ để các bạn dễ hình dung hơn những gì mình muốn nói thôi. Tất cả mô hình Lego lúc đó đều là mô hình tĩnh, tức là xe chẳng thể tự chạy, chẳng thể nhấp nháy đèn, máy bay chẳng thể bay được, vịt con chẳng thể bơi,… Bạn tưởng tượng thế này, nếu có 1 mảnh ghép nào đấy khi lắp vào khiến xe có thể chạy, máy bay có thể bay và vịt con có thể bơi,… chẳng phải quá tuyệt vời sao? Tất nhiên mảnh ghép tuyệt vời đó, tự bản thân nó đã là một thứ cực kì phức tạp rồi, và chẳng phải ai cũng có thể tự tạo ra nó được.&lt;/p&gt;
+
+&lt;h2 id=&quot;rốt-cục-thì-có-thứ-mảnh-ghép-tuyệt-với-đó-không&quot;&gt;Rốt cục thì có thứ mảnh ghép tuyệt với đó không?&lt;/h2&gt;
+
+&lt;p&gt;Ah, trước thì không nhưng giờ thì đã có!&lt;/p&gt;
+
+&lt;p&gt;Trước đây, loại mảnh ghép đó chỉ có chuyên gia điện tử điều khiển mới có thể làm được và rất rất ư là tốn thời gian. Thêm vào đó, mảnh ghép của chuyên gia này có thể sẽ không thể ghép vào mô hình của chuyên gia khác. Nhưng bây giờ, tất cả mọi người, kể cả con nít cũng có thể có được thứ mảnh ghép đó với chi phí cực kì hợp lý. Và hay hơn nữa, bạn có thể lấy mảnh ghép của bộ này ráp qua bộ khác như Lego vậy.&lt;/p&gt;
+
+&lt;p&gt;Trong thế giới sáng tạo, giống như chơi Lego, bạn sẽ cần những nền tảng có sẵn được xây dựng bởi người khác, bởi cộng đồng để xây dựng nên những thứ khác tuyệt vời hơn, vỹ đại hơn. Bạn cần đứng trên vai của người khổng lồ để có tầm nhìn xa hơn, và tạo ra những thứ tốt hơn nữa!&lt;/p&gt;
+
+&lt;p&gt;Và mình cá là con nít sẽ chẳng muốn chơi lắp ráp đâu nếu chúng phải học qua tất cả mọi thứ như nhựa là gì? đặc tính của nhựa là gì? gia công chế tạo khuôn ép nhựa? kỹ thuật ép phun?… chỉ để làm ra 1 mảnh Lego ^^!&lt;/p&gt;
+
+&lt;h2 id=&quot;vẫn-chưa-thấy-arduino-đâu-cả-&quot;&gt;Vẫn chưa thấy Arduino đâu cả !!!&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Arduino chính là mảnh ghép còn thiếu mà mình nói. Với nó, bạn có thể tạo nên cả tỷ thứ hữu ích trong cuộc sống này. Arduino là bộ não điều khiển của cả một tuyệt tác.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/vx2B8VV/arduino-uno-r3.jpg&quot; alt=&quot;arduino-uno-r3&quot; title=&quot;Arduino Uno R3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mình trích dẫn một phần giải thích về Arduino mà mình thấy thích từ diễn đàn Arduino.vn:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Arduino là một nền tảng mà mọi thiết bị phần cứng đều được làm sẵn và chuẩn hóa, người dùng chỉ việc chọn những thứ mình cần, ráp lại là có thể chạy được. Bạn muốn làm xe điều khiển từ xa ? Arduino cung cấp cho bạn module điều khiển động cơ có sẵn, mạch điều khiển có sẵn, mạch thu phát sóng không dây có sẵn,… Bạn sẽ không cần phải động não thiết kế mạch điện cho chiếc xe bởi đơn giản là mọi thứ đều có sẵn.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Giống như một con người với “thể xác” đã được xây dựng sẵn, một hệ thống Arduino phải có “tâm hồn” để có thể “sống”. Và tôi gọi việc tạo ra “tâm hồn” ấy là “Lập trình”. Tuy nhiên bạn sẽ không phải lập trình từ A đến Z. Mỗi thứ phần cứng gắn mác “Arduino” đều có những đoạn lệnh đã được viết sẵn (gọi là thư viện) do cộng đồng người dùng Arduino cùng phát triển. Bạn chỉ việc bưng vào và xào nấu lại theo ý muốn của mình. Tới đây, bạn đã giải quyết được vấn đề thứ 2. Đừng lo nếu bạn không biết gì về lập trình bởi chúng chỉ giống như những bài tập Tin học lớp 11 lặt vặt ở trường thôi.
+Arduino.vn nói là tận lớp 11, còn mình thì nghĩ là Arduino dễ đến mức nếu được hướng dẫn, học sinh lớp 5 cũng có thể làm dự án bật tắt đèn thông minh trong nhà qua điện thoại trong … 1 ngày!&lt;/p&gt;</content><author><name>deadblox</name></author><category term="arduino" /><summary type="html">Chắc chắn hồi còn bé xíu, bạn, mình và rất rất nhiều người khác nữa đều thích chơi lắp ráp. Từ những miếng gỗ, hoặc từ những mảnh Lego nhỏ, mình có thể xếp thành bất kì mô hình nào mà mình thấy thích thú. Mình nhớ hồi còn học tiểu học, Lego có về trường mình và tổ chức một cuộc thi lắp ráp nho nhỏ. Tất cả học sinh ngồi chung với nhau, các mảnh Lego được đổ tràn ra và mọi người có quyền chọn lựa bất kì mảnh ghép nào để ráp thành ý tưởng của mình. Và, rất rất nhiều ý tưởng thú vị, cách sắp xếp thú vị được tạo ra từ những mảnh vuông cơ bản ấy: lâu đài, máy bay, tàu, xe tăng, …và rất rất nhiều mô hình tuyệt đẹp khác nữa.</summary></entry><entry><title type="html">Options for creating a new site with Jekyll</title><link href="/options-for-creating-new-site-with-jekyll" rel="alternate" type="text/html" title="Options for creating a new site with Jekyll" /><published>2018-01-12T10:00:00+00:00</published><updated>2018-01-12T10:00:00+00:00</updated><id>/options-for-creating-new-site-with-jekyll</id><content type="html" xml:base="/options-for-creating-new-site-with-jekyll">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To install the Jekyll site into the directory you’re currently in, run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; . If the existing directory isn’t empty, you can pass the –force option with jekyll new . –force.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; automatically initiates &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; to install the dependencies required. (If you don’t want Bundler to install the gems, use &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new myblog --skip-bundle&lt;/code&gt;.)&lt;/li&gt;
+  &lt;li&gt;By default, the Jekyll site installed by &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; uses a gem-based theme called Minima. With gem-based themes, some of the directories and files are stored in the theme-gem, hidden from your immediate view.&lt;/li&gt;
+  &lt;li&gt;We recommend setting up Jekyll with a gem-based theme but if you want to start with a blank slate, use &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new myblog --blank&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;To learn about other parameters you can include with &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt;, type &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new --help&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>deadblox</name></author><category term="jekyll" /><summary type="html">jekyll new &amp;lt;PATH&amp;gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called myblog. Here are some additional details:</summary></entry><entry><title type="html">Advanced Markdown tips</title><link href="/advanced-markdown" rel="alternate" type="text/html" title="Advanced Markdown tips" /><published>2017-07-27T05:00:00+00:00</published><updated>2017-07-27T05:00:00+00:00</updated><id>/advanced-markdown</id><content type="html" xml:base="/advanced-markdown">&lt;p&gt;There are lots of powerful things you can do with the Ghost editor&lt;/p&gt;
 &lt;p&gt;If you've gotten pretty comfortable with &lt;a href=&quot;/the-editor/&quot;&gt;all the basics&lt;/a&gt; of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
 &lt;p&gt;As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.&lt;/p&gt;
 &lt;h2 id=&quot;specialformatting&quot;&gt;Special formatting&lt;/h2&gt;
@@ -40,455 +484,4 @@
 &lt;/li&gt;
 &lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Dogs are usually not red &lt;a href=&quot;#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">There are lots of powerful things you can do with the Ghost editor If you've gotten pretty comfortable with all the basics of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown! As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using. Special formatting As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example: strike through highlight *escaped characters* Writing code blocks There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, like this. Larger snippets of code can be displayed across multiple lines using triple back ticks: .my-link { text-decoration: underline; } If you want to get really fancy, you can even add syntax highlighting using Prism.js. Full bleed images One neat trick which you can use in Markdown to distinguish between different types of images is to add a #hash value to the end of the source URL, and then target images containing the hash with special styling. For example: which is styled with... img[src$=&amp;quot;#full&amp;quot;] { max-width: 100vw; } This creates full-bleed images in the Casper theme, which stretch beyond their usual boundaries right up to the edge of the window. Every theme handles these types of things slightly differently, but it's a great trick to play with if you want to have a variety of image sizes and styles. Reference lists The quick brown fox, jumped over the lazy dog. Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference. Creating footnotes The quick brown fox[1] jumped over the lazy dog[2]. Footnotes are a great way to add additional contextual details when appropriate. Ghost will automatically add footnote content to the very end of your post. Full HTML Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Ghost editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example: Foxes are red ↩︎ Dogs are usually not red ↩︎</summary></entry><entry><title type="html">The Businessman &amp;amp; The Fisherman</title><link href="/the-businessman-and-fisherman" rel="alternate" type="text/html" title="The Businessman &amp; The Fisherman" /><published>2014-08-12T10:18:00+00:00</published><updated>2014-08-12T10:18:00+00:00</updated><id>/the-businessman-and-fisherman</id><content type="html" xml:base="/the-businessman-and-fisherman">&lt;p&gt;An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.&lt;/p&gt;
-
-&lt;p&gt;“How long did it take you to catch them?” the American asked.&lt;/p&gt;
-
-&lt;p&gt;“Only a little while,” the Mexican replied in surprisingly good English.&lt;/p&gt;
-
-&lt;p&gt;“Why don’t you stay out longer and catch more fish?” the American then asked.&lt;/p&gt;
-
-&lt;p&gt;“I have enough to support my family and give a few to friends,” the Mexican said as he unloaded them into a basket.&lt;/p&gt;
-
-&lt;p&gt;“But… What do you do with the rest of your time?”&lt;/p&gt;
-
-&lt;p&gt;The Mexican looked up and smiled. “I sleep late, fish a little, play with my children, take a siesta with my wife, Julia, and stroll into the village each evening, where I sip wine and play guitar with my amigos. I have a full and busy life, señor.”&lt;/p&gt;
-
-&lt;p&gt;The American laughed and stood tall. “Sir, I’m a Harvard M.B.A. and can help you. You should spend more time fishing, and with the proceeds, buy a bigger boat. In no time, you could buy several boats with the increased haul. Eventually, you would have a fleet of fishing boats.”&lt;/p&gt;
-
-&lt;p&gt;He continued, “Instead of selling your catch to a middleman, you would sell directly to the consumers, eventually opening your own cannery. You would control the product, processing, and distribution. You would need to leave this small coastal fishing village, of course, and move to Mexico City, then to Los Angeles, and eventually to New York City, where you could run your expanded enterprise with proper management.&lt;/p&gt;
-
-&lt;p&gt;The Mexican fisherman asked, “But, señor, how long will all this take?”&lt;/p&gt;
-
-&lt;p&gt;To which the American replied, “15-20 years, 25 tops.”&lt;/p&gt;
-
-&lt;p&gt;“But what then, señor?”&lt;/p&gt;
-
-&lt;p&gt;The American laughed and said, “That’s the best part. When the time is right, you would announce an IPO and sell your company stock to the public and become very rich. You would make millions.”&lt;/p&gt;
-
-&lt;p&gt;“Millions señor? Then what?”&lt;/p&gt;
-
-&lt;p&gt;“Then you would retire and move to a small coastal fishing village, where you would sleep late, fish a little, play with your kids, take a siesta with your wife, and stroll in to the village in the evenings where you could sip wine and play your guitar with your amigos.”&lt;/p&gt;
-
-&lt;p&gt;Adapted from the “Anekdote zur Senkung der Arbeitsmoral” by &lt;strong&gt;Heinrich Böll&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;An influential German write and Nobel Prize for Literature in 1972.&lt;/p&gt;</content><author><name>Hannah Wolfe</name></author><category term="fables" /><summary type="html">An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.</summary></entry><entry><title type="html">A Full and Comprehensive Style Test</title><link href="/a-full-and-comprehensive-style-test" rel="alternate" type="text/html" title="A Full and Comprehensive Style Test" /><published>2012-09-01T10:00:00+00:00</published><updated>2012-09-01T10:00:00+00:00</updated><id>/a-full-and-comprehensive-style-test</id><content type="html" xml:base="/a-full-and-comprehensive-style-test">&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;heading1&quot;&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;heading2&quot;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;heading3&quot;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;heading4&quot;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;heading5&quot;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;heading6&quot;&gt;Heading 6&lt;/h6&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, &lt;a title=&quot;test link&quot; href=&quot;#&quot;&gt;test link&lt;/a&gt; adipiscing elit. &lt;strong&gt;This is strong.&lt;/strong&gt; Nullam dignissim convallis est. Quisque aliquam. &lt;em&gt;This is emphasized.&lt;/em&gt; Donec faucibus. Nunc iaculis suscipit dui. 5&lt;sup&gt;3&lt;/sup&gt; = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. &lt;cite&gt;The New York Times&lt;/cite&gt; (That’s a citation). &lt;span style=&quot;text-decoration:underline;&quot;&gt;Underline.&lt;/span&gt; Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
-
-&lt;p&gt;&lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; and &lt;abbr title=&quot;Cascading Style Sheets&quot;&gt;CSS&lt;/abbr&gt; are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type &lt;code&gt;COPY &lt;var&gt;filename&lt;/var&gt;&lt;/code&gt;. &lt;del&gt;Dinner’s at 5:00.&lt;/del&gt; &lt;ins&gt;Let’s make that 7.&lt;/ins&gt; This &lt;span style=&quot;text-decoration:line-through;&quot;&gt;text&lt;/span&gt; has been struck.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;media&quot;&gt;Media&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.&lt;/p&gt;
-
-&lt;h3 id=&quot;bigimage&quot;&gt;Big Image&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://demo.ghost.io/content/images/2014/09/testimg1.jpeg&quot; alt=&quot;Test Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
-
-&lt;h3 id=&quot;smallimage&quot;&gt;Small Image&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://demo.ghost.io/content/images/2014/09/testimg2.jpg&quot; alt=&quot;Small Test Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Labore et dolore.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;listtypes&quot;&gt;List Types&lt;/h2&gt;
-
-&lt;h3 id=&quot;definitionlist&quot;&gt;Definition List&lt;/h3&gt;
-
-&lt;dl&gt;
-&lt;dt&gt;Definition List Title&lt;/dt&gt;
-&lt;dd&gt;This is a definition list division.&lt;/dd&gt;
-&lt;dt&gt;Definition&lt;/dt&gt;
-&lt;dd&gt;An exact statement or description of the nature, scope, or meaning of something: &lt;em&gt;our definition of what constitutes poetry.&lt;/em&gt;&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;h3 id=&quot;orderedlist&quot;&gt;Ordered List&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;List Item 1  &lt;/li&gt;
-&lt;li&gt;List Item 2 &lt;br /&gt;
-&lt;ol&gt;&lt;li&gt;Nested list item A&lt;/li&gt;
-&lt;li&gt;Nested list item B&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;unorderedlist&quot;&gt;Unordered List&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;List Item 1&lt;/li&gt;
-&lt;li&gt;List Item 2
-&lt;ul&gt;&lt;li&gt;Nested list item A&lt;/li&gt;
-&lt;li&gt;Nested list item B&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;table&quot;&gt;Table&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;th&gt;Table Header 1&lt;/th&gt;
-&lt;th&gt;Table Header 2&lt;/th&gt;
-&lt;th&gt;Table Header 3&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&quot;even&quot;&gt;
-&lt;td&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;preformattedtext&quot;&gt;Preformatted Text&lt;/h2&gt;
-
-&lt;p&gt;Typographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. Most browsers use Courier and that’s a good default — with one slight adjustment, Courier 10 Pitch over regular Courier for Linux users.&lt;/p&gt;
-
-&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;Code can be presented inline, like &lt;code&gt;&amp;lt;?php bloginfo('stylesheet_url'); ?&amp;gt;&lt;/code&gt;, or within a &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; block. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.&lt;/p&gt;
-
-&lt;p&gt;Code blocks can also be inserted with the highlight tag as below:&lt;/p&gt;
-&lt;pre&gt;
-    
-    {% highlight language-x %}
-    # some code
-    {% endhighlight %}
-    
-&lt;/pre&gt;
-
-&lt;p&gt;More information about code highlighting in jekyll can be found  &lt;a href=&quot;https://jekyllrb.com/docs/templates/#code-snippet-highlighting&quot;&gt;in Jekyll documentation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;These area a couple of examples showing the resulting highlighted code:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* css code sample */&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// javascript code sample&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'POST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'backend.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;q=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;myform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;success&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// on success use return data here&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xhr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exception&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// if ajax fails display error alert&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ajax error response type &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Now you can also use &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt;.
-For more on how to use it and on the available styles check their
-&lt;a href=&quot;https://highlightjs.org/static/demo/&quot;&gt;demo&lt;/a&gt; and
-&lt;a href=&quot;http://highlightjs.readthedocs.org/en/latest/&quot;&gt;documentation&lt;/a&gt; pages.&lt;/p&gt;
-
-&lt;div class=&quot;system&quot;&gt;
-&lt;pre&gt;&lt;code class=&quot;swift&quot;&gt;// Swift code sample
-import Foundation
-
-@objc class Person: Entity {
-  var name: String!
-  var age:  Int!
-
-  init(name: String, age: Int) {
-    /* /* ... */ */
-  }
-
-  // Return a descriptive string for this person
-  func description(offset: Int = 0) -&gt; String {
-    return &quot;\(name) is \(age + offset) years old&quot;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h2&gt;
-
-&lt;p&gt;Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. &lt;cite&gt;— &lt;a href=&quot;http://en.wikipedia.org/wiki/HAL_9000&quot;&gt;HAL 9000&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And here’s a bit of trailing text.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;textlevelsemantics&quot;&gt;Text-level semantics&lt;/h2&gt;
-
-&lt;p&gt;The &lt;a href=&quot;#&quot;&gt;a element&lt;/a&gt; example &lt;br /&gt;
-The &lt;abbr&gt;abbr element&lt;/abbr&gt; and &lt;abbr title=&quot;Title text&quot;&gt;abbr element with title&lt;/abbr&gt; examples &lt;br /&gt;
-The &lt;b&gt;b element&lt;/b&gt; example &lt;br /&gt;
-The &lt;cite&gt;cite element&lt;/cite&gt; example &lt;br /&gt;
-The &lt;code&gt;code element&lt;/code&gt; example &lt;br /&gt;
-The &lt;del&gt;del element&lt;/del&gt; example &lt;br /&gt;
-The &lt;dfn&gt;dfn element&lt;/dfn&gt; and &lt;dfn title=&quot;Title text&quot;&gt;dfn element with title&lt;/dfn&gt; examples &lt;br /&gt;
-The &lt;em&gt;em element&lt;/em&gt; example &lt;br /&gt;
-The &lt;i&gt;i element&lt;/i&gt; example &lt;br /&gt;
-The &lt;ins&gt;ins element&lt;/ins&gt; example &lt;br /&gt;
-The &lt;kbd&gt;kbd element&lt;/kbd&gt; example &lt;br /&gt;
-The &lt;mark&gt;mark element&lt;/mark&gt; example &lt;br /&gt;
-The &lt;q&gt;q element &lt;q&gt;inside&lt;/q&gt; a q element&lt;/q&gt; example &lt;br /&gt;
-The &lt;s&gt;s element&lt;/s&gt; example &lt;br /&gt;
-The &lt;samp&gt;samp element&lt;/samp&gt; example &lt;br /&gt;
-The &lt;small&gt;small element&lt;/small&gt; example &lt;br /&gt;
-The &lt;span&gt;span element&lt;/span&gt; example &lt;br /&gt;
-The &lt;strong&gt;strong element&lt;/strong&gt; example &lt;br /&gt;
-The &lt;sub&gt;sub element&lt;/sub&gt; example &lt;br /&gt;
-The &lt;sup&gt;sup element&lt;/sup&gt; example &lt;br /&gt;
-The &lt;var&gt;var element&lt;/var&gt; example &lt;br /&gt;
-The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;forms&quot;&gt;Forms&lt;/h2&gt;
-
-&lt;form&gt;
-&lt;fieldset&gt;
-&lt;legend&gt;Inputs as descendents of labels (form legend)&lt;/legend&gt;
-&lt;label&gt;
-&lt;b&gt;Text input&lt;/b&gt;
-&lt;input type=&quot;text&quot; value=&quot;default value&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Email input&lt;/b&gt;
-&lt;input type=&quot;email&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Search input&lt;/b&gt;
-&lt;input type=&quot;search&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Tel input&lt;/b&gt;
-&lt;input type=&quot;tel&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;URL input&lt;/b&gt;
-&lt;input type=&quot;url&quot; placeholder=&quot;http://&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Password input&lt;/b&gt;
-&lt;input type=&quot;password&quot; value=&quot;password&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;File input&lt;/b&gt;
-&lt;input type=&quot;file&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Radio input&lt;/b&gt;
-&lt;input type=&quot;radio&quot; name=&quot;rad&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Checkbox input&lt;/b&gt;
-&lt;input type=&quot;checkbox&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;input type=&quot;radio&quot; name=&quot;rad&quot;&gt; Radio input
-&lt;/label&gt;
-&lt;label&gt;
-&lt;input type=&quot;checkbox&quot;&gt; Checkbox input
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Select field&lt;/b&gt;
-&lt;select&gt;
-&lt;option&gt;Option 01&lt;/option&gt;
-&lt;option&gt;Option 02&lt;/option&gt;
-&lt;/select&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Textarea&lt;/b&gt;
-&lt;textarea cols=&quot;30&quot; rows=&quot;5&quot; &gt;Textarea text&lt;/textarea&gt;
-&lt;/label&gt;
-&lt;/fieldset&gt;
-
-&lt;fieldset&gt;
-&lt;legend&gt;Clickable inputs and buttons&lt;/legend&gt;
-&lt;input type=&quot;image&quot; src=&quot;http://placekitten.com/90/24&quot; alt=&quot;Image (input)&quot;&gt;
-&lt;input type=&quot;reset&quot; value=&quot;Reset (input)&quot;&gt;
-&lt;input type=&quot;button&quot; value=&quot;Button (input)&quot;&gt;
-&lt;input type=&quot;submit&quot; value=&quot;Submit (input)&quot;&gt;
-&lt;button type=&quot;reset&quot;&gt;Reset (button)&lt;/button&gt;
-&lt;button type=&quot;button&quot;&gt;Button (button)&lt;/button&gt;
-&lt;button type=&quot;submit&quot;&gt;Submit (button)&lt;/button&gt;
-&lt;/fieldset&gt;
-
-&lt;fieldset id=&quot;boxsize&quot;&gt;
-&lt;legend&gt;box-sizing tests&lt;/legend&gt;
-&lt;div&gt;&lt;input type=&quot;text&quot; value=&quot;text&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;email&quot; value=&quot;email&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;search&quot; value=&quot;search&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;url&quot; value=&quot;http://example.com&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;password&quot; value=&quot;password&quot;&gt;&lt;/div&gt;
-
-&lt;div&gt;&lt;input type=&quot;color&quot; value=&quot;#000000&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;number&quot; value=&quot;5&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;range&quot; value=&quot;10&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;date&quot; value=&quot;1970-01-01&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;month&quot; value=&quot;1970-01&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;week&quot; value=&quot;1970-W01&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;time&quot; value=&quot;18:23&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;datetime&quot; value=&quot;1970-01-01T00:00:00Z&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;datetime-local&quot; value=&quot;1970-01-01T00:00&quot;&gt;&lt;/div&gt;
-
-&lt;div&gt;&lt;input type=&quot;radio&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;checkbox&quot;&gt;&lt;/div&gt;
-
-&lt;div&gt;&lt;select&gt;&lt;option&gt;Option 01&lt;/option&gt;&lt;option&gt;Option 02&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;
-&lt;div&gt;&lt;textarea cols=&quot;30&quot; rows=&quot;5&quot; &gt;Textarea text&lt;/textarea&gt;&lt;/div&gt;
-
-&lt;div&gt;&lt;input type=&quot;image&quot; src=&quot;http://placekitten.com/90/24&quot; alt=&quot;Image (input)&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;reset&quot; value=&quot;Reset (input)&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;button&quot; value=&quot;Button (input)&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;submit&quot; value=&quot;Submit (input)&quot;&gt;&lt;/div&gt;
-
-&lt;div&gt;&lt;button type=&quot;reset&quot;&gt;Reset (button)&lt;/button&gt;&lt;/div&gt;
-&lt;div&gt;&lt;button type=&quot;button&quot;&gt;Button (button)&lt;/button&gt;&lt;/div&gt;
-&lt;div&gt;&lt;button type=&quot;submit&quot;&gt;Submit (button)&lt;/button&gt;&lt;/div&gt;
-&lt;/fieldset&gt;
-&lt;/form&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;embeds&quot;&gt;Embeds&lt;/h2&gt;
-
-&lt;p&gt;Sometimes all you want to do is embed a little love from another location and set your post alive.&lt;/p&gt;
-
-&lt;h3 id=&quot;video&quot;&gt;Video&lt;/h3&gt;
-
-&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
-
-&lt;iframe src=&quot;//player.vimeo.com/video/103224792?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;600&quot; height=&quot;338&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;h3 id=&quot;slides&quot;&gt;Slides&lt;/h3&gt;
-
-&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
-
-&lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;34d2856027ce01316b5d621ab8e7d421&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;h3 id=&quot;audio&quot;&gt;Audio&lt;/h3&gt;
-
-&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/169381837&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.&lt;/p&gt;
-
-&lt;p&gt;&lt;div data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;bcqhe&quot; data-default-tab=&quot;js&quot; data-user=&quot;rglazebrook&quot; class='codepen'&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;var c = new Sketch.create({autoclear: false}),
-    bigCircle = 50,
-    littleCircle = 5,
-    // The velocity value determines how much to move the spinner head (in radians).
-    velocity = 0.105,
-    hue = 0,
-    // The alpha value below determines the length of the spinner&amp;#39;s tail.
-    bg = &amp;#39;rgba(40,40,40,.075)&amp;#39;;
-    Spinner = function() {};
-
-Spinner.prototype.setup = function() {
-  this.x = c.width / 2;
-  this.y = c.height / 2 - bigCircle;
-  this.rotation = 0;
-}
-Spinner.prototype.update = function() {
-  this.rotation += velocity;
-  this.rotation = this.rotation % TWO_PI;
-  this.x = c.width /2 + cos(this.rotation) * bigCircle;
-  this.y = c.height / 2 + sin(this.rotation) * bigCircle;
-}
-Spinner.prototype.draw = function() {
-  c.fillStyle = &amp;#39;hsl(&amp;#39;+hue+&amp;#39;,50%,50%)&amp;#39;;
-  c.beginPath();
-  c.arc(this.x, this.y, littleCircle, 0, TWO_PI);
-  c.fill();
-  c.closePath();
-}
-c.setup = function() {
-  spinner = new Spinner();
-  spinner.setup();
-}
-c.update = function() {
-  spinner.update();
-  hue = ++hue % 360;
-}
-c.draw = function() {
-  spinner.draw();
-  c.fillStyle = bg;
-  c.fillRect(0,0,c.width,c.height);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;See the Pen &lt;a href='http://codepen.io/rglazebrook/pen/bcqhe/'&gt;Simple Rotating Spinner&lt;/a&gt; by Rob Glazebrook (&lt;a href='http://codepen.io/rglazebrook'&gt;@rglazebrook&lt;/a&gt;) on &lt;a href='http://codepen.io'&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;script async src=&quot;//codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Isn't it beautiful?&lt;/p&gt;</content><author><name>John O'Nolan</name></author><summary type="html">Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">There are lots of powerful things you can do with the Ghost editor If you've gotten pretty comfortable with all the basics of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown! As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using. Special formatting As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example: strike through highlight *escaped characters* Writing code blocks There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, like this. Larger snippets of code can be displayed across multiple lines using triple back ticks: .my-link { text-decoration: underline; } If you want to get really fancy, you can even add syntax highlighting using Prism.js. Full bleed images One neat trick which you can use in Markdown to distinguish between different types of images is to add a #hash value to the end of the source URL, and then target images containing the hash with special styling. For example: which is styled with... img[src$=&amp;quot;#full&amp;quot;] { max-width: 100vw; } This creates full-bleed images in the Casper theme, which stretch beyond their usual boundaries right up to the edge of the window. Every theme handles these types of things slightly differently, but it's a great trick to play with if you want to have a variety of image sizes and styles. Reference lists The quick brown fox, jumped over the lazy dog. Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference. Creating footnotes The quick brown fox[1] jumped over the lazy dog[2]. Footnotes are a great way to add additional contextual details when appropriate. Ghost will automatically add footnote content to the very end of your post. Full HTML Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Ghost editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example: Foxes are red ↩︎ Dogs are usually not red ↩︎</summary></entry></feed>

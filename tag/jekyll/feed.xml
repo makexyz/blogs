@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/tag/jekyll/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2020-05-18T11:11:43+00:00</updated>
+  <id>/tag/jekyll/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">MakeXYZ | </title>
+  
+
+  
+    <subtitle>Make anything fun</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Giới thiệu theme Jekyll Mediumish siêu đẹp</title>
+      <link href="/gioi-thieu-theme-mediumish-jekyll" rel="alternate" type="text/html" title="Giới thiệu theme Jekyll Mediumish siêu đẹp" />
+      <published>2020-02-28T15:00:00+00:00</published>
+      <updated>2020-02-28T15:00:00+00:00</updated>
+      <id>/gioi-thieu-theme-mediumish-jekyll</id>
+      <content type="html" xml:base="/gioi-thieu-theme-mediumish-jekyll">&lt;h2 id=&quot;tính-năng&quot;&gt;Tính năng&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Được xây dựng cho Jekyll&lt;/li&gt;
+  &lt;li&gt;Tương thích với Github pages&lt;/li&gt;
+  &lt;li&gt;Bài viết nổi bật (Featured Posts)&lt;/li&gt;
+  &lt;li&gt;Đánh số phân trang (Index Pagination)&lt;/li&gt;
+  &lt;li&gt;Tối ưu hóa cho công cụ tìm kiếm (SEO)&lt;/li&gt;
+  &lt;li&gt;Feed&lt;/li&gt;
+  &lt;li&gt;Sơ đồ trang (Sitemap)&lt;/li&gt;
+  &lt;li&gt;Chia sẻ bài viết (Post Share)&lt;/li&gt;
+  &lt;li&gt;Phân loại bài viết (Post Categories)&lt;/li&gt;
+  &lt;li&gt;Bài viết kế tiếp / trước đó (Prev/Next Link)&lt;/li&gt;
+  &lt;li&gt;Category Archives (Compatible with Github pages)&lt;/li&gt;
+  &lt;li&gt;Jumbotron Categories&lt;/li&gt;
+  &lt;li&gt;Đánh giá trên bài viết (Post Reviews with Stars)&lt;/li&gt;
+  &lt;li&gt;Bôi mờ đoạn văn bản (Blurred Spoilers)&lt;/li&gt;
+  &lt;li&gt;Danh sách nội dung tự động (Table of Content)&lt;/li&gt;
+  &lt;li&gt;Lazy Load Images&lt;/li&gt;
+  &lt;li&gt;Tích hợp:
+    &lt;ul&gt;
+      &lt;li&gt;Disqus Comments =&amp;gt; Dành cho đánh giá&lt;/li&gt;
+      &lt;li&gt;Google Analaytics =&amp;gt; Dành cho thống kê tự động số truy cập vào trang&lt;/li&gt;
+      &lt;li&gt;Mailchimp Integration =&amp;gt; Dành cho đăng ký nhận tin&lt;/li&gt;
+      &lt;li&gt;Adsense =&amp;gt; Dành để chèn quảng cáo từ Google&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Các tính năng thiết kế nổi bật:
+    &lt;ul&gt;
+      &lt;li&gt;Bootstrap v4.x&lt;/li&gt;
+      &lt;li&gt;Font Awesome&lt;/li&gt;
+      &lt;li&gt;Masonry&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Các dạng Layout:
+    &lt;ul&gt;
+      &lt;li&gt;Default&lt;/li&gt;
+      &lt;li&gt;Post&lt;/li&gt;
+      &lt;li&gt;Page&lt;/li&gt;
+      &lt;li&gt;Archive&lt;/li&gt;
+      &lt;li&gt;Categories (100% tương thích với Github pages)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://bootstrapstarter.com/assets/img/themes/mediumish-jekyll.jpg&quot; alt=&quot;Mediumish Theme Demo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-là-gì&quot;&gt;Jekyll là gì&lt;/h2&gt;
+
+&lt;p&gt;Nếu bạn chưa từng nghe về Jekyll thì nó là một dạng phần mềm cung cấp giải pháp tạo ra trang web tĩnh từ những thông tin có sẵn và layout có sẵn. Nói cách khác, nó giúp biến file text chứa nội dung post mà bạn viết thành một post hoặc một web tĩnh. Bạn sẽ không cần database, không còn chuyện load trang chậm hay rủi ro bị hack… Do đó, bạn sẽ có nhiều thời gian dành cho nội dung viết hơn. Và thú vị nhất vẫn là, với Jekyll bạn có thể tạo một trang web miễn phí với tài khoản Github. Bạn nên dành thời gian đọc sơ tài liệu về Jekyll để nắm thêm thông tin nếu mới tìm hiểu. Nếu bạn đã có kiến thức cơ bản về Jekyll rồi thì mình chuyển sang phần cài đặt theme Mediumish cho Jekyll như bên dưới.&lt;/p&gt;
+
+&lt;h2 id=&quot;cách-sử-dụng-theme-mediumish&quot;&gt;Cách sử dụng theme “Mediumish”&lt;/h2&gt;
+
+&lt;h3 id=&quot;tải-theme-mediumish&quot;&gt;Tải theme Mediumish&lt;/h3&gt;
+&lt;p&gt;Tải về theme Mediumish bằng cách vào command prompt, lần lượt gõ lệnh bên dưới
+Lưu ý: Bạn cần cài Ruby trước để  sử dụng lệnh &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/wowthemesnet/mediumish-theme-jekyll.git
+cd mediumish-theme-jekyll
+bundle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;chỉnh-file-_configyml&quot;&gt;Chỉnh file _config.yml&lt;/h3&gt;
+
+&lt;p&gt;Nếu trang web của bạn được lưu trong thư mục gốc luôn thì chỉnh &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl: ''&lt;/code&gt;. Bạn cũng cần chỉnh mã Google Analytics, disqus username, authors, Mailchimp list nếu có sử dụng&lt;/p&gt;
+
+&lt;p&gt;Sau khi chỉnh xong, bạn có thể khởi tạo Server trên máy tính để xem trang với lệnh sau:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle exec jekyll serve --watch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bạn có thể tạo bài viết mới bằng cách tạo file &lt;strong&gt;.md&lt;/strong&gt; trong thư mục &lt;strong&gt;_posts&lt;/strong&gt;. Mediumish cũng đã có sẵn nhiều ví dụ cho bạn tham khảo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;YAML front matter&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bật tính năng bài viết nổi bật - &lt;code class=&quot;highlighter-rouge&quot;&gt;featured:true&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Loại các bài viết nổi bật khỏi “All stories” để tránh lặp lại - &lt;code class=&quot;highlighter-rouge&quot;&gt;hidden:true&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Ảnh bài viết - &lt;code class=&quot;highlighter-rouge&quot;&gt;image: assets/images/mypic.jpg&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Ảnh bài viết với link bên ngoài - &lt;code class=&quot;highlighter-rouge&quot;&gt;image: &quot;https://externalwebsite.com/image4.jpg&quot;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Bật tính năng comment - &lt;code class=&quot;highlighter-rouge&quot;&gt;comments:true&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Mô tả nội dung trường meta (không bắt buộc) - &lt;code class=&quot;highlighter-rouge&quot;&gt;description: &quot;this is my meta description&quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ví-dụ-yaml-post&quot;&gt;Ví dụ YAML Post&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title:  &quot;We all wait for summer&quot;
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/5.jpg
+description: &quot;Something about this post here&quot;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;ví-dụ-yaml-page&quot;&gt;Ví dụ YAML Page&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: page
+title: Mediumish Template for Jekyll
+comments: true
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;ví-dụ-đánh-giá&quot;&gt;Ví dụ Đánh giá&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title:  &quot;We all wait for summer&quot;
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/5.jpg
+description: &quot;Something about this post here&quot;
+rating: 4.5
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;quảng-cáo-adsense&quot;&gt;Quảng cáo Adsense&lt;/h3&gt;
+
+&lt;p&gt;Bật tính năng quảng cáo bằng cách điều chỉnh file _config.yml.&lt;/p&gt;
+
+&lt;p&gt;Adsense (thay giá trị thành “enabled” để kích hoạt). Bạn cũng cần cập nhật giá trị &lt;code class=&quot;highlighter-rouge&quot;&gt;adsense-data-ad-client&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;adsense-data-ad-slot&lt;/code&gt; cho tương thích với khai báo quảng cáo của bạn trên tài khoản Google Adsense.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adsense: &quot;disabled&quot;
+adsense-data-ad-client: &quot;ca-pub-3412143450191416&quot;
+adsense-data-ad-slot: &quot;1363087678&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;lazy-load-images&quot;&gt;Lazy Load Images&lt;/h3&gt;
+
+&lt;p&gt;Bật tính năng này bằng cách điều chỉnh file _config.yml.&lt;/p&gt;
+
+&lt;p&gt;Lazy Images (“enabled” hoặc “disabled”)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lazyimages: &quot;enabled&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
+
+&lt;p&gt;Add toc:true on your post YAML.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title:  &quot;Education must also train one for quick, resolute and effective thinking.&quot;
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/3.jpg
+beforetoc: &quot;Markdown editor is a very powerful thing. In this article I'm going to show you what you can actually do with it, some tricks and tips while editing your post.&quot;
+toc: true
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;beforetoc thêm một đoạn văn bản trước khi hiển thị TOC.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>deadblox</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="jekyll" />
+      
+
+      
+        <summary type="html">Tính năng</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Thêm và chỉnh sửa nội dung Jekyll Post trực tuyến</title>
+      <link href="/them-va-chinh-sua-noi-dung-jekyll-post-online" rel="alternate" type="text/html" title="Thêm và chỉnh sửa nội dung Jekyll Post trực tuyến" />
+      <published>2020-02-23T15:20:00+00:00</published>
+      <updated>2020-02-23T15:20:00+00:00</updated>
+      <id>/them-va-chinh-sua-noi-dung-jekyll-post-online</id>
+      <content type="html" xml:base="/them-va-chinh-sua-noi-dung-jekyll-post-online">&lt;p&gt;Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.&lt;/p&gt;
+
+&lt;p&gt;Prose.io là một công cụ đáng tin cậy để chỉnh sửa các bài post. Giao diện, chức năng và thậm chí là hiệu ứng đều tốt. Bạn muốn up ảnh trực tiếp lên Github ử? Prose.io sẽ giúp bạn.
+Khi bạn đăng nhập vào Prose, bạn sẽ thấy yêu cầu cho phép Prose chỉnh sửa repository (gọi tắt là repo) của bạn trên Github.&lt;/p&gt;
+
+&lt;p&gt;Bài viết được dịch từ link gốc: &lt;a href=&quot;https://blog.webjeda.com/edit-posts-jekyll/&quot;&gt;Origin Post&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.webjeda.com/images/how-to-use-prose-io-with-jekyll.png&quot; alt=&quot;prose-yeu-cau-uy-quyen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sau khi bạn ủy quyền Prose, nó sẽ hiển thị tất cả các repo mà bạn sở hữu hay đóng góp trên Github.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.webjeda.com/images/how-to-use-prose-io-with-jekyll-2.png&quot; alt=&quot;prose-hien-thi-danh-sach-repository&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chọn repo mà bạn dùng cho blog/website của bạn. Sau đó, di chuyển đến thư mục &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;, bạn sẽ thấy danh sách các post mà bạn đã đăng trên blog/website của mình.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.webjeda.com/images/how-to-use-prose-io-with-jekyll-3.png&quot; alt=&quot;danh-sach-post-da-dang&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bạn có thể click &lt;strong&gt;Edit&lt;/strong&gt; để chỉnh sửa nội dung post hoặc click &lt;strong&gt;NEW FILE&lt;/strong&gt; để tạo bài post mới. Bạn sẽ thấy hình bên dưới khi bạn tạo post mới.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.webjeda.com/images/how-to-use-prose-io-with-jekyll-4.png&quot; alt=&quot;tao-file-moi&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bạn có thể đặt tên mới và viết nội dung post bằng Markdown.&lt;/p&gt;
+
+&lt;p&gt;Bạn cũng sẽ thấy một số nút nhấn ở bên phải màn hình (như hình duoi71) gồm: &lt;strong&gt;Edit&lt;/strong&gt;, &lt;strong&gt;Preview&lt;/strong&gt;, &lt;strong&gt;Meta Data&lt;/strong&gt; và &lt;strong&gt;Save&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.webjeda.com/images/how-to-use-prose-io-with-jekyll-5.png&quot; alt=&quot;prose-menu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Meta Data&lt;/strong&gt; dùng để định nghĩa &lt;em&gt;Jekyll front matter&lt;/em&gt;, nơi bạn có thể thay đổi tiêu đề, ngày, tác giả, permalink,… Thuộc tính quan trọng nhất trong Meta Data là &lt;strong&gt;published&lt;/strong&gt;. Mặc định giá trị là false, bạn cần sửa lại là true.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.webjeda.com/images/how-to-use-prose-io-with-jekyll-6.png&quot; alt=&quot;gia-tri-thuoc-tinh-published&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Khi bạn tìm ra cách đồng bộ hóa các tệp và thư mục với Github từ các thư mục trên máy tính của mình, bạn sẽ nhận ra rằng Prose.io khồng còn cần thiết nữa. Nhưng đồng bộ hóa các tệp với Github có thể gây khó khăn cho nhiều người khi mới bắt đầu. Trừ khi bạn có một chút hiểu biết về &lt;strong&gt;cách hoạt động của Git&lt;/strong&gt;, bạn không thể đồng bộ hóa thành công các tệp hoặc ít nhất là thể khắc phục sự cố đơn giản.&lt;/p&gt;
+
+&lt;p&gt;Đây là lý do tại sao mình giới thiệu Prose.io cho người mới bắt đầu. Nó là đơn giản, trực quan và dễ dùng.&lt;/p&gt;
+
+&lt;p&gt;Và nếu bạn đang sử dụng Chromebook, sẽ không có cách nào đơn giản để đồng bộ hóa các tệp Github trên máy tính. Có thể trong tương lai Github sẽ phát hành ứng dụng cho Chrome Os và Android nhưng hiện tại thì chưa có nhé!&lt;/p&gt;
+
+&lt;p&gt;Trong khi đi du lịch, bạn có thể chỉ đem theo điện thoại thông minh hoặc máy tính bảng bên mình. Trong những trường hợp như vậy, bạn sẽ đánh giá cao Prose.io!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Cảm ơn vì đã đọc hết hướng dẩn của mình!&lt;/em&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>deadblox</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="jekyll" />
+      
+
+      
+        <summary type="html">Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Powerful things you can do with the Markdown editor</title>
+      <link href="/powerful-things-markdown-editor" rel="alternate" type="text/html" title="Powerful things you can do with the Markdown editor" />
+      <published>2018-06-12T15:20:00+00:00</published>
+      <updated>2018-06-12T15:20:00+00:00</updated>
+      <id>/powerful-things-markdown-editor</id>
+      <content type="html" xml:base="/powerful-things-markdown-editor">&lt;p&gt;There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
+
+&lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
+
+&lt;h2 id=&quot;special-formatting&quot;&gt;Special formatting&lt;/h2&gt;
+
+&lt;p&gt;As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;del&gt;strike through&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;==highlight==&lt;/li&gt;
+  &lt;li&gt;*escaped characters*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;writing-code-blocks&quot;&gt;Writing code blocks&lt;/h2&gt;
+
+&lt;p&gt;There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, &lt;code class=&quot;highlighter-rouge&quot;&gt;like this&lt;/code&gt;. Larger snippets of code can be displayed across multiple lines using triple back ticks:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.my-link {
+    text-decoration: underline;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;html&quot;&gt;HTML&lt;/h4&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ml-1 mr-1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fab fa-twitter&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;css&quot;&gt;CSS&lt;/h4&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.c&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#999988&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;italic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.err&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#a61717&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#e3d2d2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;js&quot;&gt;JS&lt;/h4&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// alertbar later&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scrollTop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;280&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.alertbar'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.alertbar'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeOut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;python&quot;&gt;Python&lt;/h4&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;ruby&quot;&gt;Ruby&lt;/h4&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'redcarpet'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;markdown&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Redcarpet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;markdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_html&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;c&quot;&gt;C&lt;/h4&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
+
+&lt;p&gt;The quick brown jumped over the lazy.&lt;/p&gt;
+
+&lt;p&gt;Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.&lt;/p&gt;
+
+&lt;h2 id=&quot;full-html&quot;&gt;Full HTML&lt;/h2&gt;
+
+&lt;p&gt;Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>deadblox</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="jekyll" />
+      
+
+      
+        <summary type="html">There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">About Bundler</title>
+      <link href="/about-bundler" rel="alternate" type="text/html" title="About Bundler" />
+      <published>2018-05-12T10:18:00+00:00</published>
+      <updated>2018-05-12T10:18:00+00:00</updated>
+      <id>/about-bundler</id>
+      <content type="html" xml:base="/about-bundler">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt; installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundler&lt;/code&gt; is a gem that manages other Ruby gems. It makes sure your gems and gem versions are compatible, and that you have all necessary dependencies each gem requires.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt; files inform &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; about the gem requirements in your site. If your site doesn’t have these Gemfiles, you can omit &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec&lt;/code&gt; and just &lt;code class=&quot;highlighter-rouge&quot;&gt;run jekyll serve&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; uses the gems and versions as specified in &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt; to ensure your Jekyll site builds with no compatibility or dependency conflicts.&lt;/p&gt;
+
+&lt;p&gt;For more information about how to use &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>deadblox</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="jekyll" />
+      
+
+      
+        <summary type="html">gem install bundler installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Options for creating a new site with Jekyll</title>
+      <link href="/options-for-creating-new-site-with-jekyll" rel="alternate" type="text/html" title="Options for creating a new site with Jekyll" />
+      <published>2018-01-12T10:00:00+00:00</published>
+      <updated>2018-01-12T10:00:00+00:00</updated>
+      <id>/options-for-creating-new-site-with-jekyll</id>
+      <content type="html" xml:base="/options-for-creating-new-site-with-jekyll">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To install the Jekyll site into the directory you’re currently in, run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; . If the existing directory isn’t empty, you can pass the –force option with jekyll new . –force.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; automatically initiates &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; to install the dependencies required. (If you don’t want Bundler to install the gems, use &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new myblog --skip-bundle&lt;/code&gt;.)&lt;/li&gt;
+  &lt;li&gt;By default, the Jekyll site installed by &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; uses a gem-based theme called Minima. With gem-based themes, some of the directories and files are stored in the theme-gem, hidden from your immediate view.&lt;/li&gt;
+  &lt;li&gt;We recommend setting up Jekyll with a gem-based theme but if you want to start with a blank slate, use &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new myblog --blank&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;To learn about other parameters you can include with &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt;, type &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new --help&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>deadblox</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="jekyll" />
+      
+
+      
+        <summary type="html">jekyll new &amp;lt;PATH&amp;gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called myblog. Here are some additional details:</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

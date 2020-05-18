@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/tag/web/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2020-05-18T11:11:43+00:00</updated>
+  <id>/tag/web/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">MakeXYZ | </title>
+  
+
+  
+    <subtitle>Make anything fun</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">What is an API?</title>
+      <link href="/what-is-an-api" rel="alternate" type="text/html" title="What is an API?" />
+      <published>2020-02-21T15:20:00+00:00</published>
+      <updated>2020-02-21T15:20:00+00:00</updated>
+      <id>/what-is-an-api</id>
+      <content type="html" xml:base="/what-is-an-api">&lt;h2 id=&quot;what-is-an-api-application-programming-interface&quot;&gt;What is an API? (Application Programming Interface)&lt;/h2&gt;
+&lt;p&gt;API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-an-example-of-an-api&quot;&gt;What Is an Example of an API?&lt;/h2&gt;
+&lt;p&gt;When you use an application on your mobile phone, the application connects to the Internet and sends data to a server. The server then retrieves that data, interprets it, performs the necessary actions and sends it back to your phone. The application then interprets that data and presents you with the information you wanted in a readable way. This is what an API is - all of this happens via API.&lt;/p&gt;
+
+&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s7wmiS2mSXY&quot; width=&quot;560&quot; id=&quot;player0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;To explain this better, let us take a familiar example.
+Imagine you’re sitting at a table in a restaurant with a menu of choices to order from. The kitchen is the part of the “system” that will prepare your order. What is missing is the critical link to communicate your order to the kitchen and deliver your food back to your table. That’s where the waiter or API comes in. The waiter is the messenger – or API – that takes your request or order and tells the kitchen – the system – what to do. Then the waiter delivers the response back to you; in this case, it is the food.&lt;/p&gt;
+
+&lt;p&gt;Here is a real-life API example. You may be familiar with the process of searching flights online. Just like the restaurant, you have a variety of options to choose from, including different cities, departure and return dates, and more. Let us imagine that you’re booking you are flight on an airline website. You choose a departure city and date, a return city and date, cabin class, as well as other variables. In order to book your flight, you interact with the airline’s website to access their database and see if any seats are available on those dates and what the costs might be.&lt;/p&gt;
+
+&lt;p&gt;However, what if you are not using the airline’s website––a channel that has direct access to the information? What if you are using an online travel service, such as Kayak or Expedia, which aggregates information from a number of airline databases?&lt;/p&gt;
+
+&lt;p&gt;The travel service, in this case, interacts with the airline’s API. The API is the interface that, like your helpful waiter, can be asked by that online travel service to get information from the airline’s database to book seats, baggage options, etc. The API then takes the airline’s response to your request and delivers it right back to the online travel service, which then shows you the most updated, relevant information.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-an-api-also-provides-is-a-layer-of-security&quot;&gt;What an API Also Provides Is a Layer of Security&lt;/h2&gt;
+&lt;p&gt;Your phone’s data is never fully exposed to the server, and likewise the server is never fully exposed to your phone. Instead, each communicates with small packets of data, sharing only that which is necessary—like ordering takeout. You tell the restaurant what you would like to eat, they tell you what they need in return and then, in the end, you get your meal.&lt;/p&gt;
+
+&lt;p&gt;APIs have become so valuable that they comprise a large part of many business’ revenue. Major companies like Google, eBay, Salesforce.com, Amazon, and Expedia are just a few of the companies that make money from their APIs. What the “API economy” refers to is this marketplace of APIs.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-modern-api&quot;&gt;The Modern API&lt;/h2&gt;
+&lt;p&gt;Over the years, what an “API” is has often described any sort of generic connectivity interface to an application. More recently, however, the modern API has taken on some characteristics that make them extraordinarily valuable and useful:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Modern APIs adhere to standards (typically HTTP and REST), that are developer-friendly, easily accessible and understood broadly&lt;/li&gt;
+  &lt;li&gt;They are treated more like products than code. They are designed for consumption for specific audiences (e.g., mobile developers), they are documented, and they are versioned in a way that users can have certain expectations of its maintenance and lifecycle.&lt;/li&gt;
+  &lt;li&gt;Because they are much more standardized, they have a much stronger discipline for security and governance, as well as monitored and managed for performance and scale&lt;/li&gt;
+  &lt;li&gt;As any other piece of productized software, the modern API has its own software development lifecycle (SDLC) of designing, testing, building, managing, and versioning.  Also, modern APIs are well documented for consumption and versioning.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>deadblox</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="web" />
+      
+
+      
+        <summary type="html">What is an API? (Application Programming Interface) API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Best Free Image Host Compare In 2020</title>
+      <link href="/free-image-host-compare" rel="alternate" type="text/html" title="Best Free Image Host Compare In 2020" />
+      <published>2020-02-19T15:20:00+00:00</published>
+      <updated>2020-02-19T15:20:00+00:00</updated>
+      <id>/free-image-host-compare</id>
+      <content type="html" xml:base="/free-image-host-compare">&lt;p&gt;When you want to share a photo or a gallery with friends, family, a message board, or even the entire Internet, an image hosting site is the best way to upload, store, and share your files. However, there are many image hosting sites, all with different features. The best site for you will depend on how many photos you need to upload, how much time you want to spend uploading, and the reason you’re uploading the photos.&lt;/p&gt;
+
+&lt;p&gt;Of course if you are a professional photographer then you may want to consider using a portfolio web builder or building your own website with WordPress and paying for web hosting. You can also use a number of free online portfolio creators to do the job as well.&lt;/p&gt;
+
+&lt;p&gt;Here are 7 of the best image hosting sites in my opinion that can help you upload and share photos:&lt;/p&gt;
+
+&lt;h2 id=&quot;photobucketcom&quot;&gt;photobucket.com&lt;/h2&gt;
+&lt;p&gt;2.5Gb OR 250photos&lt;/p&gt;
+
+&lt;p&gt;[If you exceed any of the above limits, you will need to upgrade your plan]&lt;/p&gt;
+
+&lt;h2 id=&quot;cloudinarycom&quot;&gt;cloudinary.com&lt;/h2&gt;
+&lt;p&gt;25 Monthly Credits&lt;/p&gt;
+
+&lt;p&gt;1 Credit = 1,000 Transformations OR 1 GB Storage OR 1 GB Bandwidth&lt;/p&gt;
+
+&lt;p&gt;[If you exceed any of the above limits, you will need to upgrade your plan]&lt;/p&gt;
+
+&lt;h2 id=&quot;flickrcom&quot;&gt;flickr.com&lt;/h2&gt;
+&lt;p&gt;1,000 full-resolution photos and HD videos, shown with ads.&lt;/p&gt;
+
+&lt;h2 id=&quot;freeimagehostingnet&quot;&gt;freeimagehosting.net&lt;/h2&gt;
+&lt;p&gt;File size limit: 3,000KB&lt;/p&gt;
+
+&lt;p&gt;100% free&lt;/p&gt;
+
+&lt;h2 id=&quot;imgbbcom&quot;&gt;imgbb.com&lt;/h2&gt;
+&lt;p&gt;100% free&lt;/p&gt;
+
+&lt;h2 id=&quot;imagevenuecom&quot;&gt;imagevenue.com&lt;/h2&gt;
+&lt;p&gt;100% free&lt;/p&gt;
+
+&lt;p&gt;Image types allowed: jpeg, jpg&lt;/p&gt;
+
+&lt;p&gt;Max file size: 10MB&lt;/p&gt;
+
+&lt;p&gt;Unlimited storage hosting period&lt;/p&gt;
+
+&lt;p&gt;Unlimited bandwidth&lt;/p&gt;
+
+&lt;p&gt;No registration required&lt;/p&gt;
+
+&lt;h2 id=&quot;onedrivelivecom&quot;&gt;onedrive.live.com&lt;/h2&gt;
+&lt;p&gt;5Gb Storage&lt;/p&gt;
+
+&lt;h2 id=&quot;dropboxcom&quot;&gt;dropbox.com&lt;/h2&gt;
+&lt;p&gt;2Gb Storage&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>deadblox</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="web" />
+      
+
+      
+        <summary type="html">When you want to share a photo or a gallery with friends, family, a message board, or even the entire Internet, an image hosting site is the best way to upload, store, and share your files. However, there are many image hosting sites, all with different features. The best site for you will depend on how many photos you need to upload, how much time you want to spend uploading, and the reason you’re uploading the photos.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
