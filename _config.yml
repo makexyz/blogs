@@ -12,9 +12,9 @@ baseurl: '/'
 title: MakeXYZ
 description: Make anything fun
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+logo: assets/images/makexyz-logo-white.png
+logo_dark: assets/images/makexyz-favicon.png
+favicon: assets/images/makexyz-favicon.png
 CNAME: makexyz.fun
 
 # Social info
