@@ -68,12 +68,12 @@ feed:
 safe: False
 lsi: False
 username: makexyz
-repo: makexyz.github.io         # https://github.com/makexyz/makexyz.github.io
+repo: blogs         
 branch: master
 relative_source: ../makexyz.github.io/
 destination: ../makexyz-pages/
 production_url:  https://makexyz.fun/
-source_url:  https://github.com/makexyz/makexyz.github.io/
+source_url:  https://github.com/makexyz/blogs/
 
 # master | gh-pages
 # https://github.com/jekyller/jasper2/
