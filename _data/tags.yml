@@ -30,3 +30,7 @@ scratch:
   name: scratch
   description: Scratch is a block-based coding to make 2D animations and games
   cover: False
+jekyll:
+  name: jekyll
+  description: Jekyll is a static site generator
+  cover: False
