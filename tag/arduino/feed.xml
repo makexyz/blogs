@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="/tag/arduino/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="/" rel="alternate" type="text/html" />
-  <updated>2020-05-19T04:42:55+00:00</updated>
-  <id>/tag/arduino/feed.xml</id>
+  <link href="https://makexyz.fun//tag/arduino/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://makexyz.fun//" rel="alternate" type="text/html" />
+  <updated>2020-05-19T05:23:12+00:00</updated>
+  <id>https://makexyz.fun//tag/arduino/feed.xml</id>
 
   
   
@@ -35,11 +35,11 @@
   
     <entry>
       <title type="html">Arduino là cái gì?</title>
-      <link href="/arduino-la-gi" rel="alternate" type="text/html" title="Arduino là cái gì?" />
+      <link href="https://makexyz.fun//arduino-la-gi" rel="alternate" type="text/html" title="Arduino là cái gì?" />
       <published>2018-02-18T15:20:00+00:00</published>
       <updated>2018-02-18T15:20:00+00:00</updated>
-      <id>/arduino-la-gi</id>
-      <content type="html" xml:base="/arduino-la-gi">&lt;p&gt;Chắc chắn hồi còn bé xíu, bạn, mình và rất rất nhiều người khác nữa đều thích chơi lắp ráp. Từ những miếng gỗ, hoặc từ những mảnh Lego nhỏ, mình có thể xếp thành bất kì mô hình nào mà mình thấy thích thú. Mình nhớ hồi còn học tiểu học, Lego có về trường mình và tổ chức một cuộc thi lắp ráp nho nhỏ. Tất cả học sinh ngồi chung với nhau, các mảnh Lego được đổ tràn ra và mọi người có quyền chọn lựa bất kì mảnh ghép nào để ráp thành ý tưởng của mình. Và, rất rất nhiều ý tưởng thú vị, cách sắp xếp thú vị được tạo ra từ những mảnh vuông cơ bản ấy: lâu đài, máy bay, tàu, xe tăng, …và rất rất nhiều mô hình tuyệt đẹp khác nữa.&lt;/p&gt;
+      <id>https://makexyz.fun//arduino-la-gi</id>
+      <content type="html" xml:base="https://makexyz.fun//arduino-la-gi">&lt;p&gt;Chắc chắn hồi còn bé xíu, bạn, mình và rất rất nhiều người khác nữa đều thích chơi lắp ráp. Từ những miếng gỗ, hoặc từ những mảnh Lego nhỏ, mình có thể xếp thành bất kì mô hình nào mà mình thấy thích thú. Mình nhớ hồi còn học tiểu học, Lego có về trường mình và tổ chức một cuộc thi lắp ráp nho nhỏ. Tất cả học sinh ngồi chung với nhau, các mảnh Lego được đổ tràn ra và mọi người có quyền chọn lựa bất kì mảnh ghép nào để ráp thành ý tưởng của mình. Và, rất rất nhiều ý tưởng thú vị, cách sắp xếp thú vị được tạo ra từ những mảnh vuông cơ bản ấy: lâu đài, máy bay, tàu, xe tăng, …và rất rất nhiều mô hình tuyệt đẹp khác nữa.&lt;/p&gt;
 
 &lt;h2 id=&quot;stop-stop-sao-dài-dòng-vậy-rốt-cục-arduino-là-cái-quái-gì&quot;&gt;STOP! STOP! Sao dài dòng vậy, rốt cục Arduino là cái quái gì?&lt;/h2&gt;
 

@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="/tag/jekyll/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="/" rel="alternate" type="text/html" />
-  <updated>2020-05-19T04:42:55+00:00</updated>
-  <id>/tag/jekyll/feed.xml</id>
+  <link href="https://makexyz.fun//tag/jekyll/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://makexyz.fun//" rel="alternate" type="text/html" />
+  <updated>2020-05-19T05:23:12+00:00</updated>
+  <id>https://makexyz.fun//tag/jekyll/feed.xml</id>
 
   
   
@@ -35,11 +35,11 @@
   
     <entry>
       <title type="html">Giới thiệu theme Jekyll Mediumish siêu đẹp</title>
-      <link href="/gioi-thieu-theme-mediumish-jekyll" rel="alternate" type="text/html" title="Giới thiệu theme Jekyll Mediumish siêu đẹp" />
+      <link href="https://makexyz.fun//gioi-thieu-theme-mediumish-jekyll" rel="alternate" type="text/html" title="Giới thiệu theme Jekyll Mediumish siêu đẹp" />
       <published>2020-02-28T15:00:00+00:00</published>
       <updated>2020-02-28T15:00:00+00:00</updated>
-      <id>/gioi-thieu-theme-mediumish-jekyll</id>
-      <content type="html" xml:base="/gioi-thieu-theme-mediumish-jekyll">&lt;h2 id=&quot;tính-năng&quot;&gt;Tính năng&lt;/h2&gt;
+      <id>https://makexyz.fun//gioi-thieu-theme-mediumish-jekyll</id>
+      <content type="html" xml:base="https://makexyz.fun//gioi-thieu-theme-mediumish-jekyll">&lt;h2 id=&quot;tính-năng&quot;&gt;Tính năng&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Được xây dựng cho Jekyll&lt;/li&gt;
@@ -222,11 +222,11 @@ toc: true
   
     <entry>
       <title type="html">Thêm và chỉnh sửa nội dung Jekyll Post trực tuyến</title>
-      <link href="/them-va-chinh-sua-noi-dung-jekyll-post-online" rel="alternate" type="text/html" title="Thêm và chỉnh sửa nội dung Jekyll Post trực tuyến" />
+      <link href="https://makexyz.fun//them-va-chinh-sua-noi-dung-jekyll-post-online" rel="alternate" type="text/html" title="Thêm và chỉnh sửa nội dung Jekyll Post trực tuyến" />
       <published>2020-02-23T15:20:00+00:00</published>
       <updated>2020-02-23T15:20:00+00:00</updated>
-      <id>/them-va-chinh-sua-noi-dung-jekyll-post-online</id>
-      <content type="html" xml:base="/them-va-chinh-sua-noi-dung-jekyll-post-online">&lt;p&gt;Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.&lt;/p&gt;
+      <id>https://makexyz.fun//them-va-chinh-sua-noi-dung-jekyll-post-online</id>
+      <content type="html" xml:base="https://makexyz.fun//them-va-chinh-sua-noi-dung-jekyll-post-online">&lt;p&gt;Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.&lt;/p&gt;
 
 &lt;p&gt;Prose.io là một công cụ đáng tin cậy để chỉnh sửa các bài post. Giao diện, chức năng và thậm chí là hiệu ứng đều tốt. Bạn muốn up ảnh trực tiếp lên Github ử? Prose.io sẽ giúp bạn.
 Khi bạn đăng nhập vào Prose, bạn sẽ thấy yêu cầu cho phép Prose chỉnh sửa repository (gọi tắt là repo) của bạn trên Github.&lt;/p&gt;
@@ -295,11 +295,11 @@ Khi bạn đăng nhập vào Prose, bạn sẽ thấy yêu cầu cho phép Prose
   
     <entry>
       <title type="html">Powerful things you can do with the Markdown editor</title>
-      <link href="/powerful-things-markdown-editor" rel="alternate" type="text/html" title="Powerful things you can do with the Markdown editor" />
+      <link href="https://makexyz.fun//powerful-things-markdown-editor" rel="alternate" type="text/html" title="Powerful things you can do with the Markdown editor" />
       <published>2018-06-12T15:20:00+00:00</published>
       <updated>2018-06-12T15:20:00+00:00</updated>
-      <id>/powerful-things-markdown-editor</id>
-      <content type="html" xml:base="/powerful-things-markdown-editor">&lt;p&gt;There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
+      <id>https://makexyz.fun//powerful-things-markdown-editor</id>
+      <content type="html" xml:base="https://makexyz.fun//powerful-things-markdown-editor">&lt;p&gt;There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
 
 &lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
 
@@ -415,11 +415,11 @@ Khi bạn đăng nhập vào Prose, bạn sẽ thấy yêu cầu cho phép Prose
   
     <entry>
       <title type="html">About Bundler</title>
-      <link href="/about-bundler" rel="alternate" type="text/html" title="About Bundler" />
+      <link href="https://makexyz.fun//about-bundler" rel="alternate" type="text/html" title="About Bundler" />
       <published>2018-05-12T10:18:00+00:00</published>
       <updated>2018-05-12T10:18:00+00:00</updated>
-      <id>/about-bundler</id>
-      <content type="html" xml:base="/about-bundler">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt; installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:&lt;/p&gt;
+      <id>https://makexyz.fun//about-bundler</id>
+      <content type="html" xml:base="https://makexyz.fun//about-bundler">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt; installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundler&lt;/code&gt; is a gem that manages other Ruby gems. It makes sure your gems and gem versions are compatible, and that you have all necessary dependencies each gem requires.&lt;/p&gt;
 
@@ -457,11 +457,11 @@ Khi bạn đăng nhập vào Prose, bạn sẽ thấy yêu cầu cho phép Prose
   
     <entry>
       <title type="html">Options for creating a new site with Jekyll</title>
-      <link href="/options-for-creating-new-site-with-jekyll" rel="alternate" type="text/html" title="Options for creating a new site with Jekyll" />
+      <link href="https://makexyz.fun//options-for-creating-new-site-with-jekyll" rel="alternate" type="text/html" title="Options for creating a new site with Jekyll" />
       <published>2018-01-12T10:00:00+00:00</published>
       <updated>2018-01-12T10:00:00+00:00</updated>
-      <id>/options-for-creating-new-site-with-jekyll</id>
-      <content type="html" xml:base="/options-for-creating-new-site-with-jekyll">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
+      <id>https://makexyz.fun//options-for-creating-new-site-with-jekyll</id>
+      <content type="html" xml:base="https://makexyz.fun//options-for-creating-new-site-with-jekyll">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;To install the Jekyll site into the directory you’re currently in, run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; . If the existing directory isn’t empty, you can pass the –force option with jekyll new . –force.&lt;/li&gt;

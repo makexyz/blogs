@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="/author/deadblox/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="/" rel="alternate" type="text/html" />
-  <updated>2020-05-19T04:42:55+00:00</updated>
-  <id>/author/deadblox/feed.xml</id>
+  <link href="https://makexyz.fun//author/deadblox/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://makexyz.fun//" rel="alternate" type="text/html" />
+  <updated>2020-05-19T05:23:12+00:00</updated>
+  <id>https://makexyz.fun//author/deadblox/feed.xml</id>
 
   
   
@@ -35,11 +35,11 @@
   
     <entry>
       <title type="html">Lỗi đơn vị kích thước tuyệt đối trong App Inventor</title>
-      <link href="/absolute-dimension-in-appinventor" rel="alternate" type="text/html" title="Lỗi đơn vị kích thước tuyệt đối trong App Inventor" />
+      <link href="https://makexyz.fun//absolute-dimension-in-appinventor" rel="alternate" type="text/html" title="Lỗi đơn vị kích thước tuyệt đối trong App Inventor" />
       <published>2020-03-02T10:18:00+00:00</published>
       <updated>2020-03-02T10:18:00+00:00</updated>
-      <id>/absolute-dimension-in-appinventor</id>
-      <content type="html" xml:base="/absolute-dimension-in-appinventor">&lt;p&gt;Bài viết này chỉ ra 1 lỗi sai nghiêm trọng về đơn vị đo sẽ khiến các bạn không kiểu gì hình dung được tại sao mình thiết kế một đằng nhưng App Inventor lại hiển thị một nẻo trong Responsive Mode.&lt;/p&gt;
+      <id>https://makexyz.fun//absolute-dimension-in-appinventor</id>
+      <content type="html" xml:base="https://makexyz.fun//absolute-dimension-in-appinventor">&lt;p&gt;Bài viết này chỉ ra 1 lỗi sai nghiêm trọng về đơn vị đo sẽ khiến các bạn không kiểu gì hình dung được tại sao mình thiết kế một đằng nhưng App Inventor lại hiển thị một nẻo trong Responsive Mode.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.ibb.co/vLZbkg3/Screen-Sizing.png&quot; alt=&quot;Screen Sizing in App Inventor&quot; /&gt;&lt;/p&gt;
 
@@ -116,11 +116,11 @@
   
     <entry>
       <title type="html">Giới thiệu theme Jekyll Mediumish siêu đẹp</title>
-      <link href="/gioi-thieu-theme-mediumish-jekyll" rel="alternate" type="text/html" title="Giới thiệu theme Jekyll Mediumish siêu đẹp" />
+      <link href="https://makexyz.fun//gioi-thieu-theme-mediumish-jekyll" rel="alternate" type="text/html" title="Giới thiệu theme Jekyll Mediumish siêu đẹp" />
       <published>2020-02-28T15:00:00+00:00</published>
       <updated>2020-02-28T15:00:00+00:00</updated>
-      <id>/gioi-thieu-theme-mediumish-jekyll</id>
-      <content type="html" xml:base="/gioi-thieu-theme-mediumish-jekyll">&lt;h2 id=&quot;tính-năng&quot;&gt;Tính năng&lt;/h2&gt;
+      <id>https://makexyz.fun//gioi-thieu-theme-mediumish-jekyll</id>
+      <content type="html" xml:base="https://makexyz.fun//gioi-thieu-theme-mediumish-jekyll">&lt;h2 id=&quot;tính-năng&quot;&gt;Tính năng&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Được xây dựng cho Jekyll&lt;/li&gt;
@@ -303,11 +303,11 @@ toc: true
   
     <entry>
       <title type="html">Thêm và chỉnh sửa nội dung Jekyll Post trực tuyến</title>
-      <link href="/them-va-chinh-sua-noi-dung-jekyll-post-online" rel="alternate" type="text/html" title="Thêm và chỉnh sửa nội dung Jekyll Post trực tuyến" />
+      <link href="https://makexyz.fun//them-va-chinh-sua-noi-dung-jekyll-post-online" rel="alternate" type="text/html" title="Thêm và chỉnh sửa nội dung Jekyll Post trực tuyến" />
       <published>2020-02-23T15:20:00+00:00</published>
       <updated>2020-02-23T15:20:00+00:00</updated>
-      <id>/them-va-chinh-sua-noi-dung-jekyll-post-online</id>
-      <content type="html" xml:base="/them-va-chinh-sua-noi-dung-jekyll-post-online">&lt;p&gt;Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.&lt;/p&gt;
+      <id>https://makexyz.fun//them-va-chinh-sua-noi-dung-jekyll-post-online</id>
+      <content type="html" xml:base="https://makexyz.fun//them-va-chinh-sua-noi-dung-jekyll-post-online">&lt;p&gt;Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.&lt;/p&gt;
 
 &lt;p&gt;Prose.io là một công cụ đáng tin cậy để chỉnh sửa các bài post. Giao diện, chức năng và thậm chí là hiệu ứng đều tốt. Bạn muốn up ảnh trực tiếp lên Github ử? Prose.io sẽ giúp bạn.
 Khi bạn đăng nhập vào Prose, bạn sẽ thấy yêu cầu cho phép Prose chỉnh sửa repository (gọi tắt là repo) của bạn trên Github.&lt;/p&gt;
@@ -376,11 +376,11 @@ Khi bạn đăng nhập vào Prose, bạn sẽ thấy yêu cầu cho phép Prose
   
     <entry>
       <title type="html">What is an API?</title>
-      <link href="/what-is-an-api" rel="alternate" type="text/html" title="What is an API?" />
+      <link href="https://makexyz.fun//what-is-an-api" rel="alternate" type="text/html" title="What is an API?" />
       <published>2020-02-21T15:20:00+00:00</published>
       <updated>2020-02-21T15:20:00+00:00</updated>
-      <id>/what-is-an-api</id>
-      <content type="html" xml:base="/what-is-an-api">&lt;h2 id=&quot;what-is-an-api-application-programming-interface&quot;&gt;What is an API? (Application Programming Interface)&lt;/h2&gt;
+      <id>https://makexyz.fun//what-is-an-api</id>
+      <content type="html" xml:base="https://makexyz.fun//what-is-an-api">&lt;h2 id=&quot;what-is-an-api-application-programming-interface&quot;&gt;What is an API? (Application Programming Interface)&lt;/h2&gt;
 &lt;p&gt;API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-an-example-of-an-api&quot;&gt;What Is an Example of an API?&lt;/h2&gt;
@@ -440,11 +440,11 @@ Imagine you’re sitting at a table in a restaurant with a menu of choices to or
   
     <entry>
       <title type="html">Best Free Image Host Compare In 2020</title>
-      <link href="/free-image-host-compare" rel="alternate" type="text/html" title="Best Free Image Host Compare In 2020" />
+      <link href="https://makexyz.fun//free-image-host-compare" rel="alternate" type="text/html" title="Best Free Image Host Compare In 2020" />
       <published>2020-02-19T15:20:00+00:00</published>
       <updated>2020-02-19T15:20:00+00:00</updated>
-      <id>/free-image-host-compare</id>
-      <content type="html" xml:base="/free-image-host-compare">&lt;p&gt;When you want to share a photo or a gallery with friends, family, a message board, or even the entire Internet, an image hosting site is the best way to upload, store, and share your files. However, there are many image hosting sites, all with different features. The best site for you will depend on how many photos you need to upload, how much time you want to spend uploading, and the reason you’re uploading the photos.&lt;/p&gt;
+      <id>https://makexyz.fun//free-image-host-compare</id>
+      <content type="html" xml:base="https://makexyz.fun//free-image-host-compare">&lt;p&gt;When you want to share a photo or a gallery with friends, family, a message board, or even the entire Internet, an image hosting site is the best way to upload, store, and share your files. However, there are many image hosting sites, all with different features. The best site for you will depend on how many photos you need to upload, how much time you want to spend uploading, and the reason you’re uploading the photos.&lt;/p&gt;
 
 &lt;p&gt;Of course if you are a professional photographer then you may want to consider using a portfolio web builder or building your own website with WordPress and paying for web hosting. You can also use a number of free online portfolio creators to do the job as well.&lt;/p&gt;
 
@@ -520,11 +520,11 @@ Imagine you’re sitting at a table in a restaurant with a menu of choices to or
   
     <entry>
       <title type="html">Powerful things you can do with the Markdown editor</title>
-      <link href="/powerful-things-markdown-editor" rel="alternate" type="text/html" title="Powerful things you can do with the Markdown editor" />
+      <link href="https://makexyz.fun//powerful-things-markdown-editor" rel="alternate" type="text/html" title="Powerful things you can do with the Markdown editor" />
       <published>2018-06-12T15:20:00+00:00</published>
       <updated>2018-06-12T15:20:00+00:00</updated>
-      <id>/powerful-things-markdown-editor</id>
-      <content type="html" xml:base="/powerful-things-markdown-editor">&lt;p&gt;There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
+      <id>https://makexyz.fun//powerful-things-markdown-editor</id>
+      <content type="html" xml:base="https://makexyz.fun//powerful-things-markdown-editor">&lt;p&gt;There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
 
 &lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
 
@@ -640,11 +640,11 @@ Imagine you’re sitting at a table in a restaurant with a menu of choices to or
   
     <entry>
       <title type="html">About Bundler</title>
-      <link href="/about-bundler" rel="alternate" type="text/html" title="About Bundler" />
+      <link href="https://makexyz.fun//about-bundler" rel="alternate" type="text/html" title="About Bundler" />
       <published>2018-05-12T10:18:00+00:00</published>
       <updated>2018-05-12T10:18:00+00:00</updated>
-      <id>/about-bundler</id>
-      <content type="html" xml:base="/about-bundler">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt; installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:&lt;/p&gt;
+      <id>https://makexyz.fun//about-bundler</id>
+      <content type="html" xml:base="https://makexyz.fun//about-bundler">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt; installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundler&lt;/code&gt; is a gem that manages other Ruby gems. It makes sure your gems and gem versions are compatible, and that you have all necessary dependencies each gem requires.&lt;/p&gt;
 
@@ -682,11 +682,11 @@ Imagine you’re sitting at a table in a restaurant with a menu of choices to or
   
     <entry>
       <title type="html">Arduino là cái gì?</title>
-      <link href="/arduino-la-gi" rel="alternate" type="text/html" title="Arduino là cái gì?" />
+      <link href="https://makexyz.fun//arduino-la-gi" rel="alternate" type="text/html" title="Arduino là cái gì?" />
       <published>2018-02-18T15:20:00+00:00</published>
       <updated>2018-02-18T15:20:00+00:00</updated>
-      <id>/arduino-la-gi</id>
-      <content type="html" xml:base="/arduino-la-gi">&lt;p&gt;Chắc chắn hồi còn bé xíu, bạn, mình và rất rất nhiều người khác nữa đều thích chơi lắp ráp. Từ những miếng gỗ, hoặc từ những mảnh Lego nhỏ, mình có thể xếp thành bất kì mô hình nào mà mình thấy thích thú. Mình nhớ hồi còn học tiểu học, Lego có về trường mình và tổ chức một cuộc thi lắp ráp nho nhỏ. Tất cả học sinh ngồi chung với nhau, các mảnh Lego được đổ tràn ra và mọi người có quyền chọn lựa bất kì mảnh ghép nào để ráp thành ý tưởng của mình. Và, rất rất nhiều ý tưởng thú vị, cách sắp xếp thú vị được tạo ra từ những mảnh vuông cơ bản ấy: lâu đài, máy bay, tàu, xe tăng, …và rất rất nhiều mô hình tuyệt đẹp khác nữa.&lt;/p&gt;
+      <id>https://makexyz.fun//arduino-la-gi</id>
+      <content type="html" xml:base="https://makexyz.fun//arduino-la-gi">&lt;p&gt;Chắc chắn hồi còn bé xíu, bạn, mình và rất rất nhiều người khác nữa đều thích chơi lắp ráp. Từ những miếng gỗ, hoặc từ những mảnh Lego nhỏ, mình có thể xếp thành bất kì mô hình nào mà mình thấy thích thú. Mình nhớ hồi còn học tiểu học, Lego có về trường mình và tổ chức một cuộc thi lắp ráp nho nhỏ. Tất cả học sinh ngồi chung với nhau, các mảnh Lego được đổ tràn ra và mọi người có quyền chọn lựa bất kì mảnh ghép nào để ráp thành ý tưởng của mình. Và, rất rất nhiều ý tưởng thú vị, cách sắp xếp thú vị được tạo ra từ những mảnh vuông cơ bản ấy: lâu đài, máy bay, tàu, xe tăng, …và rất rất nhiều mô hình tuyệt đẹp khác nữa.&lt;/p&gt;
 
 &lt;h2 id=&quot;stop-stop-sao-dài-dòng-vậy-rốt-cục-arduino-là-cái-quái-gì&quot;&gt;STOP! STOP! Sao dài dòng vậy, rốt cục Arduino là cái quái gì?&lt;/h2&gt;
 
@@ -745,11 +745,11 @@ Arduino.vn nói là tận lớp 11, còn mình thì nghĩ là Arduino d
   
     <entry>
       <title type="html">Options for creating a new site with Jekyll</title>
-      <link href="/options-for-creating-new-site-with-jekyll" rel="alternate" type="text/html" title="Options for creating a new site with Jekyll" />
+      <link href="https://makexyz.fun//options-for-creating-new-site-with-jekyll" rel="alternate" type="text/html" title="Options for creating a new site with Jekyll" />
       <published>2018-01-12T10:00:00+00:00</published>
       <updated>2018-01-12T10:00:00+00:00</updated>
-      <id>/options-for-creating-new-site-with-jekyll</id>
-      <content type="html" xml:base="/options-for-creating-new-site-with-jekyll">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
+      <id>https://makexyz.fun//options-for-creating-new-site-with-jekyll</id>
+      <content type="html" xml:base="https://makexyz.fun//options-for-creating-new-site-with-jekyll">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;To install the Jekyll site into the directory you’re currently in, run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; . If the existing directory isn’t empty, you can pass the –force option with jekyll new . –force.&lt;/li&gt;
