@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: https://i.ibb.co/n6t2Nhv/px-vs-dp.jpg
+cover: https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/07/1469372858Screenshot-2016-07-24-11.07.05.png
 navigation: True
 title: About Bundler
 date: 2018-05-12 10:18:00
