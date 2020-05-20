@@ -2,12 +2,12 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number
-language: 'en-uk'
-words_per_minute: 160
+language: "en-uk"
+words_per_minute: 100
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: '/'
-url: 'https://makexyz.fun/'
+baseurl: "/"
+url: "https://makexyz.fun/"
 
 # Website info
 title: MakeXYZ
@@ -25,6 +25,7 @@ subscribers: True # you need to connect an external service for this to work,
 # by editing `_includes/subscribe-form.html`
 twitter: makexyz1 # replace by your username
 facebook: idea4xyz # replace by your username
+youtube: UC4v28AauStqzl2rwNGl9QcA # replace by channel id
 
 # Disqus
 disqus: False
@@ -69,13 +70,12 @@ feed:
 safe: False
 lsi: False
 username: makexyz
-repo: blogs         
+repo: blogs
 branch: master
 relative_source: ../makexyz.github.io/
 destination: ../makexyz-pages/
-production_url:  https://makexyz.fun/
-source_url:  https://github.com/makexyz/blogs/
-
+production_url: https://makexyz.fun/
+source_url: https://github.com/makexyz/blogs/
 
 exclude:
   - assets/css
