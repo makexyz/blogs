@@ -26,6 +26,7 @@ subscribers: True # you need to connect an external service for this to work,
 twitter: makexyz1 # replace by your username
 facebook: idea4xyz # replace by your username
 youtube: UC4v28AauStqzl2rwNGl9QcA # replace by channel id
+mailchimp-list: 'https://github.us4.list-manage.com/subscribe/post?u=1e7c95a3add95b4fa6c8370b6&amp;id=f6bdd71be8'
 
 # Disqus
 disqus: False
@@ -33,6 +34,11 @@ disqus_shortname: jekyller # replace with your disqus username
 
 # Google Analytics
 google_analytics: UA-80610711-1 # replace with your GA tracking identifier
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-2522773707742607"
+# adsense-data-ad-slot: "1363087678"
 
 # Permalinks
 permalink: /:title
