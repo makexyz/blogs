@@ -128,6 +128,11 @@
         {% include page-scripts.html %}
     {% endif %}
 
+    <!-- Add Google Adsense -->
+    {% if site.adsense == "enabled" %}
+        {% include adsense-under-header.html %}
+    {% endif %}
+
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
     <!-- ghost_foot -->
 
