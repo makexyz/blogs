@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://makexyz.fun//author/deadblox/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://makexyz.fun//" rel="alternate" type="text/html" />
-  <updated>2020-05-25T02:21:10+00:00</updated>
+  <updated>2020-05-25T02:42:33+00:00</updated>
   <id>https://makexyz.fun//author/deadblox/feed.xml</id>
 
   
@@ -786,8 +786,8 @@ Arduino.vn nói là tận lớp 11, còn mình thì nghĩ là Arduino d
     </entry>
   
     <entry>
-      <title type="html">Một Tựa Game Tuyệt Vời Trên Scratch</title>
-      <link href="https://makexyz.fun//what-is-roblox" rel="alternate" type="text/html" title="Một Tựa Game Tuyệt Vời Trên Scratch" />
+      <title type="html">Vũ trụ Roblox</title>
+      <link href="https://makexyz.fun//what-is-roblox" rel="alternate" type="text/html" title="Vũ trụ Roblox" />
       <published>2012-05-19T10:00:00+00:00</published>
       <updated>2012-05-19T10:00:00+00:00</updated>
       <id>https://makexyz.fun//what-is-roblox</id>
@@ -796,6 +796,11 @@ Arduino.vn nói là tận lớp 11, còn mình thì nghĩ là Arduino d
 &lt;p&gt;Nó là một trò chơi? Về mặt kỹ thuật đây không phải là một trò chơi. Nó là một môi trường ảo dành cho trẻ em chơi game. Để dễ hình dung, bạn hãy tưởng tượng Roblox giống như một như một Google Play Store hay Apple App Store, nơi bạn có thể tải hàng triệu ứng dụng về cài đặt lên điện thoại. Người dùng tải ứng dụng Roblox về máy tính hoặc điện thoại của mình rồi chọn một trò chơi trên Roblox để chơi. Bạn có thể ngạc nhiên khi biết rằng số lượng trò chơi trên môi trường này đã vượt qua con số 50 triệu.&lt;/p&gt;
 
 &lt;p&gt;Con số lớn đến vậy là do các nhà sản xuất Roblox đã cung cấp các công cụ cần thiết để giúp người chơi tạo ra các trò chơi từ trí tưởng tượng của mình. Với số lượng trò chơi nhiều khủng khiếp, con của các bạn chắc chắn sẽ tìm thấy thứ khiến con thích thú. Ngoài việc là một môi trường chơi game, Roblox cũng hoạt động như một nền tảng xã hội nhỏ, tạo cơ hội cho các bạn trò chuyện và tìm thêm bạn bè. Tóm lại, Roblox cho phép người chơi tưởng tượng, giao tiếp, trò chuyện, chơi, sáng tạo, tương tác với người khác theo nhiều cách. Đây là thứ mà mọi người lớn làm trong thế giới thật!&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;img src=&quot;/images/my-cat.jpg&quot; alt=&quot;My cat, Robert Downey Jr.&quot; /&gt;
+    &lt;figcaption&gt;My cat, Robert Downey Jr.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zwyGPW7Zp4k&quot; title=&quot;Roblox - About Us&quot;&gt;&lt;img src=&quot;https://i.ibb.co/S734tNr/roblox-about-us.png&quot; alt=&quot;what-is-roblox&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -806,6 +811,16 @@ Arduino.vn nói là tận lớp 11, còn mình thì nghĩ là Arduino d
 &lt;p&gt;Mặc dù Roblox ít phổ biến hơn YouTube ở giới trẻ, nhưng Roblox đã nhận thấy tầm quan trọng của YouTube trong việc xây dựng cộng đồng của mình. Các game thủ Roblox ghi lại các trò chơi của mình và chia sẻ chúng thông qua YouTube. Roblox tuyên bố rằng hầu hết người chơi biết đến Roblox thông qua truyền miệng: Khi một đứa trẻ thích chơi trò chơi nào thì con sẽ mời bạn bè của mình tham gia. Những bạn mới tham gia Roblox, một lần nữa, cũng nói với bạn bè của mình.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.ibb.co/ysNyWZH/how-popular-roblox.png&quot; alt=&quot;how-popular-roblox-is&quot; title=&quot;Hàng trăm triệu người đang sáng tạo và xây dựng trong thế giới Roblox và con số tăng lên mỗi ngày&quot; /&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;img src=&quot;https://i.ibb.co/ysNyWZH/how-popular-roblox.png&quot; alt=&quot;Hàng trăm triệu người đang sáng tạo và xây dựng trong thế giới Roblox và con số tăng lên mỗi ngày&quot; /&gt;
+    &lt;figcaption&gt;Hàng trăm triệu người đang sáng tạo và xây dựng trong thế giới Roblox và con số tăng lên mỗi ngày&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://i.ibb.co/ysNyWZH/how-popular-roblox.png&quot; alt=&quot;how-popular-roblox-is&quot; /&gt;
+  &lt;figcaption&gt;Hàng trăm triệu người đang sáng tạo và xây dựng trong thế giới Roblox và con số tăng lên mỗi ngày.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;Roblox không phải là một trò chơi để người chơi quấn kén trong phòng, bị cô lập về mặt xã hội. Nó là một môi trường trò chơi nơi người chơi tham gia với bạn bè của mình trong một xã hội thu nhỏ khác. Trẻ em thích Roblox vì nó có số lượng trò chơi khổng lồ. Ngoài ra, cách mà bạn nhỏ trải nghiệm Roblox cũng khá giống với cái cách bạn trải nghiệm Lego: Bạn có thể theo dõi những trò chơi bạn đang chơi, thu thập huy hiệu và sáng tạo cả một vũ trụ trực tuyến của riêng bạn.&lt;/p&gt;
 
