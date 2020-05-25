@@ -33,12 +33,8 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     {% include head.html %}
 
-    <!-- Add Google Adsense -->
-        {% if site.adsense == "enabled" %}
-        {% include adsense-under-header.html %}
-    {% endif %}
-
 </head>
+
 <body class="{% if paginator.page > 1 %}paged archive-template{% elsif page.class %}{{ page.class }}{% else %}home-template{% endif %}">
 
     <div class="site-wrapper">
@@ -131,6 +127,11 @@
         {% include post-scripts.html %}
     {% elsif page.class == "page-template" %}
         {% include page-scripts.html %}
+    {% endif %}
+
+    <!-- Add Google Adsense -->
+    {% if site.adsense == "enabled" %}
+        {% include adsense-under-header.html %}
     {% endif %}
 
 </body>
