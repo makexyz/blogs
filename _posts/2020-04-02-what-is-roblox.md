@@ -20,8 +20,6 @@ Nó là một trò chơi? Về mặt kỹ thuật đây không phải là một 
 
 Con số lớn đến vậy là do các nhà sản xuất Roblox đã cung cấp các công cụ cần thiết để giúp người chơi tạo ra các trò chơi từ trí tưởng tượng của mình. Với số lượng trò chơi nhiều khủng khiếp, con của các bạn chắc chắn sẽ tìm thấy thứ khiến con thích thú. Ngoài việc là một môi trường chơi game, Roblox cũng hoạt động như một nền tảng xã hội nhỏ, tạo cơ hội cho các bạn trò chuyện và tìm thêm bạn bè. Tóm lại, Roblox cho phép người chơi tưởng tượng, giao tiếp, trò chuyện, chơi, sáng tạo, tương tác với người khác theo nhiều cách. Đây là thứ mà mọi người lớn làm trong thế giới thật!
 
-{% include image.html url="/images/my-cat.jpg" description="My cat, Robert Downey Jr." %}
-
 [![what-is-roblox](https://i.ibb.co/S734tNr/roblox-about-us.png)](https://www.youtube.com/watch?v=zwyGPW7Zp4k "Roblox - About Us")
 
 ## Roblox phổ biến như thế nào?
