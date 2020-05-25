@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: https://www.gizlogic.com/wp-content/uploads/2020/05/Roblox.jpg
 navigation: True
-title: Một Tựa Game Tuyệt Vời Trên Scratch
+title: Vũ trụ Roblox
 date: 2012-05-19 10:00:00
 tags: scratch
 class: post-template
@@ -18,6 +18,8 @@ Nó là một trò chơi? Về mặt kỹ thuật đây không phải là một 
 
 Con số lớn đến vậy là do các nhà sản xuất Roblox đã cung cấp các công cụ cần thiết để giúp người chơi tạo ra các trò chơi từ trí tưởng tượng của mình. Với số lượng trò chơi nhiều khủng khiếp, con của các bạn chắc chắn sẽ tìm thấy thứ khiến con thích thú. Ngoài việc là một môi trường chơi game, Roblox cũng hoạt động như một nền tảng xã hội nhỏ, tạo cơ hội cho các bạn trò chuyện và tìm thêm bạn bè. Tóm lại, Roblox cho phép người chơi tưởng tượng, giao tiếp, trò chuyện, chơi, sáng tạo, tương tác với người khác theo nhiều cách. Đây là thứ mà mọi người lớn làm trong thế giới thật!
 
+{% include image.html url="/images/my-cat.jpg" description="My cat, Robert Downey Jr." %}
+
 [![what-is-roblox](https://i.ibb.co/S734tNr/roblox-about-us.png)](https://www.youtube.com/watch?v=zwyGPW7Zp4k "Roblox - About Us")
 
 ## Roblox phổ biến như thế nào?
@@ -27,6 +29,15 @@ Roblox phổ biến với trẻ em ở cả hai giới, với khoảng 40% là n
 Mặc dù Roblox ít phổ biến hơn YouTube ở giới trẻ, nhưng Roblox đã nhận thấy tầm quan trọng của YouTube trong việc xây dựng cộng đồng của mình. Các game thủ Roblox ghi lại các trò chơi của mình và chia sẻ chúng thông qua YouTube. Roblox tuyên bố rằng hầu hết người chơi biết đến Roblox thông qua truyền miệng: Khi một đứa trẻ thích chơi trò chơi nào thì con sẽ mời bạn bè của mình tham gia. Những bạn mới tham gia Roblox, một lần nữa, cũng nói với bạn bè của mình.
 
 ![how-popular-roblox-is](https://i.ibb.co/ysNyWZH/how-popular-roblox.png "Hàng trăm triệu người đang sáng tạo và xây dựng trong thế giới Roblox và con số tăng lên mỗi ngày")
+
+{% include image.html url="https://i.ibb.co/ysNyWZH/how-popular-roblox.png" alt="how-popular-roblox-is" description="Hàng trăm triệu người đang sáng tạo và xây dựng trong thế giới Roblox và con số tăng lên mỗi ngày" %}
+
+
+<figure>
+  <img src="https://i.ibb.co/ysNyWZH/how-popular-roblox.png" alt="how-popular-roblox-is"/>
+  <figcaption>Hàng trăm triệu người đang sáng tạo và xây dựng trong thế giới Roblox và con số tăng lên mỗi ngày.</figcaption>
+</figure>
+
 
 Roblox không phải là một trò chơi để người chơi quấn kén trong phòng, bị cô lập về mặt xã hội. Nó là một môi trường trò chơi nơi người chơi tham gia với bạn bè của mình trong một xã hội thu nhỏ khác. Trẻ em thích Roblox vì nó có số lượng trò chơi khổng lồ. Ngoài ra, cách mà bạn nhỏ trải nghiệm Roblox cũng khá giống với cái cách bạn trải nghiệm Lego: Bạn có thể theo dõi những trò chơi bạn đang chơi, thu thập huy hiệu và sáng tạo cả một vũ trụ trực tuyến của riêng bạn.
 
