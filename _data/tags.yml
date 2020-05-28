@@ -34,3 +34,7 @@ jekyll:
   name: jekyll
   description: Jekyll is a static site generator
   cover: False
+arduino:
+  name: arduino
+  description: Arduino is a programable electronic board, a programming language, and a community for maker
+  cover: False
