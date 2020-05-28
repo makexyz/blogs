@@ -24,5 +24,6 @@ Thanks for reading,
 If you like my videos, please like and subscribe to [my channel](https://www.youtube.com/channel/UC4v28AauStqzl2rwNGl9QcA).
 
 Credits:
-1. [Micro Servo Robot - Pinaut ](https://www.youtube.com/watch?v=bLnAJ-mSElE)
+
+1. [Micro Servo Robot - Pinaut](https://www.youtube.com/watch?v=bLnAJ-mSElE)
 2. [LittleArm - V1](https://www.kickstarter.com/projects/slantrobotics/littlearm-v3-mini-arduino-robot-arm-for-stem-and-hobby)
