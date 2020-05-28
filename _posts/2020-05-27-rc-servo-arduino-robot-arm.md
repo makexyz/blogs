@@ -14,7 +14,7 @@ author: deadblox
 
 Today, I'll share a really old project that I followed - A 9g Micro Servo Arduino Robot Arm.
 
-{% youtube "https://youtu.be/3SC-O6A-700" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3SC-O6A-700" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This project was born around October 2016. At the time, it was not created by an original idea, it was actually a combination of the idea of ​​hardware and software from two different projects that I credit below. However, this product was redesigned in terms of structure, circuit, and program to be more complete than the previous two products. With the frame designed and printed in 3D to optimize the installation of 9g RC Servo motors as well as firmer, the electrical part was designed into Shield that could be installed on existing Arduino Uno, the program was also been modified to retain only those components that are truly necessary and optimized for control speed.
 
