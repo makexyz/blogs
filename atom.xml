@@ -8,6 +8,23 @@
     
       
       <item>
+        <title>Xung giữa các thư viện Arduino</title>
+        
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;Khi bạn đặt tất cả các đoạn code lại với nhau theo logic nhưng chương trình Arduino không chạy .. vì xung đột thư viện thì bài viết này bạn nên đọc!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Thu, 28 May 2020 10:00:00 +0000</pubDate>
+        <link>
+        https://makexyz.fun//xung-dot-thu-vien-arduino</link>
+        <guid isPermaLink="true">https://makexyz.fun//xung-dot-thu-vien-arduino</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>9g Micro RC Servo Robot Arm</title>
         
           <description>&lt;p&gt;Today, I’ll share a really old project that I followed - A 9g Micro Servo Arduino Robot Arm.&lt;/p&gt;
