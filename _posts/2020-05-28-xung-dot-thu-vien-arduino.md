@@ -11,6 +11,7 @@ subclass: 'post'
 logo: assets/images/ghost.png
 author: deadblox
 ---
+
 > Khi bạn đặt tất cả các đoạn code lại với nhau theo logic nhưng chương trình Arduino không chạy .. vì xung đột thư viện thì bài viết này bạn nên đọc!
 
 ## Không sử dụng thư viện thì khỏi xung đột ?
