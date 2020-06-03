@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://makexyz.fun//author/deadblox/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://makexyz.fun//" rel="alternate" type="text/html" />
-  <updated>2020-06-02T05:54:32+00:00</updated>
+  <updated>2020-06-03T15:35:33+00:00</updated>
   <id>https://makexyz.fun//author/deadblox/feed.xml</id>
 
   
@@ -108,12 +108,12 @@ Xét về giá thì một board Arduino Uno chỉ khoảng 120.000VND rẻ hơn 
   
     <entry>
       <title type="html">Tạo check point trong Obby game không cần code</title>
-      <link href="https://makexyz.fun//tao-checkpoint-trong-rolblox-game-khong-can-code" rel="alternate" type="text/html" title="Tạo check point trong Obby game không cần code" />
+      <link href="https://makexyz.fun//tao-checkpoint-trong-roblox-game-khong-can-code" rel="alternate" type="text/html" title="Tạo check point trong Obby game không cần code" />
       <published>2020-05-29T10:00:00+00:00</published>
       <updated>2020-05-29T10:00:00+00:00</updated>
-      <id>https://makexyz.fun//tao-checkpoint-trong-rolblox-game-khong-can-code</id>
-      <content type="html" xml:base="https://makexyz.fun//tao-checkpoint-trong-rolblox-game-khong-can-code">&lt;blockquote&gt;
-  &lt;p&gt;Obby game của bạn đã khá dài và tương đối khó. Bạn muốn tạo thêm cơ hội cho người chơi vượt qua thử thách của mình nhưng lại không biết lập trình roblox để tạo hệ thống checkpoint thì đây chính là bài viết bạn nên đọc.&lt;/p&gt;
+      <id>https://makexyz.fun//tao-checkpoint-trong-roblox-game-khong-can-code</id>
+      <content type="html" xml:base="https://makexyz.fun//tao-checkpoint-trong-roblox-game-khong-can-code">&lt;blockquote&gt;
+  &lt;p&gt;Obby game của bạn đã khá dài và khó. Bạn muốn thêm cơ hội cho người chơi vượt qua thử thách của mình nhưng chưa biết lập trình roblox để tạo hệ thống checkpoint thì đây là bài viết bạn nên đọc.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://d5m0vnpvja3z4.cloudfront.net/assets/blt3e7206e889f15cd9/IntroToStudio_heroCheckpoints.jpg&quot; alt=&quot;Checkpoint system in Obby game&quot; /&gt;&lt;/p&gt;
@@ -129,9 +129,11 @@ Xét về giá thì một board Arduino Uno chỉ khoảng 120.000VND rẻ hơn 
   &lt;li&gt;Sau khi người chơi đã chơi vượt qua thử thách trong một khoảng thời gian nhất định (ngắn thôi).&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oit0emIg-4I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
 &lt;h2 id=&quot;thiết-lập-hệ-thống-checkpoint&quot;&gt;Thiết lập hệ thống Checkpoint&lt;/h2&gt;
 
-&lt;p&gt;Hệ thống Checkpoint có thể được thiết lập dễ dàng qua 9 bước bên dưới. Các bạn có thể tham khảo clip hướng dẫn bên dưới để có thể dễ dàng hình dung cách làm hơn nhưng nên đọc qua các bước để hiểu ý nghĩa từng bước.&lt;/p&gt;
+&lt;p&gt;Hệ thống Checkpoint có thể được thiết lập dễ dàng qua 9 bước bên dưới. Các bạn có thể tham khảo clip hướng dẫn để có thể dễ dàng hình dung cách làm hơn nhưng nên đọc qua các bước để hiểu ý nghĩa từng bước.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Bước 1: Vào &lt;code class=&quot;highlighter-rouge&quot;&gt;Model &amp;gt; Gameplay &amp;gt; Spawn&lt;/code&gt; để thêm các SpawnLocation (điểm hồi sinh) vào Obby Game của bạn.&lt;/li&gt;
@@ -205,7 +207,7 @@ Xét về giá thì một board Arduino Uno chỉ khoảng 120.000VND rẻ hơn 
       
 
       
-        <summary type="html">Obby game của bạn đã khá dài và tương đối khó. Bạn muốn tạo thêm cơ hội cho người chơi vượt qua thử thách của mình nhưng lại không biết lập trình roblox để tạo hệ thống checkpoint thì đây chính là bài viết bạn nên đọc.</summary>
+        <summary type="html">Obby game của bạn đã khá dài và khó. Bạn muốn thêm cơ hội cho người chơi vượt qua thử thách của mình nhưng chưa biết lập trình roblox để tạo hệ thống checkpoint thì đây là bài viết bạn nên đọc.</summary>
       
 
       
