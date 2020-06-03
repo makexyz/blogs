@@ -12,7 +12,7 @@ logo: assets/images/ghost.png
 author: deadblox
 ---
 
-> Obby game của bạn đã khá dài và tương đối khó. Bạn muốn tạo thêm cơ hội cho người chơi vượt qua thử thách của mình nhưng lại không biết lập trình roblox để tạo hệ thống checkpoint thì đây chính là bài viết bạn nên đọc.
+> Obby game của bạn đã khá dài và khó. Bạn muốn thêm cơ hội cho người chơi vượt qua thử thách của mình nhưng chưa biết lập trình roblox để tạo hệ thống checkpoint thì đây là bài viết bạn nên đọc.
 
 ![Checkpoint system in Obby game](https://d5m0vnpvja3z4.cloudfront.net/assets/blt3e7206e889f15cd9/IntroToStudio_heroCheckpoints.jpg)
 
@@ -25,9 +25,11 @@ Bạn nên đặt checkpoint tại những điểm sau trong trò chơi:
 * Trước hoặc sau một bước nhảy khó khăn.
 * Sau khi người chơi đã chơi vượt qua thử thách trong một khoảng thời gian nhất định (ngắn thôi).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oit0emIg-4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Thiết lập hệ thống Checkpoint
 
-Hệ thống Checkpoint có thể được thiết lập dễ dàng qua 9 bước bên dưới. Các bạn có thể tham khảo clip hướng dẫn bên dưới để có thể dễ dàng hình dung cách làm hơn nhưng nên đọc qua các bước để hiểu ý nghĩa từng bước.
+Hệ thống Checkpoint có thể được thiết lập dễ dàng qua 9 bước bên dưới. Các bạn có thể tham khảo clip hướng dẫn để có thể dễ dàng hình dung cách làm hơn nhưng nên đọc qua các bước để hiểu ý nghĩa từng bước.
 
 * Bước 1: Vào `Model > Gameplay > Spawn` để thêm các SpawnLocation (điểm hồi sinh) vào Obby Game của bạn.
 
