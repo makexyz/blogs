@@ -182,21 +182,6 @@
     
       
       <item>
-        <title>About Bundler</title>
-        
-          <description>&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt; installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sat, 12 May 2018 10:18:00 +0000</pubDate>
-        <link>
-        https://makexyz.fun//tat-tan-tat-ve-bundler</link>
-        <guid isPermaLink="true">https://makexyz.fun//tat-tan-tat-ve-bundler</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Arduino là cái gì?</title>
         
           <description>&lt;p&gt;Chắc chắn hồi còn bé xíu, bạn, mình và rất rất nhiều người khác nữa đều thích chơi lắp ráp. Từ những miếng gỗ, hoặc từ những mảnh Lego nhỏ, mình có thể xếp thành bất kì mô hình nào mà mình thấy thích thú. Mình nhớ hồi còn học tiểu học, Lego có về trường mình và tổ chức một cuộc thi lắp ráp nho nhỏ. Tất cả học sinh ngồi chung với nhau, các mảnh Lego được đổ tràn ra và mọi người có quyền chọn lựa bất kì mảnh ghép nào để ráp thành ý tưởng của mình. Và, rất rất nhiều ý tưởng thú vị, cách sắp xếp thú vị được tạo ra từ những mảnh vuông cơ bản ấy: lâu đài, máy bay, tàu, xe tăng, …và rất rất nhiều mô hình tuyệt đẹp khác nữa.&lt;/p&gt;
@@ -222,21 +207,6 @@
         <link>
         https://makexyz.fun//cac-tuy-chon-trong-tao-moi-trang-web-voi-jekyll</link>
         <guid isPermaLink="true">https://makexyz.fun//cac-tuy-chon-trong-tao-moi-trang-web-voi-jekyll</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>A Full and Comprehensive Style Test</title>
-        
-          <description>&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sat, 01 Sep 2012 10:00:00 +0000</pubDate>
-        <link>
-        https://makexyz.fun//format-trang-tham-khao</link>
-        <guid isPermaLink="true">https://makexyz.fun//format-trang-tham-khao</guid>
       </item>
       
     
