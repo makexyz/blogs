@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://makexyz.fun//feed.xml" rel="self" type="application/atom+xml" /><link href="https://makexyz.fun//" rel="alternate" type="text/html" /><updated>2020-06-11T15:18:05+00:00</updated><id>https://makexyz.fun//</id><title type="html">MakeXYZ</title><subtitle>Make anything fun</subtitle><entry><title type="html">Tạo check point trong Obby game không cần code</title><link href="https://makexyz.fun//tao-checkpoint-trong-roblox-game-khong-can-code" rel="alternate" type="text/html" title="Tạo check point trong Obby game không cần code" /><published>2020-05-29T10:00:00+00:00</published><updated>2020-05-29T10:00:00+00:00</updated><id>https://makexyz.fun//tao-checkpoint-trong-roblox-game-khong-can-code</id><content type="html" xml:base="https://makexyz.fun//tao-checkpoint-trong-roblox-game-khong-can-code">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://makexyz.fun//feed.xml" rel="self" type="application/atom+xml" /><link href="https://makexyz.fun//" rel="alternate" type="text/html" /><updated>2020-06-12T15:44:02+00:00</updated><id>https://makexyz.fun//</id><title type="html">MakeXYZ</title><subtitle>Make anything fun</subtitle><entry><title type="html">Tạo check point trong Obby game không cần code</title><link href="https://makexyz.fun//tao-checkpoint-trong-roblox-game-khong-can-code" rel="alternate" type="text/html" title="Tạo check point trong Obby game không cần code" /><published>2020-05-29T10:00:00+00:00</published><updated>2020-05-29T10:00:00+00:00</updated><id>https://makexyz.fun//tao-checkpoint-trong-roblox-game-khong-can-code</id><content type="html" xml:base="https://makexyz.fun//tao-checkpoint-trong-roblox-game-khong-can-code">&lt;blockquote&gt;
   &lt;p&gt;Obby game của bạn đã khá dài và khó. Bạn muốn thêm cơ hội cho người chơi vượt qua thử thách của mình nhưng chưa biết lập trình roblox để tạo hệ thống checkpoint thì đây là bài viết bạn nên đọc.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -442,53 +442,66 @@ Khi bạn đăng nhập vào Prose, bạn sẽ thấy yêu cầu cho phép Prose
 
 &lt;p&gt;Trong khi đi du lịch, bạn có thể chỉ đem theo điện thoại thông minh hoặc máy tính bảng bên mình. Trong những trường hợp như vậy, bạn sẽ đánh giá cao Prose.io!&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Cảm ơn vì đã đọc hết hướng dẩn của mình!&lt;/em&gt;&lt;/p&gt;</content><author><name>Tony Pham</name></author><category term="jekyll" /><summary type="html">Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.</summary></entry><entry><title type="html">Best Free Image Host Compare In 2020</title><link href="https://makexyz.fun//so-sanh-cac-trang-cho-luu-tru-anh-mien-phi" rel="alternate" type="text/html" title="Best Free Image Host Compare In 2020" /><published>2020-02-19T15:20:00+00:00</published><updated>2020-02-19T15:20:00+00:00</updated><id>https://makexyz.fun//so-sanh-cac-trang-cho-luu-tru-anh-mien-phi</id><content type="html" xml:base="https://makexyz.fun//so-sanh-cac-trang-cho-luu-tru-anh-mien-phi">&lt;p&gt;When you want to share a photo or a gallery with friends, family, a message board, or even the entire Internet, an image hosting site is the best way to upload, store, and share your files. However, there are many image hosting sites, all with different features. The best site for you will depend on how many photos you need to upload, how much time you want to spend uploading, and the reason you’re uploading the photos.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cảm ơn vì đã đọc hết hướng dẩn của mình!&lt;/em&gt;&lt;/p&gt;</content><author><name>Tony Pham</name></author><category term="jekyll" /><summary type="html">Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.</summary></entry><entry><title type="html">Best Free Image Host Compare In 2020</title><link href="https://makexyz.fun//so-sanh-cac-trang-cho-luu-tru-anh-mien-phi" rel="alternate" type="text/html" title="Best Free Image Host Compare In 2020" /><published>2020-02-19T15:20:00+00:00</published><updated>2020-02-19T15:20:00+00:00</updated><id>https://makexyz.fun//so-sanh-cac-trang-cho-luu-tru-anh-mien-phi</id><content type="html" xml:base="https://makexyz.fun//so-sanh-cac-trang-cho-luu-tru-anh-mien-phi">&lt;p&gt;Bạn muốn lưu trữ các bức ảnh của mình online nhưng không có host riêng để lưu trữ thì đây là bài viết nên đọc.&lt;/p&gt;
 
-&lt;p&gt;Of course if you are a professional photographer then you may want to consider using a portfolio web builder or building your own website with WordPress and paying for web hosting. You can also use a number of free online portfolio creators to do the job as well.&lt;/p&gt;
+&lt;p&gt;Nếu bạn muốn chia sẻ hình ảnh hoặc album với gia đình, bạn bè qua tin nhắn hoặc thậm chí cho toàn bộ mọi người qua Internet thì một hosting dùng để chứa ảnh chính là cách tốt nhất để upload, lưu trữ và chia sẻ file của bạn. Có rất nhiều hosting chứa ảnh, mỗi loại lại có những tính năng riêng. Hosting tốt nhất cho bạn sẽ phụ thuộc vào các yếu tố bao nhiêu tấm ảnh mà bạn upload, hay thời gian upload ảnh hay tính bảo mật cho những bức ảnh mà bạn đăng lên. Dưới đây là 7 trang web cho lưu trữ và chia sẻ ảnh online miễn phí tốt nhất theo đề xuất của mình cùng những tính năng tương ứng:&lt;/p&gt;
 
-&lt;p&gt;Here are 7 of the best image hosting sites in my opinion that can help you upload and share photos:&lt;/p&gt;
+&lt;h2 id=&quot;photobucketcom&quot;&gt;&lt;a href=&quot;photobucket.com&quot;&gt;photobucket.com&lt;/a&gt;&lt;/h2&gt;
 
-&lt;h2 id=&quot;photobucketcom&quot;&gt;photobucket.com&lt;/h2&gt;
-&lt;p&gt;2.5Gb OR 250photos&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2.5Gb HOẶC 250photos
+[Nếu bạn vượt giới hạn trên, bạn sẽ cần phải nâng cấp tài khoản]&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;[If you exceed any of the above limits, you will need to upgrade your plan]&lt;/p&gt;
+&lt;h2 id=&quot;cloudinarycom&quot;&gt;&lt;a href=&quot;cloudinary.com&quot;&gt;cloudinary.com&lt;/a&gt;&lt;/h2&gt;
 
-&lt;h2 id=&quot;cloudinarycom&quot;&gt;cloudinary.com&lt;/h2&gt;
-&lt;p&gt;25 Monthly Credits&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;25 credit/tháng&lt;/li&gt;
+  &lt;li&gt;1 credit = 1 GB lưu trữ HOẶC 1 GB băng thông
+[Nếu bạn vượt giới hạn trên, bạn sẽ cần phải nâng cấp tài khoản]&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;1 Credit = 1,000 Transformations OR 1 GB Storage OR 1 GB Bandwidth&lt;/p&gt;
+&lt;h2 id=&quot;flickrcom&quot;&gt;&lt;a href=&quot;flickr.com&quot;&gt;flickr.com&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;[If you exceed any of the above limits, you will need to upgrade your plan]&lt;/p&gt;
-
-&lt;h2 id=&quot;flickrcom&quot;&gt;flickr.com&lt;/h2&gt;
-&lt;p&gt;1,000 full-resolution photos and HD videos, shown with ads.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1,000 tấm ảnh full HD hoặc video HD đi cùng với quảng cáo&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;freeimagehostingnet&quot;&gt;freeimagehosting.net&lt;/h2&gt;
-&lt;p&gt;File size limit: 3,000KB&lt;/p&gt;
 
-&lt;p&gt;100% free&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Giới hạn kích thước file: 3,000KB (3Mb)&lt;/li&gt;
+  &lt;li&gt;100% miễn phí&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;imgbbcom&quot;&gt;imgbb.com&lt;/h2&gt;
-&lt;p&gt;100% free&lt;/p&gt;
+&lt;h2 id=&quot;imgbbcom&quot;&gt;&lt;a href=&quot;imgbb.com&quot;&gt;imgbb.com&lt;/a&gt;&lt;/h2&gt;
 
-&lt;h2 id=&quot;imagevenuecom&quot;&gt;imagevenue.com&lt;/h2&gt;
-&lt;p&gt;100% free&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;100% miễn phí&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Image types allowed: jpeg, jpg&lt;/p&gt;
+&lt;h2 id=&quot;imagevenuecom&quot;&gt;&lt;a href=&quot;imagevenue.com&quot;&gt;imagevenue.com&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;Max file size: 10MB&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;100% miễn phí&lt;/li&gt;
+  &lt;li&gt;Kiểu ảnh cho phép: jpeg, jpg&lt;/li&gt;
+  &lt;li&gt;Kích thước tối đa: 10MB&lt;/li&gt;
+  &lt;li&gt;Không giới hạn thời gian lưu trữ&lt;/li&gt;
+  &lt;li&gt;Không giới hạn băng thông&lt;/li&gt;
+  &lt;li&gt;Không yêu cầu đăng nhập&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Unlimited storage hosting period&lt;/p&gt;
+&lt;h2 id=&quot;onedrivelivecom&quot;&gt;&lt;a href=&quot;onedrive.live.com&quot;&gt;onedrive.live.com&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;Unlimited bandwidth&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;5Gb dung lượng lưu trữ&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;No registration required&lt;/p&gt;
+&lt;h2 id=&quot;dropboxcom&quot;&gt;&lt;a href=&quot;dropbox.com&quot;&gt;dropbox.com&lt;/a&gt;&lt;/h2&gt;
 
-&lt;h2 id=&quot;onedrivelivecom&quot;&gt;onedrive.live.com&lt;/h2&gt;
-&lt;p&gt;5Gb Storage&lt;/p&gt;
-
-&lt;h2 id=&quot;dropboxcom&quot;&gt;dropbox.com&lt;/h2&gt;
-&lt;p&gt;2Gb Storage&lt;/p&gt;</content><author><name>Tony Pham</name></author><category term="web" /><summary type="html">When you want to share a photo or a gallery with friends, family, a message board, or even the entire Internet, an image hosting site is the best way to upload, store, and share your files. However, there are many image hosting sites, all with different features. The best site for you will depend on how many photos you need to upload, how much time you want to spend uploading, and the reason you’re uploading the photos.</summary></entry><entry><title type="html">Những mẹo hay khi dùng Markdown Editor để viết blog</title><link href="https://makexyz.fun//nhung-meo-hay-khi-dung-markdown-editor" rel="alternate" type="text/html" title="Những mẹo hay khi dùng Markdown Editor để viết blog" /><published>2018-06-12T15:20:00+00:00</published><updated>2018-06-12T15:20:00+00:00</updated><id>https://makexyz.fun//nhung-meo-hay-khi-dung-markdown-editor</id><content type="html" xml:base="https://makexyz.fun//nhung-meo-hay-khi-dung-markdown-editor">&lt;p&gt;Có rất nhiều thứ bạn có thể làm với trình soạn thảo Markdown. Nếu bạn đã quen với việc viết bằng Markdown, thì bạn có thể sẽ thích một số mẹo nâng cao bên dưới! Bạn có thể thử các mẹo này trong lúc đọc, sẽ ghi nhớ hiệu quả hơn đấy.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;5Gb dung lượng lưu trữ&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Tony Pham</name></author><category term="web" /><summary type="html">Bạn muốn lưu trữ các bức ảnh của mình online nhưng không có host riêng để lưu trữ thì đây là bài viết nên đọc.</summary></entry><entry><title type="html">Những mẹo hay khi dùng Markdown Editor để viết blog</title><link href="https://makexyz.fun//nhung-meo-hay-khi-dung-markdown-editor" rel="alternate" type="text/html" title="Những mẹo hay khi dùng Markdown Editor để viết blog" /><published>2018-06-12T15:20:00+00:00</published><updated>2018-06-12T15:20:00+00:00</updated><id>https://makexyz.fun//nhung-meo-hay-khi-dung-markdown-editor</id><content type="html" xml:base="https://makexyz.fun//nhung-meo-hay-khi-dung-markdown-editor">&lt;p&gt;Có rất nhiều thứ bạn có thể làm với trình soạn thảo Markdown. Nếu bạn đã quen với việc viết bằng Markdown, thì bạn có thể sẽ thích một số mẹo nâng cao bên dưới! Bạn có thể thử các mẹo này trong lúc đọc, sẽ ghi nhớ hiệu quả hơn đấy.&lt;/p&gt;
 
 &lt;h2 id=&quot;các-kiểu-format&quot;&gt;Các kiểu format&lt;/h2&gt;
 
