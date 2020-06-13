@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 
+cover: https://i.ibb.co/h1BfXGm/app-inventor-activity-starter.png
 navigation: True
 title: [App Inventor] Activity Starter dùng để làm gì?
 date: 2020-05-29 10:00:00
