@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://makexyz.fun//tag/roblox/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://makexyz.fun//" rel="alternate" type="text/html" />
-  <updated>2020-06-13T22:29:59+00:00</updated>
+  <updated>2020-06-13T22:34:08+00:00</updated>
   <id>https://makexyz.fun//tag/roblox/feed.xml</id>
 
   
@@ -32,114 +32,6 @@
   
   
 
-  
-    <entry>
-      <title type="html">Activity Starter dùng để làm gì?</title>
-      <link href="https://makexyz.fun//linh-kien-activity-starter-dung-de-lam-gi" rel="alternate" type="text/html" title="Activity Starter dùng để làm gì?" />
-      <published>2020-06-12T10:00:00+00:00</published>
-      <updated>2020-06-12T10:00:00+00:00</updated>
-      <id>https://makexyz.fun//linh-kien-activity-starter-dung-de-lam-gi</id>
-      <content type="html" xml:base="https://makexyz.fun//linh-kien-activity-starter-dung-de-lam-gi">&lt;blockquote&gt;
-  &lt;p&gt;Obby game của bạn đã khá dài và khó. Bạn muốn thêm cơ hội cho người chơi vượt qua thử thách của mình nhưng chưa biết lập trình roblox để tạo hệ thống checkpoint thì đây là bài viết bạn nên đọc.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://d5m0vnpvja3z4.cloudfront.net/assets/blt3e7206e889f15cd9/IntroToStudio_heroCheckpoints.jpg&quot; alt=&quot;Checkpoint system in Obby game&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;tại-sao-cần-hệ-thống-checkpoint-trong-game-obby&quot;&gt;Tại sao cần hệ thống Checkpoint trong game Obby&lt;/h2&gt;
-
-&lt;p&gt;Game Obby của bạn càng dài, càng nhiều chướng ngại vật thì cảm giác đau đớn cho người chơi khi gần đến đích mà lỡ bị ngã càng lớn. Trừ khi bạn muốn người chơi bỏ cuộc và không bao giờ chơi trò chơi của bạn nữa thì có thể chuyển sang đọc một nội dung khác ngay bây giờ. Còn nếu bạn muốn người chơi có sự phấn khích khi vượt qua thử thách của bạn và luôn sẵn sàng cho những thử thách khó hơn kế tiếp thì chắc chắn trò chơi của bạn cần có một hệ thống Checkpoint. Những điểm Checkpoint cho phép người chơi hồi sinh hay chơi lại sau khi vượt qua chướng ngại vật nào đó trong trò chơi của bạn.&lt;/p&gt;
-
-&lt;p&gt;Bạn nên đặt checkpoint tại những điểm sau trong trò chơi:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Trước hoặc sau một bước nhảy khó khăn.&lt;/li&gt;
-  &lt;li&gt;Sau khi người chơi đã chơi vượt qua thử thách trong một khoảng thời gian nhất định (ngắn thôi).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oit0emIg-4I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;thiết-lập-hệ-thống-checkpoint&quot;&gt;Thiết lập hệ thống Checkpoint&lt;/h2&gt;
-
-&lt;p&gt;Hệ thống Checkpoint có thể được thiết lập dễ dàng qua 9 bước bên dưới. Các bạn có thể tham khảo clip hướng dẫn để có thể dễ dàng hình dung cách làm hơn nhưng nên đọc qua các bước để hiểu ý nghĩa từng bước.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bước 1: Vào &lt;code class=&quot;highlighter-rouge&quot;&gt;Model &amp;gt; Gameplay &amp;gt; Spawn&lt;/code&gt; để thêm các SpawnLocation (điểm hồi sinh) vào Obby Game của bạn.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/s1qrCcB/Create-Spawn-Location.png&quot; alt=&quot;Create Spawn Location&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bước 2: Đổi tên các Spawnlocation này theo tên gợi nhớ hoặc đánh số thứ tự để phân biệt.&lt;/li&gt;
-  &lt;li&gt;Bước 3: Vào &lt;code class=&quot;highlighter-rouge&quot;&gt;Model &amp;gt; Advanced &amp;gt; Service&lt;/code&gt; và chọn Teams để thêm service này vào trò chơi.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://education.roblox.com/assets/bltedebb583f329051d/InsertService_updated.png&quot; alt=&quot;Insert Service&quot; /&gt;
-&lt;img src=&quot;https://education.roblox.com/assets/blt8bc404f2f5e44057/TeamsInsert_480x320.png&quot; alt=&quot;Team Insert&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bước 4: Thêm các object Team vào Teams service.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://education.roblox.com/assets/bltbd896d173e656933/TeamsCreated_480x320.png&quot; alt=&quot;Team Created&quot; /&gt;
-&lt;img src=&quot;https://education.roblox.com/assets/blt80f34b39a099bd8b/TeamNode_480x320.png&quot; alt=&quot;Team Node&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bước 5: Đổi tên các object Team này theo tên gợi nhớ hoặc đánh số thứ tự để phân biệt.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://education.roblox.com/assets/blt828bd7894d85edf6/RenameTeamNode_480x320.png&quot; alt=&quot;Rename team Node&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bước 6: Tạo liên kết giữa SpawnLocation object và Team object tương ứng thông qua thuộc tính TeamColor.
-&lt;em&gt;&lt;strong&gt;Một cặp SpawnLocation và Team tương ứng sẽ có cùng TeamColor. Các Team khác nhau thì TeamColor khác nhau.&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Bước 7: Tắt thuộc tính &lt;code class=&quot;highlighter-rouge&quot;&gt;Neutral&lt;/code&gt; để ngăn nhân vật không hồi sinh ngẫu nhiên tại các điểm khác nhau.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://education.roblox.com/assets/blt2b5a63b09215b9d7/UncheckNeutral_480x320.png&quot; alt=&quot;Uncheck Neutral&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bước 8: Bật thuộc tính &lt;code class=&quot;highlighter-rouge&quot;&gt;AllowTeamChangeOnTouch&lt;/code&gt; để ghi nhận sự thay đổi khi người chơi đến được một SpawnLocation mới (đổi Team).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://education.roblox.com/assets/blt579cbd9c74250daf/SpawnLocation2_480x320.png&quot; alt=&quot;Spawn Location 2&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bước 9: Bật thuộc tính &lt;code class=&quot;highlighter-rouge&quot;&gt;AutoAssignable&lt;/code&gt; tại Team liên kết với SpawnLocation đầu tiên để thiết lập địa điểm mặc định khi người chơi bắt đầu trò chơi. Tắt &lt;code class=&quot;highlighter-rouge&quot;&gt;AutoAssignable&lt;/code&gt; cho tất cả các Team còn lại.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://education.roblox.com/assets/blt21a6db7158c8fd2d/Team2_480x320.png&quot; alt=&quot;Team 2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Chúc các bạn có thể hoàn thành Checkpoint System cho game Obby của mình.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;P/s: Bài viết tham khảo nguồn tại link: &lt;a href=&quot;https://education.roblox.com/en-us/resources/intro-to-studio-checkpoints&quot;&gt;Intro To Studio Checkpoints&lt;/a&gt;. Nhưng đã có hiệu chỉnh lại thứ tự các bước thực hiện để người đọc dễ nắm hơn bản gốc.&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Tony Pham</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="roblox" />
-      
-
-      
-        <summary type="html">Obby game của bạn đã khá dài và khó. Bạn muốn thêm cơ hội cho người chơi vượt qua thử thách của mình nhưng chưa biết lập trình roblox để tạo hệ thống checkpoint thì đây là bài viết bạn nên đọc.</summary>
-      
-
-      
-      
-    </entry>
   
     <entry>
       <title type="html">Tạo check point trong Obby game không cần code</title>
