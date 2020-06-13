@@ -31,7 +31,7 @@ Nguyên văn: "You can use the Activity Starter to start any activity at all if 
 Vâng, vấn đề chính là không biết khai báo các thuộc tính thế nào cho đúng. Bài viết này sẽ chỉ cho bạn một vài mẹo...
 1. Tham khảo link: 
        
-https://appinventor.mit.edu/explore/ai2/activity-starter.html
+<https://appinventor.mit.edu/explore/ai2/activity-starter.html>
 
 Link này hướng dẫn chi tiết cách: 
 
@@ -50,7 +50,7 @@ Link này hướng dẫn chi tiết cách:
 
 2. Cài ứng dụng sau để soi thông tin (nhanh, gọn, lẹ, dễ...):
        
-https://code.google.com/archive/p/appinvactivitystarter/downloads
+<https://code.google.com/archive/p/appinvactivitystarter/downloads>
 
 Ứng dụng này trước đây có trên Google Play Store nhưng giờ không thể tìm lại được nữa. Mình chỉ còn link offline. Các bạn tải file .apk về cài nhé. Ứng dụng cho bạn thông tin đầy đủ của gần 100 ví dụ sử dụng.
 
