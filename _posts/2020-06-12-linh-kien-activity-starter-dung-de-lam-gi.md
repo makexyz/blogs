@@ -13,7 +13,7 @@ author: deadblox
 ---
 Một linh kiện được xếp hạng quyền lực nhất nhì trong App Inventor nhưng lại được ít người biết đến...
 
-## Activity Starter dùng để làm gì?
+## Activity Starter dùng để làm gì ?
 
 Bạn đang làm ứng dụng sử dụng đến bản đồ chẳng hạn nhưng thấy các linh kiện trong phần Map quá ư cùi bắp và muốn sử dụng ứng dụng Google Map mặc định trên điện thoại Android thì Activity Starter chính là thứ bạn cần.
 
