@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://makexyz.fun//author/deadblox/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://makexyz.fun//" rel="alternate" type="text/html" />
-  <updated>2020-06-13T22:22:42+00:00</updated>
+  <updated>2020-06-13T22:29:59+00:00</updated>
   <id>https://makexyz.fun//author/deadblox/feed.xml</id>
 
   
@@ -32,6 +32,202 @@
   
   
 
+  
+    <entry>
+      <title type="html">Activity Starter dùng để làm gì?</title>
+      <link href="https://makexyz.fun//linh-kien-activity-starter-dung-de-lam-gi" rel="alternate" type="text/html" title="Activity Starter dùng để làm gì?" />
+      <published>2020-06-12T10:00:00+00:00</published>
+      <updated>2020-06-12T10:00:00+00:00</updated>
+      <id>https://makexyz.fun//linh-kien-activity-starter-dung-de-lam-gi</id>
+      <content type="html" xml:base="https://makexyz.fun//linh-kien-activity-starter-dung-de-lam-gi">&lt;blockquote&gt;
+  &lt;p&gt;Obby game của bạn đã khá dài và khó. Bạn muốn thêm cơ hội cho người chơi vượt qua thử thách của mình nhưng chưa biết lập trình roblox để tạo hệ thống checkpoint thì đây là bài viết bạn nên đọc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d5m0vnpvja3z4.cloudfront.net/assets/blt3e7206e889f15cd9/IntroToStudio_heroCheckpoints.jpg&quot; alt=&quot;Checkpoint system in Obby game&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tại-sao-cần-hệ-thống-checkpoint-trong-game-obby&quot;&gt;Tại sao cần hệ thống Checkpoint trong game Obby&lt;/h2&gt;
+
+&lt;p&gt;Game Obby của bạn càng dài, càng nhiều chướng ngại vật thì cảm giác đau đớn cho người chơi khi gần đến đích mà lỡ bị ngã càng lớn. Trừ khi bạn muốn người chơi bỏ cuộc và không bao giờ chơi trò chơi của bạn nữa thì có thể chuyển sang đọc một nội dung khác ngay bây giờ. Còn nếu bạn muốn người chơi có sự phấn khích khi vượt qua thử thách của bạn và luôn sẵn sàng cho những thử thách khó hơn kế tiếp thì chắc chắn trò chơi của bạn cần có một hệ thống Checkpoint. Những điểm Checkpoint cho phép người chơi hồi sinh hay chơi lại sau khi vượt qua chướng ngại vật nào đó trong trò chơi của bạn.&lt;/p&gt;
+
+&lt;p&gt;Bạn nên đặt checkpoint tại những điểm sau trong trò chơi:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Trước hoặc sau một bước nhảy khó khăn.&lt;/li&gt;
+  &lt;li&gt;Sau khi người chơi đã chơi vượt qua thử thách trong một khoảng thời gian nhất định (ngắn thôi).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oit0emIg-4I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;thiết-lập-hệ-thống-checkpoint&quot;&gt;Thiết lập hệ thống Checkpoint&lt;/h2&gt;
+
+&lt;p&gt;Hệ thống Checkpoint có thể được thiết lập dễ dàng qua 9 bước bên dưới. Các bạn có thể tham khảo clip hướng dẫn để có thể dễ dàng hình dung cách làm hơn nhưng nên đọc qua các bước để hiểu ý nghĩa từng bước.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bước 1: Vào &lt;code class=&quot;highlighter-rouge&quot;&gt;Model &amp;gt; Gameplay &amp;gt; Spawn&lt;/code&gt; để thêm các SpawnLocation (điểm hồi sinh) vào Obby Game của bạn.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/s1qrCcB/Create-Spawn-Location.png&quot; alt=&quot;Create Spawn Location&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bước 2: Đổi tên các Spawnlocation này theo tên gợi nhớ hoặc đánh số thứ tự để phân biệt.&lt;/li&gt;
+  &lt;li&gt;Bước 3: Vào &lt;code class=&quot;highlighter-rouge&quot;&gt;Model &amp;gt; Advanced &amp;gt; Service&lt;/code&gt; và chọn Teams để thêm service này vào trò chơi.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://education.roblox.com/assets/bltedebb583f329051d/InsertService_updated.png&quot; alt=&quot;Insert Service&quot; /&gt;
+&lt;img src=&quot;https://education.roblox.com/assets/blt8bc404f2f5e44057/TeamsInsert_480x320.png&quot; alt=&quot;Team Insert&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bước 4: Thêm các object Team vào Teams service.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://education.roblox.com/assets/bltbd896d173e656933/TeamsCreated_480x320.png&quot; alt=&quot;Team Created&quot; /&gt;
+&lt;img src=&quot;https://education.roblox.com/assets/blt80f34b39a099bd8b/TeamNode_480x320.png&quot; alt=&quot;Team Node&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bước 5: Đổi tên các object Team này theo tên gợi nhớ hoặc đánh số thứ tự để phân biệt.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://education.roblox.com/assets/blt828bd7894d85edf6/RenameTeamNode_480x320.png&quot; alt=&quot;Rename team Node&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bước 6: Tạo liên kết giữa SpawnLocation object và Team object tương ứng thông qua thuộc tính TeamColor.
+&lt;em&gt;&lt;strong&gt;Một cặp SpawnLocation và Team tương ứng sẽ có cùng TeamColor. Các Team khác nhau thì TeamColor khác nhau.&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Bước 7: Tắt thuộc tính &lt;code class=&quot;highlighter-rouge&quot;&gt;Neutral&lt;/code&gt; để ngăn nhân vật không hồi sinh ngẫu nhiên tại các điểm khác nhau.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://education.roblox.com/assets/blt2b5a63b09215b9d7/UncheckNeutral_480x320.png&quot; alt=&quot;Uncheck Neutral&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bước 8: Bật thuộc tính &lt;code class=&quot;highlighter-rouge&quot;&gt;AllowTeamChangeOnTouch&lt;/code&gt; để ghi nhận sự thay đổi khi người chơi đến được một SpawnLocation mới (đổi Team).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://education.roblox.com/assets/blt579cbd9c74250daf/SpawnLocation2_480x320.png&quot; alt=&quot;Spawn Location 2&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bước 9: Bật thuộc tính &lt;code class=&quot;highlighter-rouge&quot;&gt;AutoAssignable&lt;/code&gt; tại Team liên kết với SpawnLocation đầu tiên để thiết lập địa điểm mặc định khi người chơi bắt đầu trò chơi. Tắt &lt;code class=&quot;highlighter-rouge&quot;&gt;AutoAssignable&lt;/code&gt; cho tất cả các Team còn lại.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://education.roblox.com/assets/blt21a6db7158c8fd2d/Team2_480x320.png&quot; alt=&quot;Team 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chúc các bạn có thể hoàn thành Checkpoint System cho game Obby của mình.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;P/s: Bài viết tham khảo nguồn tại link: &lt;a href=&quot;https://education.roblox.com/en-us/resources/intro-to-studio-checkpoints&quot;&gt;Intro To Studio Checkpoints&lt;/a&gt;. Nhưng đã có hiệu chỉnh lại thứ tự các bước thực hiện để người đọc dễ nắm hơn bản gốc.&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Tony Pham</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="roblox" />
+      
+
+      
+        <summary type="html">Obby game của bạn đã khá dài và khó. Bạn muốn thêm cơ hội cho người chơi vượt qua thử thách của mình nhưng chưa biết lập trình roblox để tạo hệ thống checkpoint thì đây là bài viết bạn nên đọc.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Activity Starter dùng để làm gì?</title>
+      <link href="https://makexyz.fun//linh-kien-activity-starter-dung-de-lam-gi1" rel="alternate" type="text/html" title="Activity Starter dùng để làm gì?" />
+      <published>2020-06-12T10:00:00+00:00</published>
+      <updated>2020-06-12T10:00:00+00:00</updated>
+      <id>https://makexyz.fun//linh-kien-activity-starter-dung-de-lam-gi1</id>
+      <content type="html" xml:base="https://makexyz.fun//linh-kien-activity-starter-dung-de-lam-gi1">&lt;p&gt;Một linh kiện được xếp hạng quyền lực nhất nhì trong App Inventor nhưng lại được ít người biết đến…&lt;/p&gt;
+
+&lt;h2 id=&quot;activity-starter-dùng-để-làm-gì-&quot;&gt;Activity Starter dùng để làm gì ?&lt;/h2&gt;
+
+&lt;p&gt;Bạn đang làm ứng dụng sử dụng đến bản đồ chẳng hạn nhưng thấy các linh kiện trong phần Map quá ư cùi bắp và muốn sử dụng ứng dụng Google Map mặc định trên điện thoại Android thì Activity Starter chính là thứ bạn cần.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/h1BfXGm/app-inventor-activity-starter.png&quot; alt=&quot;App Inventor Activity Starter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thực ra thì Activity Starter làm được nhiều thứ hay ho hơn thế . Tóm tắt nhanh thì nhiệm vụ của linh kiện này là dùng để mở các chương trình khác trên điện thoại. Bạn có thể mở ra bất kì thứ gì, thậm chí là mở file apk để cài thêm ứng dụng trên điện thoại một cách tự động (nếu có sự cho phép của người dùng và biết khai báo đúng các tham số thuộc tính để mở)&lt;/p&gt;
+
+&lt;p&gt;Nguyên văn: “You can use the Activity Starter to start any activity at all if you know the package name and class name, or the appropriate intent.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/qx5jcQJ/app-inventor-activity-starter-property.png&quot; alt=&quot;App Inventor Activity Starter Properties&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;cách-khai-báo-tham-số-thuộc-tính-của-activity-starter&quot;&gt;Cách khai báo tham số thuộc tính của Activity Starter&lt;/h2&gt;
+
+&lt;p&gt;Vâng, vấn đề chính là không biết khai báo các thuộc tính thế nào cho đúng. Bài viết này sẽ chỉ cho bạn một vài mẹo…&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Tham khảo link:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;https://appinventor.mit.edu/explore/ai2/activity-starter.html&lt;/p&gt;
+
+&lt;p&gt;Link này hướng dẫn chi tiết cách:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cách chạy một App được tạo bằng AI2 bằng một App AI2 khác.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cách chạy một ứng dụng có sẵn trên điện thoại Android bằng một App AI2 như:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Bật Camera&lt;/li&gt;
+      &lt;li&gt;Bật trình duyệt Web&lt;/li&gt;
+      &lt;li&gt;Mở trình duyệt Web đến một trang xác định&lt;/li&gt;
+      &lt;li&gt;Gửi email với nội dung định sẵn&lt;/li&gt;
+      &lt;li&gt;Hiển thị bản đồ ở vị trí định trước&lt;/li&gt;
+      &lt;li&gt;Bật Youtube&lt;/li&gt;
+      &lt;li&gt;Khởi động các ứng dụng khác được cài&lt;/li&gt;
+      &lt;li&gt;Nhận/Gửi thông tin từ các App AI2 khác&lt;/li&gt;
+      &lt;li&gt;Trả về thông tin từ ứng dụng cài sẵn&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Cài ứng dụng sau để soi thông tin (nhanh, gọn, lẹ, dễ…):&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;https://code.google.com/archive/p/appinvactivitystarter/downloads&lt;/p&gt;
+
+&lt;p&gt;Ứng dụng này trước đây có trên Google Play Store nhưng giờ không thể tìm lại được nữa. Mình chỉ còn link offline. Các bạn tải file .apk về cài nhé. Ứng dụng cho bạn thông tin đầy đủ của gần 100 ví dụ sử dụng.&lt;/p&gt;
+
+&lt;p&gt;Rất mong các bạn tìm được thông tin hữu ích cho mình trong bài viết này.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Tony Pham</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="app" />
+      
+        <category term="inventor" />
+      
+
+      
+        <summary type="html">Một linh kiện được xếp hạng quyền lực nhất nhì trong App Inventor nhưng lại được ít người biết đến…</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Board nào tốt hơn - Raspberry hay Arduino</title>
@@ -745,220 +941,6 @@ Khi bạn đăng nhập vào Prose, bạn sẽ thấy yêu cầu cho phép Prose
 
       
         <summary type="html">Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Best Free Image Host Compare In 2020</title>
-      <link href="https://makexyz.fun//so-sanh-cac-trang-cho-luu-tru-anh-mien-phi" rel="alternate" type="text/html" title="Best Free Image Host Compare In 2020" />
-      <published>2020-02-19T15:20:00+00:00</published>
-      <updated>2020-02-19T15:20:00+00:00</updated>
-      <id>https://makexyz.fun//so-sanh-cac-trang-cho-luu-tru-anh-mien-phi</id>
-      <content type="html" xml:base="https://makexyz.fun//so-sanh-cac-trang-cho-luu-tru-anh-mien-phi">&lt;p&gt;Bạn muốn lưu trữ các bức ảnh của mình online nhưng không có host riêng để lưu trữ thì đây là bài viết nên đọc.&lt;/p&gt;
-
-&lt;p&gt;Nếu bạn muốn chia sẻ hình ảnh hoặc album với gia đình, bạn bè qua tin nhắn hoặc thậm chí cho toàn bộ mọi người qua Internet thì một hosting dùng để chứa ảnh chính là cách tốt nhất để upload, lưu trữ và chia sẻ file của bạn. Có rất nhiều hosting chứa ảnh, mỗi loại lại có những tính năng riêng. Hosting tốt nhất cho bạn sẽ phụ thuộc vào các yếu tố bao nhiêu tấm ảnh mà bạn upload, hay thời gian upload ảnh hay tính bảo mật cho những bức ảnh mà bạn đăng lên. Dưới đây là 7 trang web cho lưu trữ và chia sẻ ảnh online miễn phí tốt nhất theo đề xuất của mình cùng những tính năng tương ứng:&lt;/p&gt;
-
-&lt;h2 id=&quot;photobucketcom&quot;&gt;&lt;a href=&quot;photobucket.com&quot;&gt;photobucket.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2.5Gb HOẶC 250photos
-[Nếu bạn vượt giới hạn trên, bạn sẽ cần phải nâng cấp tài khoản]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;cloudinarycom&quot;&gt;&lt;a href=&quot;cloudinary.com&quot;&gt;cloudinary.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;25 credit/tháng&lt;/li&gt;
-  &lt;li&gt;1 credit = 1 GB lưu trữ HOẶC 1 GB băng thông
-[Nếu bạn vượt giới hạn trên, bạn sẽ cần phải nâng cấp tài khoản]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;flickrcom&quot;&gt;&lt;a href=&quot;flickr.com&quot;&gt;flickr.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1,000 tấm ảnh full HD hoặc video HD đi cùng với quảng cáo&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;freeimagehostingnet&quot;&gt;freeimagehosting.net&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Giới hạn kích thước file: 3,000KB (3Mb)&lt;/li&gt;
-  &lt;li&gt;100% miễn phí&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imgbbcom&quot;&gt;&lt;a href=&quot;imgbb.com&quot;&gt;imgbb.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;100% miễn phí&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imagevenuecom&quot;&gt;&lt;a href=&quot;imagevenue.com&quot;&gt;imagevenue.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;100% miễn phí&lt;/li&gt;
-  &lt;li&gt;Kiểu ảnh cho phép: jpeg, jpg&lt;/li&gt;
-  &lt;li&gt;Kích thước tối đa: 10MB&lt;/li&gt;
-  &lt;li&gt;Không giới hạn thời gian lưu trữ&lt;/li&gt;
-  &lt;li&gt;Không giới hạn băng thông&lt;/li&gt;
-  &lt;li&gt;Không yêu cầu đăng nhập&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;onedrivelivecom&quot;&gt;&lt;a href=&quot;onedrive.live.com&quot;&gt;onedrive.live.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;5Gb dung lượng lưu trữ&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;dropboxcom&quot;&gt;&lt;a href=&quot;dropbox.com&quot;&gt;dropbox.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;5Gb dung lượng lưu trữ&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Tony Pham</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="web" />
-      
-
-      
-        <summary type="html">Bạn muốn lưu trữ các bức ảnh của mình online nhưng không có host riêng để lưu trữ thì đây là bài viết nên đọc.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Những mẹo hay khi dùng Markdown Editor để viết blog</title>
-      <link href="https://makexyz.fun//nhung-meo-hay-khi-dung-markdown-editor" rel="alternate" type="text/html" title="Những mẹo hay khi dùng Markdown Editor để viết blog" />
-      <published>2018-06-12T15:20:00+00:00</published>
-      <updated>2018-06-12T15:20:00+00:00</updated>
-      <id>https://makexyz.fun//nhung-meo-hay-khi-dung-markdown-editor</id>
-      <content type="html" xml:base="https://makexyz.fun//nhung-meo-hay-khi-dung-markdown-editor">&lt;p&gt;Có rất nhiều thứ bạn có thể làm với trình soạn thảo Markdown. Nếu bạn đã quen với việc viết bằng Markdown, thì bạn có thể sẽ thích một số mẹo nâng cao bên dưới! Bạn có thể thử các mẹo này trong lúc đọc, sẽ ghi nhớ hiệu quả hơn đấy.&lt;/p&gt;
-
-&lt;h2 id=&quot;các-kiểu-format&quot;&gt;Các kiểu format&lt;/h2&gt;
-
-&lt;p&gt;Ngoài in đậm và in nghiêng, bạn cũng có thể sử dụng một số định dạng đặc biệt khác trong Markdown, ví dụ:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;del&gt;strike through&lt;/del&gt;&lt;/li&gt;
-  &lt;li&gt;==highlight==&lt;/li&gt;
-  &lt;li&gt;*escaped characters*&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;cách-viết-các-dòng-lệnh-thực-hơn&quot;&gt;Cách viết các dòng lệnh thực hơn&lt;/h2&gt;
-
-&lt;p&gt;Có hai loại phần tử mã có thể được chèn trong Markdown, loại đầu tiên là nội tuyến và loại còn lại là khối. Mã nội tuyến được định dạng bằng cách gói bất kỳ từ hoặc từ nào trong dấu tick ngược, &lt;code class=&quot;highlighter-rouge&quot;&gt;như thế này&lt;/code&gt;. Các đoạn mã lớn hơn có thể được hiển thị trên nhiều dòng bằng cách sử dụng ba dấu tick ngược:&lt;/p&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.my-link&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;text-decoration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;underline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;html&quot;&gt;HTML&lt;/h4&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ml-1 mr-1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fab fa-twitter&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;css&quot;&gt;CSS&lt;/h4&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.c&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#999988&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;italic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.err&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#a61717&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#e3d2d2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;js&quot;&gt;JS&lt;/h4&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// alertbar later&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scrollTop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;280&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.alertbar'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.alertbar'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeOut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;python&quot;&gt;Python&lt;/h4&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;ruby&quot;&gt;Ruby&lt;/h4&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'redcarpet'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;markdown&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Redcarpet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;markdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_html&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;c&quot;&gt;C&lt;/h4&gt;
-
-&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
-
-&lt;p&gt;The quick brown &lt;a href=&quot;https://en.wikipedia.org/wiki/Fox&quot;&gt;fox&lt;/a&gt; jumped over the lazy &lt;a href=&quot;https://en.wikipedia.org/wiki/Dog&quot;&gt;dog&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The quick brown [fox] jumped over the lazy [dog].
-
-[fox]: https://en.wikipedia.org/wiki/Fox
-[dog]: https://en.wikipedia.org/wiki/Dog
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Một cách khác để chèn liên kết trong markdown là sử dụng danh sách tham chiếu. Bạn có thể muốn sử dụng kiểu liên kết này để trích dẫn tài liệu tham khảo theo kiểu Wikipedia. Tất cả các liên kết được liệt kê ở cuối tài liệu, vì vậy bạn có thể duy trì sự tách biệt hoàn toàn giữa nội dung với nguồn hoặc tài liệu tham khảo.&lt;/p&gt;
-
-&lt;h2 id=&quot;full-html&quot;&gt;Full HTML&lt;/h2&gt;
-
-&lt;p&gt;Có lẽ phần hay nhất của Markdown là bạn không bao giờ bị giới hạn chỉ với Markdown. Bạn có thể viết HTML trực tiếp trong trình soạn thảo Markdown và nó sẽ hoạt động bình thường. Không giới hạn nào cả! Mình lấy mã nhúng YouTube tiêu chuẩn làm ví dụ:&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Tony Pham</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="jekyll" />
-      
-
-      
-        <summary type="html">Có rất nhiều thứ bạn có thể làm với trình soạn thảo Markdown. Nếu bạn đã quen với việc viết bằng Markdown, thì bạn có thể sẽ thích một số mẹo nâng cao bên dưới! Bạn có thể thử các mẹo này trong lúc đọc, sẽ ghi nhớ hiệu quả hơn đấy.</summary>
       
 
       

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://makexyz.fun//tag/app/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://makexyz.fun//" rel="alternate" type="text/html" />
-  <updated>2020-06-13T22:22:42+00:00</updated>
+  <updated>2020-06-13T22:29:59+00:00</updated>
   <id>https://makexyz.fun//tag/app/feed.xml</id>
 
   
@@ -32,6 +32,94 @@
   
   
 
+  
+    <entry>
+      <title type="html">Activity Starter dùng để làm gì?</title>
+      <link href="https://makexyz.fun//linh-kien-activity-starter-dung-de-lam-gi1" rel="alternate" type="text/html" title="Activity Starter dùng để làm gì?" />
+      <published>2020-06-12T10:00:00+00:00</published>
+      <updated>2020-06-12T10:00:00+00:00</updated>
+      <id>https://makexyz.fun//linh-kien-activity-starter-dung-de-lam-gi1</id>
+      <content type="html" xml:base="https://makexyz.fun//linh-kien-activity-starter-dung-de-lam-gi1">&lt;p&gt;Một linh kiện được xếp hạng quyền lực nhất nhì trong App Inventor nhưng lại được ít người biết đến…&lt;/p&gt;
+
+&lt;h2 id=&quot;activity-starter-dùng-để-làm-gì-&quot;&gt;Activity Starter dùng để làm gì ?&lt;/h2&gt;
+
+&lt;p&gt;Bạn đang làm ứng dụng sử dụng đến bản đồ chẳng hạn nhưng thấy các linh kiện trong phần Map quá ư cùi bắp và muốn sử dụng ứng dụng Google Map mặc định trên điện thoại Android thì Activity Starter chính là thứ bạn cần.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/h1BfXGm/app-inventor-activity-starter.png&quot; alt=&quot;App Inventor Activity Starter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thực ra thì Activity Starter làm được nhiều thứ hay ho hơn thế . Tóm tắt nhanh thì nhiệm vụ của linh kiện này là dùng để mở các chương trình khác trên điện thoại. Bạn có thể mở ra bất kì thứ gì, thậm chí là mở file apk để cài thêm ứng dụng trên điện thoại một cách tự động (nếu có sự cho phép của người dùng và biết khai báo đúng các tham số thuộc tính để mở)&lt;/p&gt;
+
+&lt;p&gt;Nguyên văn: “You can use the Activity Starter to start any activity at all if you know the package name and class name, or the appropriate intent.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/qx5jcQJ/app-inventor-activity-starter-property.png&quot; alt=&quot;App Inventor Activity Starter Properties&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;cách-khai-báo-tham-số-thuộc-tính-của-activity-starter&quot;&gt;Cách khai báo tham số thuộc tính của Activity Starter&lt;/h2&gt;
+
+&lt;p&gt;Vâng, vấn đề chính là không biết khai báo các thuộc tính thế nào cho đúng. Bài viết này sẽ chỉ cho bạn một vài mẹo…&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Tham khảo link:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;https://appinventor.mit.edu/explore/ai2/activity-starter.html&lt;/p&gt;
+
+&lt;p&gt;Link này hướng dẫn chi tiết cách:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cách chạy một App được tạo bằng AI2 bằng một App AI2 khác.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cách chạy một ứng dụng có sẵn trên điện thoại Android bằng một App AI2 như:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Bật Camera&lt;/li&gt;
+      &lt;li&gt;Bật trình duyệt Web&lt;/li&gt;
+      &lt;li&gt;Mở trình duyệt Web đến một trang xác định&lt;/li&gt;
+      &lt;li&gt;Gửi email với nội dung định sẵn&lt;/li&gt;
+      &lt;li&gt;Hiển thị bản đồ ở vị trí định trước&lt;/li&gt;
+      &lt;li&gt;Bật Youtube&lt;/li&gt;
+      &lt;li&gt;Khởi động các ứng dụng khác được cài&lt;/li&gt;
+      &lt;li&gt;Nhận/Gửi thông tin từ các App AI2 khác&lt;/li&gt;
+      &lt;li&gt;Trả về thông tin từ ứng dụng cài sẵn&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Cài ứng dụng sau để soi thông tin (nhanh, gọn, lẹ, dễ…):&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;https://code.google.com/archive/p/appinvactivitystarter/downloads&lt;/p&gt;
+
+&lt;p&gt;Ứng dụng này trước đây có trên Google Play Store nhưng giờ không thể tìm lại được nữa. Mình chỉ còn link offline. Các bạn tải file .apk về cài nhé. Ứng dụng cho bạn thông tin đầy đủ của gần 100 ví dụ sử dụng.&lt;/p&gt;
+
+&lt;p&gt;Rất mong các bạn tìm được thông tin hữu ích cho mình trong bài viết này.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Tony Pham</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="app" />
+      
+        <category term="inventor" />
+      
+
+      
+        <summary type="html">Một linh kiện được xếp hạng quyền lực nhất nhì trong App Inventor nhưng lại được ít người biết đến…</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Lỗi đơn vị kích thước tuyệt đối trong App Inventor</title>
