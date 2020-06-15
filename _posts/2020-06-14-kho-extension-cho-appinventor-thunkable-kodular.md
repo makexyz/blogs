@@ -28,6 +28,8 @@ Bạn chỉ cần tìm đúng Extension hỗ trợ chức năng mình muốn, t�
 
 ![Nơi upload extension trong giao diện thiết kế](https://i.ibb.co/QNywPmK/where-to-upload-extension.jpg)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s7XOJF5d5wo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Kho Extension này nhiều cỡ nào?
 
 Vô cùng nhiều và được cập nhật khá thường xuyên, rất nhiều Extension mà mình chưa hề thử. Bạn lưu ý là trong số những Extension đó có những cái miễn phí và những cái trả phí. Nếu bạn gặp một tính năng trả phí thì lời khuyên của mình là bạn nên kiểm tra xem Thunkable hay Kodular có hỗ trợ tính năng đó hay chưa. Nếu chưa, và bạn nghiêm túc phát triển ứng dụng để có chèn quảng cáo hoặc có thu phí trên Google Play Store thì cũng đừng tiếc tiền mua Extension vì đó là chất xám.
