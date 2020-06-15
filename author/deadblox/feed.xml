@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://makexyz.fun//author/deadblox/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://makexyz.fun//" rel="alternate" type="text/html" />
-  <updated>2020-06-13T22:44:23+00:00</updated>
+  <updated>2020-06-15T03:44:13+00:00</updated>
   <id>https://makexyz.fun//author/deadblox/feed.xml</id>
 
   
@@ -32,6 +32,68 @@
   
   
 
+  
+    <entry>
+      <title type="html">[App Inventor] Kho Extension cho AppInventor | Thunkable | Kodular</title>
+      <link href="https://makexyz.fun//kho-extension-cho-appinventor-thunkable-kodular" rel="alternate" type="text/html" title="[App Inventor] Kho Extension cho AppInventor | Thunkable | Kodular" />
+      <published>2020-06-14T10:00:00+00:00</published>
+      <updated>2020-06-14T10:00:00+00:00</updated>
+      <id>https://makexyz.fun//kho-extension-cho-appinventor-thunkable-kodular</id>
+      <content type="html" xml:base="https://makexyz.fun//kho-extension-cho-appinventor-thunkable-kodular">&lt;p&gt;Để có thể khai thác tính năng của App Inventor hiệu quả, bạn cần biết về các Extension của nó!&lt;/p&gt;
+
+&lt;h2 id=&quot;extension-là-gì&quot;&gt;Extension là gì?&lt;/h2&gt;
+
+&lt;p&gt;Dành cho bạn nào chưa biết về Extension thì nó là các tính năng mở rộng mà App Inventor không có sẵn. Việc App Inventor không bỏ hết tất cả tính năng vào như Kodular hay Thunkable có cái thiệt nhưng cũng có mặt lợi của nó. Mặt lợi là nó sẽ giúp cho các bạn mới làm quen với việc làm App trên App Inventor không bị rối bởi hàng tá những linh kiện có thể chèn vào. Nhưng rồi thì bạn cũng sẽ cần đến những thứ mà App Inventor không có sẵn khi phát triển những ứng dụng có tính năng cao cấp hơn.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/s5bm8Xp/extension-samples.jpg&quot; alt=&quot;Kho Extension cho App Inventor&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mình lấy ví dụ một trường hợp mà các bạn hay inbox hỏi, đó là: Làm sao để có thể quản lý Wifi như kiểm tra xem Wifi khả dụng, yêu cầu App kết nối với một nguồn Wifi đã biết mật khẩu… Cơ bản thì App Inventor không có linh kiện nào hỗ trợ làm việc này. Nhưng, bạn sẽ tìm thấy Extension có tính năng đó theo đường link mình giới thiệu cuối bài.&lt;/p&gt;
+
+&lt;h2 id=&quot;làm-sao-để-có-thể-thêm-extension-cho-app-inventor&quot;&gt;Làm sao để có thể thêm Extension cho App Inventor?&lt;/h2&gt;
+
+&lt;p&gt;Bạn chỉ cần tìm đúng Extension hỗ trợ chức năng mình muốn, tải về file .aix tương ứng. Sau đó, vào mục Extension ở cuối bảng chọn linh kiện và upload file .aix lên là xong. Trong project của bạn sẽ có linh kiện ứng với Extension bạn vừa upload cùng các khối liên quan trong phần Block.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/QNywPmK/where-to-upload-extension.jpg&quot; alt=&quot;Nơi upload extension trong giao diện thiết kế&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;kho-extension-này-nhiều-cỡ-nào&quot;&gt;Kho Extension này nhiều cỡ nào?&lt;/h2&gt;
+
+&lt;p&gt;Vô cùng nhiều và được cập nhật khá thường xuyên, rất nhiều Extension mà mình chưa hề thử. Bạn lưu ý là trong số những Extension đó có những cái miễn phí và những cái trả phí. Nếu bạn gặp một tính năng trả phí thì lời khuyên của mình là bạn nên kiểm tra xem Thunkable hay Kodular có hỗ trợ tính năng đó hay chưa. Nếu chưa, và bạn nghiêm túc phát triển ứng dụng để có chèn quảng cáo hoặc có thu phí trên Google Play Store thì cũng đừng tiếc tiền mua Extension vì đó là chất xám.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kho Extension: https://puravidaapps.com/extensions.php&lt;/li&gt;
+  &lt;li&gt;Wifi Manager Extension (đã đề cập phần trên: https://puravidaapps.com/wifi.php&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Rất vui khia chia sẻ kiến thức này và mong các bạn đang làm quen với App Inventor tìm được thứ hữu ích cho mình.
+P/s: Nếu các bạn thấy nội dung có giá trị thì đừng quên chia sẻ nhé.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Tony Pham</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="app" />
+      
+        <category term="inventor" />
+      
+
+      
+        <summary type="html">Để có thể khai thác tính năng của App Inventor hiệu quả, bạn cần biết về các Extension của nó!</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">[App Inventor] Activity Starter dùng để làm gì?</title>
@@ -833,99 +895,6 @@ Khi bạn đăng nhập vào Prose, bạn sẽ thấy yêu cầu cho phép Prose
 
       
         <summary type="html">Bài viết này sẽ hỗ trợ rất nhiều cho các bạn mới làm quen với viết blog trên Github, và không quen sử dụng Markup Language. Tât nhiên, để vượt qua rào cản ngôn ngữ, bạn cần thêm công cụ. Yên tâm, bạn chẳng cần cài thêm gì trên máy tính đâu, đúng như tiêu đề là sửa trực tuyến nhé! Tất nhiên, bạn vẫn có thể sử dụng giao diện của Github để sửa nội dung file, nhưng giao diện này không thân thiện bằng công cụ mình đề xuất. Công cụ này có tên là Prose.io. Trong bài viết, mình sẽ cập nhật chi tiết về cách sử dụng Prose.io để thêm và chỉnh sửa nội dung blog.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Best Free Image Host Compare In 2020</title>
-      <link href="https://makexyz.fun//so-sanh-cac-trang-cho-luu-tru-anh-mien-phi" rel="alternate" type="text/html" title="Best Free Image Host Compare In 2020" />
-      <published>2020-02-19T15:20:00+00:00</published>
-      <updated>2020-02-19T15:20:00+00:00</updated>
-      <id>https://makexyz.fun//so-sanh-cac-trang-cho-luu-tru-anh-mien-phi</id>
-      <content type="html" xml:base="https://makexyz.fun//so-sanh-cac-trang-cho-luu-tru-anh-mien-phi">&lt;p&gt;Bạn muốn lưu trữ các bức ảnh của mình online nhưng không có host riêng để lưu trữ thì đây là bài viết nên đọc.&lt;/p&gt;
-
-&lt;p&gt;Nếu bạn muốn chia sẻ hình ảnh hoặc album với gia đình, bạn bè qua tin nhắn hoặc thậm chí cho toàn bộ mọi người qua Internet thì một hosting dùng để chứa ảnh chính là cách tốt nhất để upload, lưu trữ và chia sẻ file của bạn. Có rất nhiều hosting chứa ảnh, mỗi loại lại có những tính năng riêng. Hosting tốt nhất cho bạn sẽ phụ thuộc vào các yếu tố bao nhiêu tấm ảnh mà bạn upload, hay thời gian upload ảnh hay tính bảo mật cho những bức ảnh mà bạn đăng lên. Dưới đây là 7 trang web cho lưu trữ và chia sẻ ảnh online miễn phí tốt nhất theo đề xuất của mình cùng những tính năng tương ứng:&lt;/p&gt;
-
-&lt;h2 id=&quot;photobucketcom&quot;&gt;&lt;a href=&quot;photobucket.com&quot;&gt;photobucket.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2.5Gb HOẶC 250photos
-[Nếu bạn vượt giới hạn trên, bạn sẽ cần phải nâng cấp tài khoản]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;cloudinarycom&quot;&gt;&lt;a href=&quot;cloudinary.com&quot;&gt;cloudinary.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;25 credit/tháng&lt;/li&gt;
-  &lt;li&gt;1 credit = 1 GB lưu trữ HOẶC 1 GB băng thông
-[Nếu bạn vượt giới hạn trên, bạn sẽ cần phải nâng cấp tài khoản]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;flickrcom&quot;&gt;&lt;a href=&quot;flickr.com&quot;&gt;flickr.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1,000 tấm ảnh full HD hoặc video HD đi cùng với quảng cáo&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;freeimagehostingnet&quot;&gt;freeimagehosting.net&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Giới hạn kích thước file: 3,000KB (3Mb)&lt;/li&gt;
-  &lt;li&gt;100% miễn phí&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imgbbcom&quot;&gt;&lt;a href=&quot;imgbb.com&quot;&gt;imgbb.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;100% miễn phí&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imagevenuecom&quot;&gt;&lt;a href=&quot;imagevenue.com&quot;&gt;imagevenue.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;100% miễn phí&lt;/li&gt;
-  &lt;li&gt;Kiểu ảnh cho phép: jpeg, jpg&lt;/li&gt;
-  &lt;li&gt;Kích thước tối đa: 10MB&lt;/li&gt;
-  &lt;li&gt;Không giới hạn thời gian lưu trữ&lt;/li&gt;
-  &lt;li&gt;Không giới hạn băng thông&lt;/li&gt;
-  &lt;li&gt;Không yêu cầu đăng nhập&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;onedrivelivecom&quot;&gt;&lt;a href=&quot;onedrive.live.com&quot;&gt;onedrive.live.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;5Gb dung lượng lưu trữ&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;dropboxcom&quot;&gt;&lt;a href=&quot;dropbox.com&quot;&gt;dropbox.com&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;5Gb dung lượng lưu trữ&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Tony Pham</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="web" />
-      
-
-      
-        <summary type="html">Bạn muốn lưu trữ các bức ảnh của mình online nhưng không có host riêng để lưu trữ thì đây là bài viết nên đọc.</summary>
       
 
       
