@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://makexyz.fun//tag/inventor/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://makexyz.fun//" rel="alternate" type="text/html" />
-  <updated>2020-06-15T05:24:49+00:00</updated>
+  <updated>2020-06-16T15:12:08+00:00</updated>
   <id>https://makexyz.fun//tag/inventor/feed.xml</id>
 
   
@@ -45,7 +45,7 @@
 
 &lt;p&gt;Dành cho bạn nào chưa biết về Extension thì nó là các tính năng mở rộng mà App Inventor không có sẵn. Việc App Inventor không bỏ hết tất cả tính năng vào như Kodular hay Thunkable có cái thiệt nhưng cũng có mặt lợi của nó. Mặt lợi là nó sẽ giúp cho các bạn mới làm quen với việc làm App trên App Inventor không bị rối bởi hàng tá những linh kiện có thể chèn vào. Nhưng rồi thì bạn cũng sẽ cần đến những thứ mà App Inventor không có sẵn khi phát triển những ứng dụng có tính năng cao cấp hơn.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/s5bm8Xp/extension-samples.jpg&quot; alt=&quot;Kho Extension cho App Inventor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/s5bm8Xp/extension-samples.jpg&quot; alt=&quot;&amp;quot;Kho Extension cho App Inventor&amp;quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Mình lấy ví dụ một trường hợp mà các bạn hay inbox hỏi, đó là: Làm sao để có thể quản lý Wifi như kiểm tra xem Wifi khả dụng, yêu cầu App kết nối với một nguồn Wifi đã biết mật khẩu… Cơ bản thì App Inventor không có linh kiện nào hỗ trợ làm việc này. Nhưng, bạn sẽ tìm thấy Extension có tính năng đó theo đường link mình giới thiệu cuối bài.&lt;/p&gt;
 
@@ -53,7 +53,7 @@
 
 &lt;p&gt;Bạn chỉ cần tìm đúng Extension hỗ trợ chức năng mình muốn, tải về file .aix tương ứng. Sau đó, vào mục Extension ở cuối bảng chọn linh kiện và upload file .aix lên là xong. Trong project của bạn sẽ có linh kiện ứng với Extension bạn vừa upload cùng các khối liên quan trong phần Block.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/QNywPmK/where-to-upload-extension.jpg&quot; alt=&quot;Nơi upload extension trong giao diện thiết kế&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/QNywPmK/where-to-upload-extension.jpg&quot; alt=&quot;&amp;quot;Nơi upload extension trong giao diện thiết kế&amp;quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s7XOJF5d5wo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
