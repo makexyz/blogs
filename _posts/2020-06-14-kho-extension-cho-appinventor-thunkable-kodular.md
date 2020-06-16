@@ -18,7 +18,7 @@ author: deadblox
 
 Dành cho bạn nào chưa biết về Extension thì nó là các tính năng mở rộng mà App Inventor không có sẵn. Việc App Inventor không bỏ hết tất cả tính năng vào như Kodular hay Thunkable có cái thiệt nhưng cũng có mặt lợi của nó. Mặt lợi là nó sẽ giúp cho các bạn mới làm quen với việc làm App trên App Inventor không bị rối bởi hàng tá những linh kiện có thể chèn vào. Nhưng rồi thì bạn cũng sẽ cần đến những thứ mà App Inventor không có sẵn khi phát triển những ứng dụng có tính năng cao cấp hơn.
 
-![Kho Extension cho App Inventor](https://i.ibb.co/s5bm8Xp/extension-samples.jpg)
+!["Kho Extension cho App Inventor"](https://i.ibb.co/s5bm8Xp/extension-samples.jpg)
 
 Mình lấy ví dụ một trường hợp mà các bạn hay inbox hỏi, đó là: Làm sao để có thể quản lý Wifi như kiểm tra xem Wifi khả dụng, yêu cầu App kết nối với một nguồn Wifi đã biết mật khẩu… Cơ bản thì App Inventor không có linh kiện nào hỗ trợ làm việc này. Nhưng, bạn sẽ tìm thấy Extension có tính năng đó theo đường link mình giới thiệu cuối bài.
 
@@ -26,7 +26,7 @@ Mình lấy ví dụ một trường hợp mà các bạn hay inbox hỏi, đó 
 
 Bạn chỉ cần tìm đúng Extension hỗ trợ chức năng mình muốn, tải về file .aix tương ứng. Sau đó, vào mục Extension ở cuối bảng chọn linh kiện và upload file .aix lên là xong. Trong project của bạn sẽ có linh kiện ứng với Extension bạn vừa upload cùng các khối liên quan trong phần Block.
 
-![Nơi upload extension trong giao diện thiết kế](https://i.ibb.co/QNywPmK/where-to-upload-extension.jpg)
+!["Nơi upload extension trong giao diện thiết kế"](https://i.ibb.co/QNywPmK/where-to-upload-extension.jpg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s7XOJF5d5wo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
