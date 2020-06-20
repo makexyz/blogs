@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://makexyz.fun//tag/app/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://makexyz.fun//" rel="alternate" type="text/html" />
-  <updated>2020-06-16T15:12:08+00:00</updated>
+  <updated>2020-06-20T00:07:26+00:00</updated>
   <id>https://makexyz.fun//tag/app/feed.xml</id>
 
   
@@ -32,6 +32,81 @@
   
   
 
+  
+    <entry>
+      <title type="html">[App Inventor] Load Screen Siêu nhanh bằng Screen Ảo cho AppInventor | Thunkable | Kodular</title>
+      <link href="https://makexyz.fun//load-screen-sieu-nhanh-bang-screen-ao-layout" rel="alternate" type="text/html" title="[App Inventor] Load Screen Siêu nhanh bằng Screen Ảo cho AppInventor | Thunkable | Kodular" />
+      <published>2020-06-19T10:00:00+00:00</published>
+      <updated>2020-06-19T10:00:00+00:00</updated>
+      <id>https://makexyz.fun//load-screen-sieu-nhanh-bang-screen-ao-layout</id>
+      <content type="html" xml:base="https://makexyz.fun//load-screen-sieu-nhanh-bang-screen-ao-layout">&lt;p&gt;Một yếu ảnh hưởng lớn tới UX chính là tốc độ. Trong bài viết này, mình sẽ giới thiệu về cách giảm thời gian chuyển giữa các màn hình khác nhau trong ứng dụng để tăng UX.&lt;/p&gt;
+
+&lt;h2 id=&quot;-giá-trị-bài-viết-này-nằm-ở-đâu&quot;&gt;🔑 Giá trị bài viết này nằm ở đâu?&lt;/h2&gt;
+
+&lt;p&gt;Bạn sẽ không thấy hiệu quả rõ rệt trong phương pháp mình giới thiệu nếu ứng dụng của bạn đơn giản, ít tài nguyên hình ảnh trong các màn hình (Screen), nhưng nếu bạn chuyển đổi qua lại giữa các màn hình chứa nhiều hình ảnh thì sẽ thất rõ điều đó - có thể nói là siêu nhanh so với cách truyền thống.&lt;/p&gt;
+
+&lt;h2 id=&quot;-tóm-tắt-phương-pháp-cũ&quot;&gt;🔑 Tóm tắt phương pháp cũ&lt;/h2&gt;
+&lt;p&gt;Đầu tiên, mình giới thiệu lại “cách tạo multiscreen - nhiều màn hình” truyền thống cho để các bạn tiện so sánh, tránh hiểu nhầm ý. Để tạo multiscreen, bạn sẽ cần nhấn nút Add Screen để thêm màn hình và chuyển màn hình bằng một sự kiện mà người dùng tương tác với App như nhấn nút “Next” mà mình thêm vào mỗi màn hình chẳng hạn.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/VS1w6wt/add-screen-gif.gif&quot; alt=&quot;&amp;quot;Cách thêm Screen mới&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/Jj6Q1n1/change-screen-by-press-button.gif&quot; alt=&quot;&amp;quot;Chuyen screen bằng nút nhấn&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-hướng-dẫn-phương-pháp-mới--so-sánh&quot;&gt;🔑 Hướng dẫn phương pháp mới &amp;amp; so sánh&lt;/h2&gt;
+
+&lt;p&gt;Điểm thay đổi trong phương pháp này là mình không tạo “Screen” mới. Thay vào đó, mình sử dụng linh kiện Layout như một “Screen ảo”. Để làm vậy mình cần tạo nhiều Layout, mỗi Layout chứa nội dung của một Screen như trước và các Layout sẽ được điều khiển bằng lệnh để ẩn / hiện tương ứng.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/PFMmcLF/control-display-layout.gif&quot; alt=&quot;&amp;quot;Điều khiển hiển thị Layout&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vì tất cả các nội dung thực chất đang nằm trên 1 Screen và chỉ được ẩn / hiện nên không tốn thời gian tải lại tài nguyên. Bạn có thể xem hướng dẫn trong video để nắm cách làm.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PoHOX_hug5k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;-ưu-và-nhược-điểm-của-phương-pháp-này&quot;&gt;🔑🔑🔑 Ưu và nhược điểm của phương pháp này&lt;/h2&gt;
+
+&lt;h3 id=&quot;-ưu-điểm&quot;&gt;😁 Ưu điểm:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Load trang siêu nhanh vì không phải tải lại tài nguyên&lt;/li&gt;
+  &lt;li&gt;Dữ liệu (biến) thuộc cùng 1 trang nên có thể dùng ngay mà không tốn thêm bước truyền dữ liệu.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-nhược-điểm&quot;&gt;😅 Nhược điểm:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Quá trình thiết kế phức tạp hơn.&lt;/li&gt;
+  &lt;li&gt;Tốn thêm phần lệnh điều khiển chuyển trang (tắt /bật Layout)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;😍😍😍 Nếu bạn thấy bài viết này bổ ích thì nhớ &lt;strong&gt;like&lt;/strong&gt; để mình biết chủ đề nào các bạn cần thì sẽ làm chi tiết hơn nhé. Bạn cũng có thể đề xuất nội dung trong phần comment dưới bài viết.&lt;/p&gt;
+
+&lt;p&gt;😍😍😍 Đừng quên &lt;strong&gt;Subscribe kênh Youtube&lt;/strong&gt;, có video hướng dẫn mới thì mình sẽ up trên này: https://www.youtube.com/watch&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Tony Pham</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="app" />
+      
+        <category term="inventor" />
+      
+
+      
+        <summary type="html">Một yếu ảnh hưởng lớn tới UX chính là tốc độ. Trong bài viết này, mình sẽ giới thiệu về cách giảm thời gian chuyển giữa các màn hình khác nhau trong ứng dụng để tăng UX.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">[App Inventor] Kho Extension cho AppInventor | Thunkable | Kodular</title>
