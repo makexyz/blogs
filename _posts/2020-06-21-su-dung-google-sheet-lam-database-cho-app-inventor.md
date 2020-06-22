@@ -22,7 +22,7 @@ Trong bài viết này, mình sẽ giới thiệu chi tiết từng bước đ�
 - Thêm thông tin vào Google Sheet thông qua Google Form
   > Cả 2 phần của video đều cần hiệu chỉnh các URLs từ URLs gốc dùng để chia sẻ Sheet hoặc Form.
 
-👉 Sử dụng Google Sheet làm database sẽ XỊN trong các trường hợp sau:
+## 👉 Sử dụng Google Sheet làm database sẽ XỊN trong các trường hợp sau:
 
 1. Bạn chỉ dùng App Inventor App để đọc dữ liệu từ một file Google Sheet có sẵn, còn chỉnh sửa thì làm trên chính Google Sheet
 2. Bạn muốn tạo một App cho phép hiển thị kết quả hoặc thậm chí lọc kết quả từ một Google Form.
