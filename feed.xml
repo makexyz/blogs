@@ -1,10 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://makexyz.fun//feed.xml" rel="self" type="application/atom+xml" /><link href="https://makexyz.fun//" rel="alternate" type="text/html" /><updated>2020-06-22T01:47:29+00:00</updated><id>https://makexyz.fun//</id><title type="html">MakeXYZ</title><subtitle>Make anything fun</subtitle><entry><title type="html">[App Inventor] Load Screen Siêu nhanh bằng Screen Ảo cho AppInventor | Thunkable | Kodular</title><link href="https://makexyz.fun//load-screen-sieu-nhanh-bang-screen-ao-layout" rel="alternate" type="text/html" title="[App Inventor] Load Screen Siêu nhanh bằng Screen Ảo cho AppInventor | Thunkable | Kodular" /><published>2020-06-19T10:00:00+00:00</published><updated>2020-06-19T10:00:00+00:00</updated><id>https://makexyz.fun//load-screen-sieu-nhanh-bang-screen-ao-layout</id><content type="html" xml:base="https://makexyz.fun//load-screen-sieu-nhanh-bang-screen-ao-layout">&lt;p&gt;Một yếu ảnh hưởng lớn tới UX chính là tốc độ. Trong bài viết này, mình sẽ giới thiệu về cách giảm thời gian chuyển giữa các màn hình khác nhau trong ứng dụng để tăng UX.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://makexyz.fun//feed.xml" rel="self" type="application/atom+xml" /><link href="https://makexyz.fun//" rel="alternate" type="text/html" /><updated>2020-06-22T01:59:51+00:00</updated><id>https://makexyz.fun//</id><title type="html">MakeXYZ</title><subtitle>Make anything fun</subtitle><entry><title type="html">[App Inventor] Mở mọi ứng dụng khác với Activity Starter</title><link href="https://makexyz.fun//mo-app-khac-bang-activity-starter" rel="alternate" type="text/html" title="[App Inventor] Mở mọi ứng dụng khác với Activity Starter" /><published>2020-06-21T10:00:00+00:00</published><updated>2020-06-21T10:00:00+00:00</updated><id>https://makexyz.fun//mo-app-khac-bang-activity-starter</id><content type="html" xml:base="https://makexyz.fun//mo-app-khac-bang-activity-starter">&lt;p&gt;Là “mọi” ứng dụng khác trên điện thoại Android đó! Điều này sẽ giúp bạn không phải phát minh lại bánh xe nữa nhé.&lt;/p&gt;
+
+&lt;p&gt;Xem lại bài viết trước &lt;a href=&quot;https://www.facebook.com/appinventorvietnam/posts/1142243759471839&quot;&gt;tại đây&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;😅 Sau khi mình đăng bài viết trước (Activity Starter được dùng làm gì ?) có nhiều bạn thắc mắc rằng anh ơi, sao em không vào được dù làm đúng hoàn toàn… Thế là mình đi tìm một cách có thể truy vấn chính xác hơn để hôm nay chia sẻ tiếp với các bạn.&lt;/p&gt;
+
+&lt;h2 id=&quot;-những-giới-hạn-trong-cách-cũ&quot;&gt;🔑 Những giới hạn trong cách cũ&lt;/h2&gt;
+
+&lt;p&gt;Trong bài viết trước đây, mình có đề xuất 2 cách để mở các ứng dụng khác trên Android bằng Activity Starter. Những cách này vẫn có giá trị của nó. Tuy nhiên, đối với những dòng điện thoại khác nhau, ActivityPackage và ActivityClass có thể sẽ khác nhau dẫn đến làm theo cách mặc định có thể vào được trên điện thoại này nhưng không vào được trên điện thoại khác. Hoặc thậm chí sau lần update nào đó của Android, ActivityPakage hoặc ActivityClass đã bị thay đổi nên không thể sử dụng được nữa.&lt;/p&gt;
+
+&lt;h2 id=&quot;-và-đây-là-cách-mới&quot;&gt;🔑 Và đây là cách mới&lt;/h2&gt;
+
+&lt;p&gt;Tin vui là mình vừa tìm ra cách lấy 2 thông tin trên với giá trị chính xác nhất ứng với điện thoại của bạn. Bạn cài App Activity Finder theo link bên dưới lên điện thoại và xem đoạn clip để biết cách làm nhé. Sau khi tìm được bộ thông tin ActivityPakage và ActivityClass, bạn dùng nó để cập nhật thuộc tính của Activity Starter.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/23YTbgc/activity-finder-app.jpg&quot; alt=&quot;Giao diện App Finder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;👉&lt;strong&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.cleanapps.packagemanager&quot;&gt;Link App&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qGGxUw3kXgo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;😍😍😍 Nếu bạn thấy bài viết này bổ ích thì nhớ like để mình biết chủ đề nào các bạn cần thì sẽ làm chi tiết hơn nhé. Bạn cũng có thể đề xuất nội dung trong phần comment dưới bài viết.&lt;/p&gt;
+
+&lt;p&gt;😍😍😍 Đừng quên Subscribe &lt;a href=&quot;https://www.youtube.com/watch?fbclid=IwAR3P_N_opPMjjjyyE4j6Iwx65HAewUhYw5u4YgTcUPaz1OOE54C2-kS4PDk&quot;&gt;kênh Youtube&lt;/a&gt;, có video hướng dẫn mới thì mình sẽ up trên này.&lt;/p&gt;</content><author><name>Tony Pham</name></author><category term="app" /><category term="inventor" /><summary type="html">Là “mọi” ứng dụng khác trên điện thoại Android đó! Điều này sẽ giúp bạn không phải phát minh lại bánh xe nữa nhé.</summary></entry><entry><title type="html">[App Inventor] Load Screen Siêu nhanh bằng Screen Ảo cho AppInventor | Thunkable | Kodular</title><link href="https://makexyz.fun//load-screen-sieu-nhanh-bang-screen-ao-layout" rel="alternate" type="text/html" title="[App Inventor] Load Screen Siêu nhanh bằng Screen Ảo cho AppInventor | Thunkable | Kodular" /><published>2020-06-19T10:00:00+00:00</published><updated>2020-06-19T10:00:00+00:00</updated><id>https://makexyz.fun//load-screen-sieu-nhanh-bang-screen-ao-layout</id><content type="html" xml:base="https://makexyz.fun//load-screen-sieu-nhanh-bang-screen-ao-layout">&lt;p&gt;Một yếu ảnh hưởng lớn tới UX chính là tốc độ. Trong bài viết này, mình sẽ giới thiệu về cách giảm thời gian chuyển giữa các màn hình khác nhau trong ứng dụng để tăng UX.&lt;/p&gt;
 
 &lt;h2 id=&quot;-giá-trị-bài-viết-này-nằm-ở-đâu&quot;&gt;🔑 Giá trị bài viết này nằm ở đâu?&lt;/h2&gt;
 
 &lt;p&gt;Bạn sẽ không thấy hiệu quả rõ rệt trong phương pháp mình giới thiệu nếu ứng dụng của bạn đơn giản, ít tài nguyên hình ảnh trong các màn hình (Screen), nhưng nếu bạn chuyển đổi qua lại giữa các màn hình chứa nhiều hình ảnh thì sẽ thất rõ điều đó - có thể nói là siêu nhanh so với cách truyền thống.&lt;/p&gt;
 
 &lt;h2 id=&quot;-tóm-tắt-phương-pháp-cũ&quot;&gt;🔑 Tóm tắt phương pháp cũ&lt;/h2&gt;
+
 &lt;p&gt;Đầu tiên, mình giới thiệu lại “cách tạo multiscreen - nhiều màn hình” truyền thống cho để các bạn tiện so sánh, tránh hiểu nhầm ý. Để tạo multiscreen, bạn sẽ cần nhấn nút Add Screen để thêm màn hình và chuyển màn hình bằng một sự kiện mà người dùng tương tác với App như nhấn nút “Next” mà mình thêm vào mỗi màn hình chẳng hạn.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.ibb.co/VS1w6wt/add-screen-gif.gif&quot; alt=&quot;&amp;quot;Cách thêm Screen mới&amp;quot;&quot; /&gt;&lt;/p&gt;
@@ -24,12 +47,14 @@
 &lt;h2 id=&quot;-ưu-và-nhược-điểm-của-phương-pháp-này&quot;&gt;🔑🔑🔑 Ưu và nhược điểm của phương pháp này&lt;/h2&gt;
 
 &lt;h3 id=&quot;-ưu-điểm&quot;&gt;😁 Ưu điểm:&lt;/h3&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Load trang siêu nhanh vì không phải tải lại tài nguyên&lt;/li&gt;
   &lt;li&gt;Dữ liệu (biến) thuộc cùng 1 trang nên có thể dùng ngay mà không tốn thêm bước truyền dữ liệu.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;-nhược-điểm&quot;&gt;😅 Nhược điểm:&lt;/h3&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Quá trình thiết kế phức tạp hơn.&lt;/li&gt;
   &lt;li&gt;Tốn thêm phần lệnh điều khiển chuyển trang (tắt /bật Layout)&lt;/li&gt;
@@ -37,7 +62,7 @@
 
 &lt;p&gt;😍😍😍 Nếu bạn thấy bài viết này bổ ích thì nhớ &lt;strong&gt;like&lt;/strong&gt; để mình biết chủ đề nào các bạn cần thì sẽ làm chi tiết hơn nhé. Bạn cũng có thể đề xuất nội dung trong phần comment dưới bài viết.&lt;/p&gt;
 
-&lt;p&gt;😍😍😍 Đừng quên &lt;strong&gt;Subscribe kênh Youtube&lt;/strong&gt;, có video hướng dẫn mới thì mình sẽ up trên này: https://www.youtube.com/watch&lt;/p&gt;</content><author><name>Tony Pham</name></author><category term="app" /><category term="inventor" /><summary type="html">Một yếu ảnh hưởng lớn tới UX chính là tốc độ. Trong bài viết này, mình sẽ giới thiệu về cách giảm thời gian chuyển giữa các màn hình khác nhau trong ứng dụng để tăng UX.</summary></entry><entry><title type="html">[App Inventor] Kho Extension cho AppInventor | Thunkable | Kodular</title><link href="https://makexyz.fun//kho-extension-cho-appinventor-thunkable-kodular" rel="alternate" type="text/html" title="[App Inventor] Kho Extension cho AppInventor | Thunkable | Kodular" /><published>2020-06-14T10:00:00+00:00</published><updated>2020-06-14T10:00:00+00:00</updated><id>https://makexyz.fun//kho-extension-cho-appinventor-thunkable-kodular</id><content type="html" xml:base="https://makexyz.fun//kho-extension-cho-appinventor-thunkable-kodular">&lt;p&gt;Để có thể khai thác tính năng của App Inventor hiệu quả, bạn cần biết về các Extension của nó!&lt;/p&gt;
+&lt;p&gt;😍😍😍 Đừng quên Subscribe &lt;a href=&quot;https://www.youtube.com/watch?fbclid=IwAR3P_N_opPMjjjyyE4j6Iwx65HAewUhYw5u4YgTcUPaz1OOE54C2-kS4PDk&quot;&gt;kênh Youtube&lt;/a&gt;, có video hướng dẫn mới thì mình sẽ up trên này.&lt;/p&gt;</content><author><name>Tony Pham</name></author><category term="app" /><category term="inventor" /><summary type="html">Một yếu ảnh hưởng lớn tới UX chính là tốc độ. Trong bài viết này, mình sẽ giới thiệu về cách giảm thời gian chuyển giữa các màn hình khác nhau trong ứng dụng để tăng UX.</summary></entry><entry><title type="html">[App Inventor] Kho Extension cho AppInventor | Thunkable | Kodular</title><link href="https://makexyz.fun//kho-extension-cho-appinventor-thunkable-kodular" rel="alternate" type="text/html" title="[App Inventor] Kho Extension cho AppInventor | Thunkable | Kodular" /><published>2020-06-14T10:00:00+00:00</published><updated>2020-06-14T10:00:00+00:00</updated><id>https://makexyz.fun//kho-extension-cho-appinventor-thunkable-kodular</id><content type="html" xml:base="https://makexyz.fun//kho-extension-cho-appinventor-thunkable-kodular">&lt;p&gt;Để có thể khai thác tính năng của App Inventor hiệu quả, bạn cần biết về các Extension của nó!&lt;/p&gt;
 
 &lt;h2 id=&quot;extension-là-gì&quot;&gt;Extension là gì?&lt;/h2&gt;
 
@@ -369,157 +394,4 @@ Tuy nhiên, không phải ai tạo ra trò chơi cũng có thể đổi Robux tr
   &lt;li&gt;&lt;a href=&quot;https://www.mydevice.io/#compare-devices&quot;&gt;Đo độ phân giải màn hình của bạn&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DYuzZWudt0w&quot;&gt;AppyBuilder TIPS: Responsive App Design (Best Practices, Concepts) - YouTube&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://ai2.appinventor.mit.edu/…/other/responsiveDesign.html&quot;&gt;Responsive Design in App Inventor&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Tony Pham</name></author><category term="app" /><category term="inventor" /><summary type="html">Bài viết này chỉ ra 1 lỗi sai nghiêm trọng về đơn vị đo sẽ khiến các bạn không kiểu gì hình dung được tại sao mình thiết kế một đằng nhưng App Inventor lại hiển thị một nẻo trong Responsive Mode.</summary></entry><entry><title type="html">Giới thiệu theme Jekyll Mediumish siêu đẹp</title><link href="https://makexyz.fun//gioi-thieu-theme-mediumish-jekyll" rel="alternate" type="text/html" title="Giới thiệu theme Jekyll Mediumish siêu đẹp" /><published>2020-02-28T15:00:00+00:00</published><updated>2020-02-28T15:00:00+00:00</updated><id>https://makexyz.fun//gioi-thieu-theme-mediumish-jekyll</id><content type="html" xml:base="https://makexyz.fun//gioi-thieu-theme-mediumish-jekyll">&lt;h2 id=&quot;tính-năng&quot;&gt;Tính năng&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Được xây dựng cho Jekyll&lt;/li&gt;
-  &lt;li&gt;Tương thích với Github pages&lt;/li&gt;
-  &lt;li&gt;Bài viết nổi bật (Featured Posts)&lt;/li&gt;
-  &lt;li&gt;Đánh số phân trang (Index Pagination)&lt;/li&gt;
-  &lt;li&gt;Tối ưu hóa cho công cụ tìm kiếm (SEO)&lt;/li&gt;
-  &lt;li&gt;Feed&lt;/li&gt;
-  &lt;li&gt;Sơ đồ trang (Sitemap)&lt;/li&gt;
-  &lt;li&gt;Chia sẻ bài viết (Post Share)&lt;/li&gt;
-  &lt;li&gt;Phân loại bài viết (Post Categories)&lt;/li&gt;
-  &lt;li&gt;Bài viết kế tiếp / trước đó (Prev/Next Link)&lt;/li&gt;
-  &lt;li&gt;Category Archives (Compatible with Github pages)&lt;/li&gt;
-  &lt;li&gt;Jumbotron Categories&lt;/li&gt;
-  &lt;li&gt;Đánh giá trên bài viết (Post Reviews with Stars)&lt;/li&gt;
-  &lt;li&gt;Bôi mờ đoạn văn bản (Blurred Spoilers)&lt;/li&gt;
-  &lt;li&gt;Danh sách nội dung tự động (Table of Content)&lt;/li&gt;
-  &lt;li&gt;Lazy Load Images&lt;/li&gt;
-  &lt;li&gt;Tích hợp:
-    &lt;ul&gt;
-      &lt;li&gt;Disqus Comments =&amp;gt; Dành cho đánh giá&lt;/li&gt;
-      &lt;li&gt;Google Analaytics =&amp;gt; Dành cho thống kê tự động số truy cập vào trang&lt;/li&gt;
-      &lt;li&gt;Mailchimp Integration =&amp;gt; Dành cho đăng ký nhận tin&lt;/li&gt;
-      &lt;li&gt;Adsense =&amp;gt; Dành để chèn quảng cáo từ Google&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Các tính năng thiết kế nổi bật:
-    &lt;ul&gt;
-      &lt;li&gt;Bootstrap v4.x&lt;/li&gt;
-      &lt;li&gt;Font Awesome&lt;/li&gt;
-      &lt;li&gt;Masonry&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Các dạng Layout:
-    &lt;ul&gt;
-      &lt;li&gt;Default&lt;/li&gt;
-      &lt;li&gt;Post&lt;/li&gt;
-      &lt;li&gt;Page&lt;/li&gt;
-      &lt;li&gt;Archive&lt;/li&gt;
-      &lt;li&gt;Categories (100% tương thích với Github pages)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://bootstrapstarter.com/assets/img/themes/mediumish-jekyll.jpg&quot; alt=&quot;Mediumish Theme Demo&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;jekyll-là-gì&quot;&gt;Jekyll là gì&lt;/h2&gt;
-
-&lt;p&gt;Nếu bạn chưa từng nghe về Jekyll thì nó là một dạng phần mềm cung cấp giải pháp tạo ra trang web tĩnh từ những thông tin có sẵn và layout có sẵn. Nói cách khác, nó giúp biến file text chứa nội dung post mà bạn viết thành một post hoặc một web tĩnh. Bạn sẽ không cần database, không còn chuyện load trang chậm hay rủi ro bị hack… Do đó, bạn sẽ có nhiều thời gian dành cho nội dung viết hơn. Và thú vị nhất vẫn là, với Jekyll bạn có thể tạo một trang web miễn phí với tài khoản Github. Bạn nên dành thời gian đọc sơ tài liệu về Jekyll để nắm thêm thông tin nếu mới tìm hiểu. Nếu bạn đã có kiến thức cơ bản về Jekyll rồi thì mình chuyển sang phần cài đặt theme Mediumish cho Jekyll như bên dưới.&lt;/p&gt;
-
-&lt;h2 id=&quot;cách-sử-dụng-theme-mediumish&quot;&gt;Cách sử dụng theme “Mediumish”&lt;/h2&gt;
-
-&lt;h3 id=&quot;tải-theme-mediumish&quot;&gt;Tải theme Mediumish&lt;/h3&gt;
-&lt;p&gt;Tải về theme Mediumish bằng cách vào command prompt, lần lượt gõ lệnh bên dưới
-Lưu ý: Bạn cần cài Ruby trước để  sử dụng lệnh &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/wowthemesnet/mediumish-theme-jekyll.git
-cd mediumish-theme-jekyll
-bundle
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;chỉnh-file-_configyml&quot;&gt;Chỉnh file _config.yml&lt;/h3&gt;
-
-&lt;p&gt;Nếu trang web của bạn được lưu trong thư mục gốc luôn thì chỉnh &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl: ''&lt;/code&gt;. Bạn cũng cần chỉnh mã Google Analytics, disqus username, authors, Mailchimp list nếu có sử dụng&lt;/p&gt;
-
-&lt;p&gt;Sau khi chỉnh xong, bạn có thể khởi tạo Server trên máy tính để xem trang với lệnh sau:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle exec jekyll serve --watch
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Bạn có thể tạo bài viết mới bằng cách tạo file &lt;strong&gt;.md&lt;/strong&gt; trong thư mục &lt;strong&gt;_posts&lt;/strong&gt;. Mediumish cũng đã có sẵn nhiều ví dụ cho bạn tham khảo.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;YAML front matter&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bật tính năng bài viết nổi bật - &lt;code class=&quot;highlighter-rouge&quot;&gt;featured:true&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Loại các bài viết nổi bật khỏi “All stories” để tránh lặp lại - &lt;code class=&quot;highlighter-rouge&quot;&gt;hidden:true&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Ảnh bài viết - &lt;code class=&quot;highlighter-rouge&quot;&gt;image: assets/images/mypic.jpg&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Ảnh bài viết với link bên ngoài - &lt;code class=&quot;highlighter-rouge&quot;&gt;image: &quot;https://externalwebsite.com/image4.jpg&quot;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Bật tính năng comment - &lt;code class=&quot;highlighter-rouge&quot;&gt;comments:true&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Mô tả nội dung trường meta (không bắt buộc) - &lt;code class=&quot;highlighter-rouge&quot;&gt;description: &quot;this is my meta description&quot;&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;ví-dụ-yaml-post&quot;&gt;Ví dụ YAML Post&lt;/h3&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-layout: post
-title:  &quot;We all wait for summer&quot;
-author: john
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
-description: &quot;Something about this post here&quot;
----
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;ví-dụ-yaml-page&quot;&gt;Ví dụ YAML Page&lt;/h3&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-layout: page
-title: Mediumish Template for Jekyll
-comments: true
----
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;ví-dụ-đánh-giá&quot;&gt;Ví dụ Đánh giá&lt;/h3&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-layout: post
-title:  &quot;We all wait for summer&quot;
-author: john
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
-description: &quot;Something about this post here&quot;
-rating: 4.5
----
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;quảng-cáo-adsense&quot;&gt;Quảng cáo Adsense&lt;/h3&gt;
-
-&lt;p&gt;Bật tính năng quảng cáo bằng cách điều chỉnh file _config.yml.&lt;/p&gt;
-
-&lt;p&gt;Adsense (thay giá trị thành “enabled” để kích hoạt). Bạn cũng cần cập nhật giá trị &lt;code class=&quot;highlighter-rouge&quot;&gt;adsense-data-ad-client&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;adsense-data-ad-slot&lt;/code&gt; cho tương thích với khai báo quảng cáo của bạn trên tài khoản Google Adsense.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adsense: &quot;disabled&quot;
-adsense-data-ad-client: &quot;ca-pub-3412143450191416&quot;
-adsense-data-ad-slot: &quot;1363087678&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;lazy-load-images&quot;&gt;Lazy Load Images&lt;/h3&gt;
-
-&lt;p&gt;Bật tính năng này bằng cách điều chỉnh file _config.yml.&lt;/p&gt;
-
-&lt;p&gt;Lazy Images (“enabled” hoặc “disabled”)&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lazyimages: &quot;enabled&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
-
-&lt;p&gt;Add toc:true on your post YAML.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-layout: post
-title:  &quot;Education must also train one for quick, resolute and effective thinking.&quot;
-author: john
-categories: [ Jekyll, tutorial ]
-image: assets/images/3.jpg
-beforetoc: &quot;Markdown editor is a very powerful thing. In this article I'm going to show you what you can actually do with it, some tricks and tips while editing your post.&quot;
-toc: true
----
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;beforetoc thêm một đoạn văn bản trước khi hiển thị TOC.&lt;/p&gt;</content><author><name>Tony Pham</name></author><category term="jekyll" /><summary type="html">Tính năng</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Tony Pham</name></author><category term="app" /><category term="inventor" /><summary type="html">Bài viết này chỉ ra 1 lỗi sai nghiêm trọng về đơn vị đo sẽ khiến các bạn không kiểu gì hình dung được tại sao mình thiết kế một đằng nhưng App Inventor lại hiển thị một nẻo trong Responsive Mode.</summary></entry></feed>
