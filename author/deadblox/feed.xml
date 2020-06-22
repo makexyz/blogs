@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://makexyz.fun//author/deadblox/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://makexyz.fun//" rel="alternate" type="text/html" />
-  <updated>2020-06-22T01:59:51+00:00</updated>
+  <updated>2020-06-22T14:22:08+00:00</updated>
   <id>https://makexyz.fun//author/deadblox/feed.xml</id>
 
   
@@ -32,6 +32,68 @@
   
   
 
+  
+    <entry>
+      <title type="html">[App Inventor] Sử dụng Google Sheet làm database</title>
+      <link href="https://makexyz.fun//su-dung-google-sheet-lam-database-cho-app-inventor" rel="alternate" type="text/html" title="[App Inventor] Sử dụng Google Sheet làm database" />
+      <published>2020-06-21T19:00:00+00:00</published>
+      <updated>2020-06-21T19:00:00+00:00</updated>
+      <id>https://makexyz.fun//su-dung-google-sheet-lam-database-cho-app-inventor</id>
+      <content type="html" xml:base="https://makexyz.fun//su-dung-google-sheet-lam-database-cho-app-inventor">&lt;p&gt;Google Sheet với tốc độ truy cập siêu nhanh có thể được sử dụng như một Database Online cho App của bạn nhé!&lt;/p&gt;
+
+&lt;p&gt;Trong bài viết này, mình sẽ giới thiệu chi tiết từng bước để đọc và ghi dữ liệu lên Google Sheet, cũng như sẽ trình bày điểm XỊN trong áp dụng thực tế loại Database này.&lt;/p&gt;
+
+&lt;h2 id=&quot;-video-hướng-dẫn-gồm-2-phần&quot;&gt;👉 Video hướng dẫn gồm 2 phần:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Đọc thông tin từ Google Sheet&lt;/li&gt;
+  &lt;li&gt;Thêm thông tin vào Google Sheet thông qua Google Form
+    &lt;blockquote&gt;
+      &lt;p&gt;Cả 2 phần của video đều cần hiệu chỉnh các URLs từ URLs gốc dùng để chia sẻ Sheet hoặc Form.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;-sử-dụng-google-sheet-làm-database-sẽ-xịn-trong-các-trường-hợp-sau&quot;&gt;👉 Sử dụng Google Sheet làm database sẽ XỊN trong các trường hợp sau:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Bạn chỉ dùng App Inventor App để đọc dữ liệu từ một file Google Sheet có sẵn, còn chỉnh sửa thì làm trên chính Google Sheet&lt;/li&gt;
+  &lt;li&gt;Bạn muốn tạo một App cho phép hiển thị kết quả hoặc thậm chí lọc kết quả từ một Google Form.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_zKQvDjcqYQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;😍😍😍 Nếu bạn thấy bài viết này bổ ích thì nhớ like để mình biết chủ đề nào các bạn cần thì sẽ làm chi tiết hơn nhé. Bạn cũng có thể đề xuất nội dung trong phần comment dưới bài viết.&lt;/p&gt;
+
+&lt;p&gt;😍😍😍 Đừng quên Subscribe &lt;a href=&quot;https://www.youtube.com/watch?fbclid=IwAR3P_N_opPMjjjyyE4j6Iwx65HAewUhYw5u4YgTcUPaz1OOE54C2-kS4PDk&quot;&gt;kênh Youtube&lt;/a&gt;, có video hướng dẫn mới thì mình sẽ up trên này.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Tony Pham</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="app" />
+      
+        <category term="inventor" />
+      
+
+      
+        <summary type="html">Google Sheet với tốc độ truy cập siêu nhanh có thể được sử dụng như một Database Online cho App của bạn nhé!</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">[App Inventor] Mở mọi ứng dụng khác với Activity Starter</title>
@@ -692,87 +754,6 @@ Tuy nhiên, không phải ai tạo ra trò chơi cũng có thể đổi Robux tr
 
       
         <summary type="html">Hãy tưởng tượng Roblox giống như một như một Google Play Store hay Apple App Store, nơi bạn có thể tải hàng triệu ứng dụng về cài đặt lên điện thoại.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Lỗi đơn vị kích thước tuyệt đối trong App Inventor</title>
-      <link href="https://makexyz.fun//kich-thuoc-trong-appinventor" rel="alternate" type="text/html" title="Lỗi đơn vị kích thước tuyệt đối trong App Inventor" />
-      <published>2020-03-02T10:18:00+00:00</published>
-      <updated>2020-03-02T10:18:00+00:00</updated>
-      <id>https://makexyz.fun//kich-thuoc-trong-appinventor</id>
-      <content type="html" xml:base="https://makexyz.fun//kich-thuoc-trong-appinventor">&lt;p&gt;Bài viết này chỉ ra 1 lỗi sai nghiêm trọng về đơn vị đo sẽ khiến các bạn không kiểu gì hình dung được tại sao mình thiết kế một đằng nhưng App Inventor lại hiển thị một nẻo trong Responsive Mode.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/vLZbkg3/Screen-Sizing.png&quot; alt=&quot;Screen Sizing in App Inventor&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;vấn-đề&quot;&gt;VẤN ĐỀ&lt;/h2&gt;
-
-&lt;p&gt;Trong phần điều chỉnh kích thước của các Component, App Inventor cho tùy chọn kích thước tuyệt đối (pixel) và kích thước tương đối so với màn hình (percent). Làm một ví dụ đơn giản, mình muốn thiết kế cái nút nhấn dài đúng 50% chiều rộng màn hình của mình nhưng khai báo ở chế độ tuyệt đối (px). Màn hình điện thoại của mình có độ phân giải HD+ (1080x2232 px).&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Nếu bạn nghĩ, ở chế độ Responsive của App Inventor và điền vào ô kích thước Width = 540px (thuộc tính của nút nhấn - giá trị tuyệt đối) sẽ khiến cái nút nhấn dài 1 nửa so với chiều dài của màn hình thì bạn lầm to rồi. Thực tế, cái nút nhấn sẽ dài còn hơn cả chiều rộng màn hình luôn!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/ftryj12/Pixels-vs-percent.png&quot; alt=&quot;Pixels vs Percent in Measurement&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;nguyên-nhân&quot;&gt;NGUYÊN NHÂN&lt;/h2&gt;
-
-&lt;p&gt;Lý do là vì &lt;strong&gt;đơn vị viết tắt mà App Inventor đang sử dụng là không đúng.&lt;/strong&gt; Nó không phải là Pixcel (viết tắt px) mà phải là Device-independent Pixel (viết tắt dp). Dp là một đơn vị đo chiều dài vật lý cũng giống như inch, cm, mm… mà Google thường áp dụng để đo kích thước màn hình của thiết bị. (Bên iOS dùng pt hay point có khái niệm tương tự với dp).&lt;/p&gt;
-
-&lt;p&gt;Tưởng tượng thế này, bạn có 2 cái laptop 14 inch, chiều dài và chiều rộng của 2 màn hình bằng nhau (dài x rộng: XX x YY cm) nhưng cái thứ nhất có độ phân giải (1366x768 px), cái thứ hai có độ phân giải (1920x1080 px) thì rõ ràng, nếu hiển thị nội dung có độ phân giải &amp;gt;= 1920x1080 px thì 100% cái thứ 2 sẽ sắc nét hơn. Nhưng, cả 2 cái đều sẽ có kích thước ứng với đơn vị dp như nhau vì cùng kích thước vật lý thực tế cm.&lt;/p&gt;
-
-&lt;p&gt;Trên các thiết bị có độ phân giải khác nhau nhưng kích thước thực tế bằng nhau thì dp bằng nhau. 1 dp có thể là 1 hay nhiều px. Điều này giúp tạo nên tính đồng bộ trong nội dung hiển thị trên các thiết bị có độ phân giải khác nhau.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/tZ6fG3x/pixel-density.png&quot; alt=&quot;Device-indendent Pixel and Screen Density&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Và, App Inventor sử dụng đơn vị dp chứ không phải px như hiển thị ra màn hình nhé! Điện thoại của mình có độ phân giải thực tế là: 1080x2232 (px) nhưng với kích thước màn hình thực tế, quy đổi ra dp thì chỉ là: 360x696(dp). Tham số đo dp này hoàn toàn có thể lấy ra bằng các khối lệnh trong phần lập trình (Block) của component Screen1 (Screen1.Width, Screen1.Height)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/0yNTrMy/fixed-Mode-vs-responsive-Mode.png&quot; alt=&quot;Fixed Mode vs Responsive Mode in App Inventor&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;tại-sao-cần-quan-tâm&quot;&gt;TẠI SAO CẦN QUAN TÂM&lt;/h2&gt;
-
-&lt;p&gt;Đúng là nếu để đơn vị Percent (%), bạn sẽ có thể kiểm soát được kích thước Component hiển thị đúng tỷ lệ mình muốn trên các màn hình có độ phân giải khác nhau. Nhưng, bạn có thể kiểm soát được kích thước Font chữ không?&lt;/p&gt;
-
-&lt;p&gt;Cái nút trên ứng dụng của bạn được khai báo Width = 50% sẽ luôn hiển thị chính xác là 50% chiều rộng màn hình dù trên điện thoại hay tablet. Tuy nhiên, cái nút với Font Size = 16 hiển thị rất đẹp trên điện thoại thì lại vô cùng lởm trên tablet khi chữ quá nhỏ so với viền nút! Font Size được tính toán dựa trên Dp nên sẽ hiển thị tương đối như nhau trên các thiết bị có độ phân giải khác nhau.&lt;/p&gt;
-
-&lt;p&gt;Hiểu được sự khác biệt giữa px và dp sẽ là cơ sở giúp bạn phân loại được đâu là điện thoại, đâu là tablet để thiết kế giao diện cho phù hợp. Điện thoại của mình có độ phân giải (px) rất cao, cao hơn nhiều so với các tablet tầm thấp và cận trung nhưng nó vẫn là điện thoại vì dp của nó chưa đủ để là tablet!&lt;/p&gt;
-
-&lt;h2 id=&quot;tài-liệu-tham-khảo&quot;&gt;TÀI LIỆU THAM KHẢO&lt;/h2&gt;
-
-&lt;p&gt;Link hay mà các bạn có thể tham khảo trong thiết kế Responsive với App Inventor&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://material.io/resources/devices/&quot;&gt;Kích thước thiết bị&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mydevice.io/#compare-devices&quot;&gt;Đo độ phân giải màn hình của bạn&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DYuzZWudt0w&quot;&gt;AppyBuilder TIPS: Responsive App Design (Best Practices, Concepts) - YouTube&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://ai2.appinventor.mit.edu/…/other/responsiveDesign.html&quot;&gt;Responsive Design in App Inventor&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Tony Pham</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="app" />
-      
-        <category term="inventor" />
-      
-
-      
-        <summary type="html">Bài viết này chỉ ra 1 lỗi sai nghiêm trọng về đơn vị đo sẽ khiến các bạn không kiểu gì hình dung được tại sao mình thiết kế một đằng nhưng App Inventor lại hiển thị một nẻo trong Responsive Mode.</summary>
       
 
       
